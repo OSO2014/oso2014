@@ -4,3 +4,4 @@ wdnr.sublime-workspace
 node_modules
 .sass-cache
 .sublime-grunt.cache
+.sftp-config.json
