@@ -1,0 +1,820 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sam",
+				"h14__sekourei_detail__sample_01.jpg	w:260 h:230"
+			],
+			[
+				"ba",
+				"h14__sekourei__backlist_bt.png	w:90 h:18"
+			],
+			[
+				"mouse",
+				"mouseover	mouseover"
+			],
+			[
+				"lo",
+				"loadtasks	grunt.loadTasks"
+			],
+			[
+				"redirect",
+				"http_redirect"
+			],
+			[
+				"go",
+				"gospQRL_03.jpg	w:700 h:149"
+			],
+			[
+				"g",
+				"gospQRL_ttl.jpg	w:700 h:97"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"inn",
+				"innerHeight	.innerHeight"
+			],
+			[
+				"ex",
+				"exhibit_noactive_bg.png	w:4 h:4"
+			],
+			[
+				"pro",
+				"product_data_bg.png	w:307 h:165"
+			],
+			[
+				"pu",
+				"product_list_bt_cm.png	w:147 h:79"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"tr",
+				"tr	<tr>"
+			],
+			[
+				"data",
+				"data	.data()"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			],
+			[
+				"the",
+				"theme_name"
+			],
+			[
+				"ua",
+				"ua_str"
+			],
+			[
+				"preg_",
+				"preg_match"
+			],
+			[
+				"top",
+				"top-main-pickup_ttl.png	w:79 h:14"
+			],
+			[
+				"conten",
+				"contents-title-image-about-about.jpg	w:723 h:339"
+			],
+			[
+				"conte",
+				"contents-label-about-license.png	w:227 h:53"
+			],
+			[
+				"coten",
+				"contents-label-about-csr.png	w:227 h:59"
+			],
+			[
+				"con",
+				"sidenav-cont-title-about.png	w:184 h:60"
+			],
+			[
+				"ja",
+				"jasrac_03.png	w:207 h:50"
+			],
+			[
+				"jas",
+				"jasrac_02.png	w:206 h:50"
+			],
+			[
+				"scro",
+				"scrollLeft	.scrollLeft()"
+			],
+			[
+				"foo",
+				"footbanner_04.png	w:163 h:82"
+			],
+			[
+				"foot",
+				"footbanner_03.png	w:199 h:81"
+			],
+			[
+				"icon",
+				"toppage-news-icon.png	w:12 h:18"
+			],
+			[
+				"pi",
+				"size-pickup-banner_03.png	w:203 h:68"
+			],
+			[
+				"console",
+				"console.log(message);"
+			],
+			[
+				"data-content",
+				"data-contentgenimg"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"messageHaishinNichiji_M",
+				"messageHaishinNichiji_M"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"android",
+				"androidBrowserFlag"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"tmpCheck",
+				"tmpCheckX"
+			],
+			[
+				"itemHe",
+				"itemHeader"
+			],
+			[
+				"clear",
+				"clearTimeout();"
+			],
+			[
+				"i",
+				"if	if"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/php.sublime-build",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"update",
+				"Emmet: Update Image Size"
+			],
+			[
+				"grunttask",
+				"Snippet: grunt.loadTasks"
+			],
+			[
+				"grunt",
+				"Snippet: Grunt config"
+			],
+			[
+				"gruntloa",
+				"Snippet: grunt.loadNpmTasks"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packre",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packares",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"settingu",
+				"Preferences: Settings - User"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"settingsus",
+				"Preferences: Settings - User"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"smar",
+				"Set Syntax: Smarty"
+			],
+			[
+				"sma",
+				"Set Syntax: Smarty"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"smarty",
+				"Set Syntax: Smarty"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"svn ",
+				"SVN: Commit…"
+			],
+			[
+				"file com",
+				"SVN: (File) Commit"
+			],
+			[
+				"merge",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"perl",
+				"Set Syntax: Perl"
+			],
+			[
+				"ginstall",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html5 ",
+				"Set Syntax: HTML5"
+			],
+			[
+				"stnta",
+				"Set Syntax: HTML5"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 633.0
+	},
+	"console":
+	{
+		"height": 66.0,
+		"history":
+		[
+			"from __future__ import print_function; import os; packs = [print(pack) for pack in os.listdir(sublime.packages_path())]",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dev/index.html",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dist/index.html",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dev/detail.html",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dist/asset/css/h14_style.css",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dist/asset/js/h14_script.js",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/source/asset/sass/h14__style.scss",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dev/asset/css/h14__style.css.map",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/Gruntfile.js",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/config.rb",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/source/asset/js/h14_script.js",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/dev/asset/css/h14__style.css",
+		"/Users/maekawamasayuki/work/hinoki/MockUp/source/sass/js",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/AngularJS/Snippets/_uppercase.tmSnippet",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/AngularJS/Snippets/_currency.tmSnippet",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/page-spcviewer.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/page-top.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/header.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/header-common.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/plugins/ymc-device-switch/ymc-device-switch.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/header-common.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/asset/css/style.min.css",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-top.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/splash/klt3.html",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/asset/css/style.min.css",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/sass/style.scss",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/toppage/js/top.js",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/splash/klt3.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/asset/js/ymc.min.js",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/category-product.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/category-product.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/Gruntfile.js",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/js/sitescript.js",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/contact-form-7/modules/hall.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/plugins/contact-form-7/modules/hall.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/plugins/frontend-user-admin/frontend-user-admin.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/contact-form-7/includes/classes.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/contact-form-7/wp-contact-form-7.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-login.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/frontend-user-admin/frontend-user-admin.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/asset/js/ymc.min.js",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/maintenance.html",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/js/.jshintrc",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/footer.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/footer.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/functions.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/single-office.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/footer-common.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/page-getspqr.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc/page-top.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/header-common.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/page-top.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/single-catalog.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/single-catalog.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/video_player/movie_opener.html",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-spmviewer.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/video_player/movie_opener.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/video_player/movie_opener_an.html",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc/page-getspqr.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/qrcode.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/qrcode.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/style.css",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/index.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/ymc-device-switch/ymc-device-switch.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-config.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-config.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc/header-common.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-userguide.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/page-userguide.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/page-special.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-includes/general-template.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/header.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/mobile_error.html",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/category-product.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-spcviewer.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/single-exhibit.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/category-office-pref.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/category-office-pref.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/category-office-pref.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/plugins/custom-field-gui-utility/conf.ini",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/custom-field-gui-utility/conf.ini",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/header.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-pass.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/functions.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/functions.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/category-catalog.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/category-catalog.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc/category-product.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/category-catalog.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc/category-catalog.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/category-office.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/category-exhibit.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-login.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/asset/css/style.min.css",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/header-login.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/footer-login.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/sftp-config.json",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/sftp-config.json",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/single-exhibit.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/sftp-config-alt.json",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/sftp-config.json",
+		"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile/asset/img/exhibit_gooffice_btn2.png",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/frontend-user-admin/frontend-user-admin-mailmag.php",
+		"/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/chrome_EFRPy6.txt",
+		"/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/chrome_rZ_HJ0.txt",
+		"/Users/maekawamasayuki/Library/Caches/Cleanup At Startup/Transmit/53487CD8-6D25-46F2-940D-770EA3AF2D31/posa.css",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/bower.json",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-includes/pluggable.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/movie/test.html",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/js_lib/jquery.cookie.js",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/license/license.js",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-json.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/page-product.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/single-product.php",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/config.rb",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/sass/_font.scss",
+		"/Users/maekawamasayuki/work/yamasa_ymc/Mock2/source/sass/_common.scss",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/contact-form-7/settings.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile/category-exhibit.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/custom-field-gui-utility/cfg-utility.js",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/custom-field-gui-utility/cfg-utility.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc/page-login.php",
+		"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/ymc/ymc.php",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/maekawamasayuki/Library/Application Support/Sublime Text 3/Packages/User/Abacus.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/maekawamasayuki/work/hinoki/MockUp/node_modules/grunt-spritesmith",
+			"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content",
+			"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc_mobile",
+			"/Users/maekawamasayuki/work/yamasa_ymc/ymcstg/wp-content/themes/ymc",
+			"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/plugins/contact-form-7",
+			"<project>",
+			"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile",
+			"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-includes",
+			"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2",
+			"/Users/maekawamasayuki/Dropbox/work/yamasa_web/ymc2/wp-content/themes/ymc_mobile",
+			"/Users/maekawamasayuki/Downloads/Modernizr-master/src",
+			"/Users/maekawamasayuki/Dropbox/work/yamasa_web/wordpress",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    \n      \n      \n      \n      \n",
+			"h14__sideBannerArea__item_goto_banMiraie",
+			"h14__sekoureiDetailMainContent__colorbox",
+			"url(images",
+			"href=\"asset/img/h14__sekourei_detail__sample",
+			"h14__sekourei_detail__sample",
+			"url(images/",
+			"h1",
+			"h14__sideBannerArea",
+			"h14__sideBannerArea__item ",
+			"h14__sideBannerArea__item",
+			"h14_style",
+			"300",
+			"class=\"h14__sekoureiListMainItem ",
+			"class=\"h14__sekoureiListMainItem",
+			"7",
+			"3",
+			"03",
+			"tenjijo",
+			"sunlife",
+			"member",
+			"model",
+			"nagare",
+			"kodawari",
+			"\n            ",
+			"include sprite-background",
+			"qa",
+			"blog",
+			"staff",
+			"blog",
+			".h14__headNav__item_category_sekourei a{\n  @include sprite-background('h14__head_menu__sekourei');\n}\n\n",
+			"h14_s",
+			"nextTick",
+			"/css/",
+			"dist/css",
+			"pages",
+			"gh_pages",
+			"_gh_pages",
+			"jade",
+			"label",
+			"my-btn",
+			"stg",
+			"./",
+			"top-news",
+			"top-news-headline",
+			"spmail",
+			"/ymc",
+			"corp",
+			"movie_opener.html",
+			"https:",
+			"http://www.yamasa.co.jp/ymcstg/wp-content/themes/ymc_mobile/asset",
+			"https://www.yamasa.co.jp/ymcstg/wp-content",
+			"https://yamasa-test.sqz.jp/ymc/",
+			"bloginfo",
+			"header",
+			"\n      ",
+			"product-",
+			"product-top-image-area",
+			"winhei",
+			"itemWidth",
+			"areaWidth",
+			"ga",
+			".exhibit-detail-content-area",
+			"src=\"images/",
+			"sendtype",
+			"test",
+			"src=\"/ymc",
+			"userspkey",
+			"qr",
+			"qroutput",
+			"qr",
+			"site-header-message",
+			"<?",
+			".exhibit-detail-content-area",
+			"upload_mailmag",
+			"select_user_management_data",
+			"upload_mailmag",
+			"/ymc/",
+			"upload_mailmag",
+			"getMessage",
+			"}\n",
+			"お客様情報の変更",
+			"product-list-item-main",
+			"top-news-headline-inside",
+			"prev",
+			"in-conten",
+			"in-content-ti",
+			"product",
+			"wpcf7_hall_shortcode_handler",
+			"mail_callback_hall",
+			"hall",
+			"[",
+			"radio",
+			"メルマガ",
+			"'profile'",
+			"profile",
+			"retrieve_password",
+			"lostpassword",
+			"viewer",
+			"frontend_user_admin_edituser",
+			"edituser",
+			"exhibit-detail-content-area",
+			"shopname",
+			"get_user_to_edit",
+			"edituser",
+			"お客様情報",
+			"header",
+			" target=\"_blank\"",
+			"exhibit",
+			"product",
+			".4em",
+			"$('body')",
+			"window-horizon",
+			"\n        ",
+			"outPutArea",
+			"catalog-page",
+			"pdf",
+			"thumbnail-item",
+			"office-search",
+			"f7",
+			"build",
+			"history",
+			"year-search-select",
+			"asset/img",
+			"office-search-select",
+			".in-content-page-title",
+			"$current_user",
+			"$frontend_user_admin"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@subpackage YMC_Mobile_Theme"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 120.0
+	},
+	"output.sftp":
+	{
+		"height": 71.0
+	},
+	"project": "oso2014.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

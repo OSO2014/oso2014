@@ -1,0 +1,92 @@
+2014-04-23 00:17:36, SFTP Read:
+    Received message too long 1315927840
+    
+2014-04-23 00:19:57, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    progress off
+2014-04-23 00:19:57, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    pwd
+2014-04-23 00:19:57, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    lpwd
+2014-04-23 00:19:57, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    cd "/home/mae/oso_sample2/"
+2014-04-23 00:19:57, SFTP Read:
+    cd "/home/mae/oso_sample2/"
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    lcd "/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/sublime-sftp-offset-1398179997/"
+2014-04-23 00:19:57, SFTP Read:
+    lcd "/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/sublime-sftp-offset-1398179997/"
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    put "__sublime_sftp_offset"
+2014-04-23 00:19:57, SFTP Read:
+    put "__sublime_sftp_offset"
+    Uploading __sublime_sftp_offset to /home/mae/oso_sample2/__sublime_sftp_offset
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    ls -la
+2014-04-23 00:19:57, SFTP Read:
+    ls -la
+    drwxrwxr-x    6 mae      mae          4096 Apr 23 00:19 .
+    drwx------    9 mae      mae          4096 Apr 23 00:19 ..
+    -rw-r--r--    1 mae      mae            40 Apr 23 00:19 __sublime_sftp_offset
+    -rw-r--r--    1 mae      mae           881 Apr 22 01:03 app.js
+    drwxrwxr-x    7 mae      mae          4096 Apr 22 01:04 node_modules
+    -rw-r--r--    1 mae      mae           264 Apr 22 01:03 package.json
+    drwxrwxr-x    5 mae      mae          4096 Apr 22 01:03 public
+    drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 routes
+    drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 views
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    rm "__sublime_sftp_offset"
+2014-04-23 00:19:57, SFTP Read:
+    rm "__sublime_sftp_offset"
+    Removing /home/mae/oso_sample2/__sublime_sftp_offset
+    sftp> 
+2014-04-23 00:19:57, SFTP Remote time offset: 57
+2014-04-23 00:19:57, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-04-23 00:19:57, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    ls -la
+2014-04-23 00:19:57, SFTP Read:
+    ls -la
+    drwxrwxr-x    6 mae      mae          4096 Apr 23 00:19 .
+    drwx------    9 mae      mae          4096 Apr 23 00:19 ..
+    -rw-r--r--    1 mae      mae           881 Apr 22 01:03 app.js
+    drwxrwxr-x    7 mae      mae          4096 Apr 22 01:04 node_modules
+    -rw-r--r--    1 mae      mae           264 Apr 22 01:03 package.json
+    drwxrwxr-x    5 mae      mae          4096 Apr 22 01:03 public
+    drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 routes
+    drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 views
+    sftp> 
+2014-04-23 00:19:57, SFTP Write:
+    ls -la
+2014-04-23 00:19:58, SFTP Read:
+    ls -la
+    drwxrwxr-x    6 mae      mae          4096 Apr 23 00:19 .
+    drwx------    9 mae      mae          4096 Apr 23 00:19 ..
+    -rw-r--r--    1 mae      mae           881 Apr 22 01:03 app.js
+    drwxrwxr-x    7 mae      mae          4096 Apr 22 01:04 node_modules
+    -rw-r--r--    1 mae      mae           264 Apr 22 01:03 package.json
+    drwxrwxr-x    5 mae      mae          4096 Apr 22 01:03 public
+    drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 routes
+    drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 views
+    sftp> 

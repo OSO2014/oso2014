@@ -3,3 +3,59 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div(ng-show="mode === 'login'")
+    ul
+      li(ng-click="goLogin()") Twitterでログイン
+      li(ng-click="goLogin()") Google+でログイン
+      li(ng-click="goLogin()") Facebookでログイン
+
+  div(ng-show="mode === 'start'")
+    dl
+      dt ユーザー名
+      dd
+        input(type="text")
+      dt 現在の体重
+      dd(ng-show="weightUseRange") 65.0 Kg
+          span(ng-click="changeStartInput('w')") ■■■
+      dd(ng-show="weightUseRange")
+        input(type="range")
+      dd(ng-show="!weightUseRange")
+        input(type="number")
+
+      dt 目標の体重
+      dd(ng-show="hopeUseRange") 65.0 Kg
+          span(ng-click="changeStartInput('h')") ■■■
+      dd(ng-show="hopeUseRange")
+        input(type="range")
+      dd(ng-show="!hopeUseRange")
+        input(type="number")
+
+    p
+      button(ng-click="goStart()") はじめる
+
+
+  div(ng-show="mode === 'myhome'")
+    div グラフ
+    div(ng-show="!inputed")
+      dl
+        dt 本日の体重
+        dd(ng-show="weightUseRange") 65.0 Kg
+            span(ng-click="changeStartInput('w')") ■■■
+        dd(ng-show="weightUseRange")
+          input(type="range" ng-change="showWeightConfirm()" ng-model="val")
+        dd(ng-show="!weightUseRange")
+          input(type="number" ng-change="showWeightConfirm()" ng-model="val")
+
+      p(ng-show="weightConfirm")
+        button(ng-click="postWeight()") 記録する
+
+    div(ng-show="inputed")
+      dl
+        dt 本日の体重
+        dd 65.0 Kg
+        dd -0.4Kg
+
+    p
+      button(ng-click="goListInput()") まとめて入力する
+
+

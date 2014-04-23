@@ -1,7 +1,10 @@
 doctype html
-html
+html(lang='ja', ng-app="osoApp")
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='public/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js')
+    script(src='public/javascripts/app.js')
   body
-    block content
+    div(ng-controller="MainCtrl")
+      block content
