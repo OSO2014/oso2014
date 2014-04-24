@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
 				"sam",
 				"h14__sekourei_detail__sample_01.jpg	w:260 h:230"
 			],
@@ -180,10 +184,26 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "dist/views/index.jade",
 			"settings":
 			{
-				"buffer_size": 118,
+				"buffer_size": 1513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/sftp-config.json",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/public/javascripts/app.js",
+			"settings":
+			{
+				"buffer_size": 782,
 				"line_ending": "Unix"
 			}
 		}
@@ -547,6 +567,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ng-change=\"showWightConfirm()\"",
+			"weigh",
+			"dd ",
+			"'",
 			"    \n      \n      \n      \n      \n",
 			"h14__sideBannerArea__item_goto_banMiraie",
 			"h14__sekoureiDetailMainContent__colorbox",
@@ -670,11 +694,7 @@
 			"build",
 			"history",
 			"year-search-select",
-			"asset/img",
-			"office-search-select",
-			".in-content-page-title",
-			"$current_user",
-			"$frontend_user_admin"
+			"asset/img"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -698,32 +718,104 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"file": "dist/views/index.jade",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 1513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1345,
+								1355
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": true,
+							"WordCountShouldRun": false,
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 543.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dist/sftp-config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
 							"incomplete_sync": null,
 							"origin_encoding": "ASCII",
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "dist/public/javascripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 219.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -749,11 +841,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -807,6 +906,21 @@
 	},
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,

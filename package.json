@@ -1,0 +1,36 @@
+{
+  "name": "oso2014",
+  "version": "0.0.0",
+  "description": "oso2014 =======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSO2014/oso2014.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSO2014/oso2014/issues"
+  },
+  "homepage": "https://github.com/OSO2014/oso2014",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-autoprefixer": "^0.7.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-connect": "^0.7.1",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-csscomb": "^2.0.1",
+    "grunt-csso": "^0.6.1",
+    "grunt-imageoptim": "^1.4.1",
+    "grunt-spritesmith": "^1.26.0",
+    "grunt-styleguide": "^0.2.15",
+    "pngsmith": "^0.1.0"
+  }
+}
