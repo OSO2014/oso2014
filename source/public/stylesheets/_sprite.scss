@@ -1,0 +1,56 @@
+  $glyphicons_halflings_000_glass-x: 0px;
+  $glyphicons_halflings_000_glass-y: 0px;
+  $glyphicons_halflings_000_glass-offset-x: 0px;
+  $glyphicons_halflings_000_glass-offset-y: 0px;
+  $glyphicons_halflings_000_glass-width: 12px;
+  $glyphicons_halflings_000_glass-height: 12px;
+  $glyphicons_halflings_000_glass-total-width: 13px;
+  $glyphicons_halflings_000_glass-total-height: 37px;
+  $glyphicons_halflings_000_glass-image: '../images/_sprite.png';
+  $glyphicons_halflings_000_glass: 0px 0px 0px 0px 12px 12px 13px 37px '../images/_sprite.png';
+  $glyphicons_halflings_001_music-x: 0px;
+  $glyphicons_halflings_001_music-y: 12px;
+  $glyphicons_halflings_001_music-offset-x: 0px;
+  $glyphicons_halflings_001_music-offset-y: -12px;
+  $glyphicons_halflings_001_music-width: 11px;
+  $glyphicons_halflings_001_music-height: 12px;
+  $glyphicons_halflings_001_music-total-width: 13px;
+  $glyphicons_halflings_001_music-total-height: 37px;
+  $glyphicons_halflings_001_music-image: '../images/_sprite.png';
+  $glyphicons_halflings_001_music: 0px 12px 0px -12px 11px 12px 13px 37px '../images/_sprite.png';
+  $glyphicons_halflings_002_search-x: 0px;
+  $glyphicons_halflings_002_search-y: 24px;
+  $glyphicons_halflings_002_search-offset-x: 0px;
+  $glyphicons_halflings_002_search-offset-y: -24px;
+  $glyphicons_halflings_002_search-width: 13px;
+  $glyphicons_halflings_002_search-height: 13px;
+  $glyphicons_halflings_002_search-total-width: 13px;
+  $glyphicons_halflings_002_search-total-height: 37px;
+  $glyphicons_halflings_002_search-image: '../images/_sprite.png';
+  $glyphicons_halflings_002_search: 0px 24px 0px -24px 13px 13px 13px 37px '../images/_sprite.png';
+
+  @mixin sprite-width($sprite) {
+    width: nth($sprite, 5);
+  }
+
+  @mixin sprite-height($sprite) {
+    height: nth($sprite, 6);
+  }
+
+  @mixin sprite-position($sprite) {
+    $sprite-offset-x: nth($sprite, 3);
+    $sprite-offset-y: nth($sprite, 4);
+    background-position: $sprite-offset-x  $sprite-offset-y;
+  }
+
+  @mixin sprite-image($sprite) {
+    $sprite-image: nth($sprite, 9);
+    background-image: url(#{$sprite-image});
+  }
+
+  @mixin sprite($sprite) {
+    @include sprite-image($sprite);
+    @include sprite-position($sprite);
+    @include sprite-width($sprite);
+    @include sprite-height($sprite);
+  }

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"so",
+				"source/"
+			],
+			[
+				"module",
+				"moduleexports	module.exports"
+			],
+			[
 				"ng-cl",
 				"ng-click	AngularJS"
 			],
@@ -192,6 +200,22 @@
 			}
 		},
 		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/app.js",
+			"settings":
+			{
+				"buffer_size": 881,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "dist/sftp-config.json",
 			"settings":
 			{
@@ -200,10 +224,18 @@
 			}
 		},
 		{
-			"file": "dist/public/javascripts/app.js",
+			"file": "source/public/javascripts/app.js",
 			"settings":
 			{
 				"buffer_size": 782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1031,
 				"line_ending": "Unix"
 			}
 		}
@@ -211,9 +243,13 @@
 	"build_system": "Packages/User/php.sublime-build",
 	"command_palette":
 	{
-		"height": 71.0,
+		"height": 159.0,
 		"selected_items":
 		[
+			[
+				"gruntini",
+				"Snippet: grunt.initConfig"
+			],
 			[
 				"update",
 				"Emmet: Update Image Size"
@@ -387,7 +423,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 633.0
+		"width": 409.0
 	},
 	"console":
 	{
@@ -567,6 +603,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(\"",
 			" ng-change=\"showWightConfirm()\"",
 			"weigh",
 			"dd ",
@@ -693,8 +730,7 @@
 			"f7",
 			"build",
 			"history",
-			"year-search-select",
-			"asset/img"
+			"year-search-select"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -713,7 +749,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -729,8 +765,8 @@
 						"selection":
 						[
 							[
-								1345,
-								1355
+								1083,
+								1083
 							]
 						],
 						"settings":
@@ -743,14 +779,81 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 543.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1950,
+								1950
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1484.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dist/app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 92.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "dist/sftp-config.json",
 					"semi_transient": false,
 					"settings":
@@ -779,18 +882,12 @@
 						"translation.y": 174.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
-					"file": "dist/public/javascripts/app.js",
+					"buffer": 4,
+					"file": "source/public/javascripts/app.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -815,10 +912,49 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 219.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 444.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

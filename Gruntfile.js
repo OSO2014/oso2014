@@ -11,7 +11,7 @@ module.exports = function(grunt){
         files:[{
           expand: true,
           cwd: 'source/public/stylesheets',
-          src: [*.scss],
+          src: ['*.scss'],
           dest: 'dev/public/stylesheets',
           ext: '.css'
         }]
@@ -23,10 +23,33 @@ module.exports = function(grunt){
         files:[{
           expand: true,
           cwd: 'source/public/stylesheets',
-          src: [*.scss],
+          src: ['*.scss'],
           dest: 'dist/public/stylesheets',
           ext: '.css'
         }]
+      }
+    },
+    csscomb: {
+      dist: {
+        files: {
+          'dist/public/stylesheets/oso__style.css': ['dist/public/stylesheets/oso__style.css']
+        }
+      }
+    },
+    autoprefixer: {
+      options: {
+        browsers: ['last 2 version']
+      },
+      dist: {
+        src: 'dist/public/stylesheets/oso__style.css',
+        dest: 'dist/public/stylesheets/oso__style.css'
+      }
+    },
+    csso: {
+      dist: {
+        files: {
+          'dist/public/stylesheets/oso__style.css': ['dist/public/stylesheets/oso__style.css']
+        }
       }
     },
     sprite: {
@@ -43,8 +66,12 @@ module.exports = function(grunt){
           {
             expand: true,
             cwd: 'source/public/images',
-            src: ['**/*.{png,jpg,gif}'],
+            src: ['*.{png,jpg,gif}'],
             dest: 'dev/public/images'
+          },
+          {
+            src: ['source/public/javascripts/app.js'],
+            dest: 'dev/public/javascripts/app.js'
           }
         ]
       },
@@ -53,11 +80,64 @@ module.exports = function(grunt){
           {
             expand: true,
             cwd: 'dev/public/images',
-            src: ['**/*.{png,jpg,gif}'],
+            src: ['*.{png,jpg,gif}'],
             dest: 'dist/public/images'
           }
         ]
       }
+    },
+    styleguide: {
+      dist: {
+        files: {
+          'docs/': 'source/public/stylesheets/'
+        }
+      }
+    },
+    ngmin: {
+      dist: {
+        src: ['dev/public/javascripts/app.js'],
+        dist: 'dist/public/javascripts/app.js'
+      }
+    },
+    connect: { // 簡易サーバー
+      default: {
+        options: {
+          base: 'dev'
+        }
+      }
+    },
+    watch: { // ファイル更新監視
+      options: { // ライブリロードを有効にする
+        livereload: true
+      },
+      src: {
+        files: [
+        'source/public/images/**/*.{png,jpg,gif}',
+        'source/public/stylesheets/*.scss',
+        'source/public/javascripts/*.js',
+        'dev/**/*.html'],
+        tasks: ['dev']
+      }
     }
   });
+
+  grunt.loadNpmTasks("grunt-autoprefixer");
+  grunt.loadNpmTasks("grunt-contrib-clean");
+  grunt.loadNpmTasks("grunt-contrib-concat");
+  grunt.loadNpmTasks("grunt-contrib-connect");
+  grunt.loadNpmTasks("grunt-contrib-copy");
+  grunt.loadNpmTasks("grunt-contrib-sass");
+  grunt.loadNpmTasks("grunt-contrib-uglify");
+  grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks("grunt-csscomb");
+  grunt.loadNpmTasks("grunt-csso");
+  grunt.loadNpmTasks("grunt-imageoptim");
+  grunt.loadNpmTasks("grunt-ngmin");
+  grunt.loadNpmTasks("grunt-rename");
+  grunt.loadNpmTasks("grunt-spritesmith");
+  grunt.loadNpmTasks("grunt-styleguide");
+
+  grunt.registerTask('default', ['connect','watch']);
+  grunt.registerTask('dev', ['sprite','sass:dev','copy:dev']);
+
 }
