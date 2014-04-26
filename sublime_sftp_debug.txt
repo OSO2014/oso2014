@@ -90,3 +90,368 @@
     drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 routes
     drwxrwxr-x    2 mae      mae          4096 Apr 22 01:03 views
     sftp> 
+2014-04-26 16:30:05, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    progress off
+2014-04-26 16:30:05, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    pwd
+2014-04-26 16:30:05, SFTP Read:
+    pwd
+    Remote working directory: /home/kuboki
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    lpwd
+2014-04-26 16:30:05, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 16:30:05, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    lcd "/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/sublime-sftp-offset-1398497405/"
+2014-04-26 16:30:05, SFTP Read:
+    lcd "/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/sublime-sftp-offset-1398497405/"
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    put "__sublime_sftp_offset"
+2014-04-26 16:30:05, SFTP Read:
+    put "__sublime_sftp_offset"
+    Uploading __sublime_sftp_offset to /usr/share/web/exp3.dai-tokai.okayama.jp/__sublime_sftp_offset
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    ls -la
+2014-04-26 16:30:05, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 nginx    nginx        4096 Apr 26 16:30 .
+    drwxr-xr-x    8 root     root         4096 Apr 25 21:32 ..
+    -rw-r--r--    1 kuboki   kuboki         40 Apr 26 16:30 __sublime_sftp_offset
+    sftp> 
+2014-04-26 16:30:05, SFTP Write:
+    rm "__sublime_sftp_offset"
+2014-04-26 16:30:06, SFTP Read:
+    rm "__sublime_sftp_offset"
+    Removing /usr/share/web/exp3.dai-tokai.okayama.jp/__sublime_sftp_offset
+    sftp> 
+2014-04-26 16:30:06, SFTP Remote time offset: 6
+2014-04-26 16:30:06, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-04-26 16:30:06, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    ls -la
+2014-04-26 16:30:06, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 nginx    nginx        4096 Apr 26 16:30 .
+    drwxr-xr-x    8 root     root         4096 Apr 25 21:32 ..
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 16:30:06, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/
+    Couldn't setstat on "/web/exp3.dai-tokai.okayama.jp/": Permission denied
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    put "app.js"
+2014-04-26 16:30:06, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp3.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/app.js"
+2014-04-26 16:30:06, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    put "package.json"
+2014-04-26 16:30:06, SFTP Read:
+    put "package.json"
+    Uploading package.json to /usr/share/web/exp3.dai-tokai.okayama.jp/package.json
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/package.json"
+2014-04-26 16:30:06, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/package.json"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/package.json
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+2014-04-26 16:30:06, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+    Couldn't canonicalise: No such file or directory
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/"
+2014-04-26 16:30:06, SFTP Read:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/"
+    sftp> 
+2014-04-26 16:30:06, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/"
+2014-04-26 16:30:07, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/images/"
+2014-04-26 16:30:07, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/images/"
+    Couldn't canonicalise: No such file or directory
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+2014-04-26 16:30:07, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/images/"
+2014-04-26 16:30:07, SFTP Read:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/images/"
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/images/"
+2014-04-26 16:30:07, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/images/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/images/
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+2014-04-26 16:30:07, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+    Couldn't canonicalise: No such file or directory
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+2014-04-26 16:30:07, SFTP Read:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+2014-04-26 16:30:07, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/javascripts/
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+2014-04-26 16:30:07, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+2014-04-26 16:30:07, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    put "app.js"
+2014-04-26 16:30:07, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-04-26 16:30:07, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+2014-04-26 16:30:07, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+    Couldn't canonicalise: No such file or directory
+    sftp> 
+2014-04-26 16:30:07, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+2014-04-26 16:30:08, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+2014-04-26 16:30:08, SFTP Read:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+2014-04-26 16:30:08, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/stylesheets/
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/stylesheets/"
+2014-04-26 16:30:08, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/stylesheets/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+2014-04-26 16:30:08, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    put "style.css"
+2014-04-26 16:30:08, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/share/web/exp3.dai-tokai.okayama.jp/public/stylesheets/style.css
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/style.css"
+2014-04-26 16:30:08, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/style.css"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/stylesheets/style.css
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+2014-04-26 16:30:08, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+    Couldn't canonicalise: No such file or directory
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 16:30:08, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/routes/"
+2014-04-26 16:30:08, SFTP Read:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/routes/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/routes/"
+2014-04-26 16:30:08, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/routes/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+2014-04-26 16:30:08, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+2014-04-26 16:30:08, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+    sftp> 
+2014-04-26 16:30:08, SFTP Write:
+    put "index.js"
+2014-04-26 16:30:09, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp3.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/index.js"
+2014-04-26 16:30:09, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    put "testprint.js"
+2014-04-26 16:30:09, SFTP Read:
+    put "testprint.js"
+    Uploading testprint.js to /usr/share/web/exp3.dai-tokai.okayama.jp/routes/testprint.js
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/testprint.js"
+2014-04-26 16:30:09, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/testprint.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/testprint.js
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    put "user.js"
+2014-04-26 16:30:09, SFTP Read:
+    put "user.js"
+    Uploading user.js to /usr/share/web/exp3.dai-tokai.okayama.jp/routes/user.js
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/user.js"
+2014-04-26 16:30:09, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/user.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/user.js
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+2014-04-26 16:30:09, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+    Couldn't canonicalise: No such file or directory
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 16:30:09, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/views/"
+2014-04-26 16:30:09, SFTP Read:
+    mkdir "/web/exp3.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-04-26 16:30:09, SFTP Write:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/views/"
+2014-04-26 16:30:10, SFTP Read:
+    chmod 775 "/web/exp3.dai-tokai.okayama.jp/views/"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-04-26 16:30:10, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+2014-04-26 16:30:10, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    put "index.jade"
+2014-04-26 16:30:10, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/index.jade"
+2014-04-26 16:30:10, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    put "layout.jade"
+2014-04-26 16:30:10, SFTP Read:
+    put "layout.jade"
+    Uploading layout.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/layout.jade"
+2014-04-26 16:30:10, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/layout.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    put "login.jade"
+2014-04-26 16:30:10, SFTP Read:
+    put "login.jade"
+    Uploading login.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/login.jade
+    sftp> 
+2014-04-26 16:30:10, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/login.jade"
+2014-04-26 16:30:10, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/login.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/login.jade
+    sftp> 
+2014-04-26 16:30:11, SFTP Write:
+    put "testprint.jade"
+2014-04-26 16:30:11, SFTP Read:
+    put "testprint.jade"
+    Uploading testprint.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/testprint.jade
+    sftp> 
+2014-04-26 16:30:11, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/testprint.jade"
+2014-04-26 16:30:11, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/testprint.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/testprint.jade
+    sftp> 

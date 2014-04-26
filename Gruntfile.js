@@ -32,7 +32,7 @@ module.exports = function(grunt){
     csscomb: {
       dist: {
         files: {
-          'dist/public/stylesheets/oso__style.css': ['dist/public/stylesheets/oso__style.css']
+          'dist/public/stylesheets/oso_style.css': ['dist/public/stylesheets/oso_style.css']
         }
       }
     },
@@ -41,14 +41,14 @@ module.exports = function(grunt){
         browsers: ['last 2 version']
       },
       dist: {
-        src: 'dist/public/stylesheets/oso__style.css',
-        dest: 'dist/public/stylesheets/oso__style.css'
+        src: 'dist/public/stylesheets/oso_style.css',
+        dest: 'dist/public/stylesheets/oso_style.css'
       }
     },
     csso: {
       dist: {
         files: {
-          'dist/public/stylesheets/oso__style.css': ['dist/public/stylesheets/oso__style.css']
+          'dist/public/stylesheets/oso_style.css': ['dist/public/stylesheets/oso_style.css']
         }
       }
     },
@@ -82,7 +82,19 @@ module.exports = function(grunt){
             cwd: 'dev/public/images',
             src: ['*.{png,jpg,gif}'],
             dest: 'dist/public/images'
-          }
+          },
+          {
+            expand: true,
+            cwd: 'dev/views',
+            src: ['*.jade'],
+            dest: 'dist/views'
+          },
+          {
+            expand: true,
+            cwd: 'dev/routes',
+            src: ['*.js'],
+            dest: 'dist/routes'
+          },
         ]
       }
     },
@@ -96,7 +108,7 @@ module.exports = function(grunt){
     ngmin: {
       dist: {
         src: ['dev/public/javascripts/app.js'],
-        dist: 'dist/public/javascripts/app.js'
+        dest: 'dist/public/javascripts/app.js'
       }
     },
     connect: { // 簡易サーバー
@@ -139,5 +151,6 @@ module.exports = function(grunt){
 
   grunt.registerTask('default', ['connect','watch']);
   grunt.registerTask('dev', ['sprite','sass:dev','copy:dev']);
+  grunt.registerTask('dist', ['sass:dist','csscomb:dist','autoprefixer:dist','csso:dist','ngmin:dist','copy:dist']);
 
 }
