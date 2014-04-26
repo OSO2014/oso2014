@@ -105,7 +105,18 @@ module.exports = function(grunt){
         }
       }
     },
+    imageoptim: {
+      default: {
+        src: ['dist/public/images']
+      }
+    },
     ngmin: {
+      dev: {
+        src: ['source/public/javascripts/app.js'],
+        dest: 'dev/public/javascripts/app.js'
+      }
+    },
+    uglify: {
       dist: {
         src: ['dev/public/javascripts/app.js'],
         dest: 'dist/public/javascripts/app.js'
@@ -150,7 +161,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks("grunt-styleguide");
 
   grunt.registerTask('default', ['connect','watch']);
-  grunt.registerTask('dev', ['sprite','sass:dev','copy:dev']);
-  grunt.registerTask('dist', ['sass:dist','csscomb:dist','autoprefixer:dist','csso:dist','ngmin:dist','copy:dist']);
+  grunt.registerTask('dev', ['sprite','sass:dev','copy:dev','ngmin:dev']);
+  grunt.registerTask('dist', ['sass:dist','csscomb:dist','autoprefixer:dist','csso:dist','copy:dist','uglify:dist']);
 
 }

@@ -1,3 +1,15 @@
+@charset "UTF-8";
+/*
+# StyleDocco出力テスト
+
+- テスト
+- テースト
+
+    <span class="hoge">ほげぇ</span>
+
+ふは`はは`
+
+*/
 .hoge {
   color: #FFF; }
 

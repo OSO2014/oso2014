@@ -455,3 +455,315 @@
     chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/testprint.jade"
     Changing mode on /web/exp3.dai-tokai.okayama.jp/views/testprint.jade
     sftp> 
+2014-04-26 18:34:05, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 18:34:26, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-04-26 18:34:27, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-04-26 18:34:27, SFTP Write:
+    progress off
+2014-04-26 18:34:27, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-04-26 18:34:27, SFTP Write:
+    pwd
+2014-04-26 18:34:27, SFTP Read:
+    pwd
+    Remote working directory: /home/kuboki
+    sftp> 
+2014-04-26 18:34:27, SFTP Write:
+    lpwd
+2014-04-26 18:34:27, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dev/views
+    sftp> 
+2014-04-26 18:34:27, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 18:34:27, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+    sftp> 
+2014-04-26 18:34:27, SFTP Write:
+    ls -la
+2014-04-26 18:34:28, SFTP Read:
+    ls -la
+    drwxrwxr-x    6 nginx    nginx        4096 Apr 26 16:33 .
+    drwxr-xr-x    8 root     root         4096 Apr 25 21:32 ..
+    -rw-rw-r--    1 kuboki   kuboki       1106 Apr 26 16:30 app.js
+    -rw-rw-r--    1 kuboki   kuboki        519 Apr 26 16:34 express.log
+    drwxrwxr-x    7 mae      mae          4096 Apr 26 16:32 node_modules
+    -rw-rw-r--    1 kuboki   kuboki        264 Apr 26 16:30 package.json
+    drwxrwxr-x    5 kuboki   kuboki       4096 Apr 26 16:30 public
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 routes
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 views
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+2014-04-26 18:34:28, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/"
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    ls -la
+2014-04-26 18:34:28, SFTP Read:
+    ls -la
+    drwxrwxr-x    5 kuboki   kuboki       4096 Apr 26 16:30 .
+    drwxrwxr-x    6 nginx    nginx        4096 Apr 26 16:33 ..
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 images
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 javascripts
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 stylesheets
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+2014-04-26 18:34:28, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    ls -la
+2014-04-26 18:34:28, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 .
+    drwxrwxr-x    6 nginx    nginx        4096 Apr 26 16:33 ..
+    -rw-rw-r--    1 kuboki   kuboki        112 Apr 26 16:30 index.js
+    -rw-rw-r--    1 kuboki   kuboki         99 Apr 26 16:30 testprint.js
+    -rw-rw-r--    1 kuboki   kuboki        107 Apr 26 16:30 user.js
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+2014-04-26 18:34:28, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    ls -la
+2014-04-26 18:34:28, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 .
+    drwxrwxr-x    6 nginx    nginx        4096 Apr 26 16:33 ..
+    -rw-rw-r--    1 kuboki   kuboki       1649 Apr 26 16:30 index.jade
+    -rw-rw-r--    1 kuboki   kuboki        327 Apr 26 16:30 layout.jade
+    -rw-rw-r--    1 kuboki   kuboki         66 Apr 26 16:30 login.jade
+    -rw-rw-r--    1 kuboki   kuboki         83 Apr 26 16:30 testprint.jade
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/images/"
+2014-04-26 18:34:28, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/images/"
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    ls -la
+2014-04-26 18:34:28, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 .
+    drwxrwxr-x    5 kuboki   kuboki       4096 Apr 26 16:30 ..
+    sftp> 
+2014-04-26 18:34:28, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+2014-04-26 18:34:29, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-04-26 18:34:29, SFTP Write:
+    ls -la
+2014-04-26 18:34:29, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 .
+    drwxrwxr-x    5 kuboki   kuboki       4096 Apr 26 16:30 ..
+    -rw-rw-r--    1 kuboki   kuboki        782 Apr 26 16:30 app.js
+    sftp> 
+2014-04-26 18:34:29, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+2014-04-26 18:34:29, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+    sftp> 
+2014-04-26 18:34:29, SFTP Write:
+    ls -la
+2014-04-26 18:34:29, SFTP Read:
+    ls -la
+    drwxrwxr-x    2 kuboki   kuboki       4096 Apr 26 16:30 .
+    drwxrwxr-x    5 kuboki   kuboki       4096 Apr 26 16:30 ..
+    -rw-rw-r--    1 kuboki   kuboki        110 Apr 26 16:30 style.css
+    sftp> 
+2014-04-26 18:34:38, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/images/"
+2014-04-26 18:34:38, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/images/"
+    sftp> 
+2014-04-26 18:34:38, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/images/"
+2014-04-26 18:34:38, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/images/"
+    sftp> 
+2014-04-26 18:34:38, SFTP Write:
+    put "_sprite.png"
+2014-04-26 18:34:38, SFTP Read:
+    put "_sprite.png"
+    Uploading _sprite.png to /usr/share/web/exp3.dai-tokai.okayama.jp/public/images/_sprite.png
+    sftp> 
+2014-04-26 18:34:38, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/images/_sprite.png"
+2014-04-26 18:34:38, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/images/_sprite.png"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/images/_sprite.png
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/stylesheets/"
+2014-04-26 18:34:39, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/stylesheets/"
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+2014-04-26 18:34:39, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/"
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    put "oso_style.css"
+2014-04-26 18:34:39, SFTP Read:
+    put "oso_style.css"
+    Uploading oso_style.css to /usr/share/web/exp3.dai-tokai.okayama.jp/public/stylesheets/oso_style.css
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/oso_style.css"
+2014-04-26 18:34:39, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/stylesheets/oso_style.css"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/stylesheets/oso_style.css
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+2014-04-26 18:34:39, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+2014-04-26 18:34:39, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    put "app.js"
+2014-04-26 18:34:39, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-04-26 18:34:39, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+2014-04-26 18:34:39, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+2014-04-26 18:34:39, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/routes/"
+    sftp> 
+2014-04-26 18:34:39, SFTP Write:
+    put "index.js"
+2014-04-26 18:34:40, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp3.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/index.js"
+2014-04-26 18:34:40, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    put "testprint.js"
+2014-04-26 18:34:40, SFTP Read:
+    put "testprint.js"
+    Uploading testprint.js to /usr/share/web/exp3.dai-tokai.okayama.jp/routes/testprint.js
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/testprint.js"
+2014-04-26 18:34:40, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/testprint.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/testprint.js
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    put "user.js"
+2014-04-26 18:34:40, SFTP Read:
+    put "user.js"
+    Uploading user.js to /usr/share/web/exp3.dai-tokai.okayama.jp/routes/user.js
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/user.js"
+2014-04-26 18:34:40, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/routes/user.js"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/routes/user.js
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-04-26 18:34:40, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+2014-04-26 18:34:40, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-04-26 18:34:40, SFTP Write:
+    put "index.jade"
+2014-04-26 18:34:41, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/index.jade"
+2014-04-26 18:34:41, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    put "layout.jade"
+2014-04-26 18:34:41, SFTP Read:
+    put "layout.jade"
+    Uploading layout.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/layout.jade"
+2014-04-26 18:34:41, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/layout.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    put "login.jade"
+2014-04-26 18:34:41, SFTP Read:
+    put "login.jade"
+    Uploading login.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/login.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/login.jade"
+2014-04-26 18:34:41, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/login.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/login.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    put "testprint.jade"
+2014-04-26 18:34:41, SFTP Read:
+    put "testprint.jade"
+    Uploading testprint.jade to /usr/share/web/exp3.dai-tokai.okayama.jp/views/testprint.jade
+    sftp> 
+2014-04-26 18:34:41, SFTP Write:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/testprint.jade"
+2014-04-26 18:34:42, SFTP Read:
+    chmod 664 "/web/exp3.dai-tokai.okayama.jp/views/testprint.jade"
+    Changing mode on /web/exp3.dai-tokai.okayama.jp/views/testprint.jade
+    sftp> 
+2014-04-26 18:34:42, SFTP Write:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+2014-04-26 18:34:42, SFTP Read:
+    cd "/web/exp3.dai-tokai.okayama.jp/"
+    sftp> 
+2014-04-26 18:34:42, SFTP Write:
+    rm "express.log"
+2014-04-26 18:34:42, SFTP Read:
+    rm "express.log"
+    Removing /usr/share/web/exp3.dai-tokai.okayama.jp/express.log
+    sftp> 
