@@ -1,0 +1,30 @@
+/*
+Module
+============
+
+いろいろなセレクタ
+*/
+%flatten-list {
+	list-style: none;
+	padding: 0;
+}
+
+.social-logins {
+	@extend %flatten-list;
+}
+
+%btn-login-with {
+	display: block;
+	padding-left: 1em;
+	
+	&::before {
+		// position: absolute;
+		left: 1em;
+	}
+}
+.btn-login-with-tw {
+	@extend %btn-login-with;
+	@include button-variant( #fff, $btn-primary-bg, $btn-primary-border);
+	
+	@extend .icon-twitter;
+}

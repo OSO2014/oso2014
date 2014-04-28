@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'oso-font-set';
+	src:url('fonts/oso-font-set.eot?cr327m');
+	src:url('fonts/oso-font-set.eot?#iefixcr327m') format('embedded-opentype'),
+		url('fonts/oso-font-set.woff?cr327m') format('woff'),
+		url('fonts/oso-font-set.ttf?cr327m') format('truetype'),
+		url('fonts/oso-font-set.svg?cr327m#oso-font-set') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'oso-font-set';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gear:before {
+	content: "\f013";
+}
+.icon-pencil:before {
+	content: "\f040";
+}
+.icon-angle-left:before {
+	content: "\f104";
+}
+.icon-angle-right:before {
+	content: "\f105";
+}
+.icon-dial:before {
+	content: "\e608";
+}
+.icon-checkmark:before {
+	content: "\e602";
+}
+.icon-googleplus:before {
+	content: "\e603";
+}
+.icon-facebook:before {
+	content: "\e604";
+}
+.icon-twitter:before {
+	content: "\e605";
+}

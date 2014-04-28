@@ -72,6 +72,12 @@ module.exports = function(grunt){
           {
             src: ['source/public/javascripts/app.js'],
             dest: 'dev/public/javascripts/app.js'
+          },
+          {
+            expand: true,
+            cwd: 'source/public/stylesheets/fonts',
+            src: ['*.{eot,svg,ttf,woff}'],
+            dest: 'dev/public/stylesheets/fonts'
           }
         ]
       },
@@ -95,6 +101,12 @@ module.exports = function(grunt){
             src: ['*.js'],
             dest: 'dist/routes'
           },
+          {
+            expand: true,
+            cwd: 'dev/public/stylesheets/fonts',
+            src: ['*.{eot,svg,ttf,woff}'],
+            dest: 'dist/public/stylesheets/fonts'
+          }
         ]
       }
     },

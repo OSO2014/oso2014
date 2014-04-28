@@ -1,13 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  div(ng-show="mode === 'login'")
-    ul
-      li(ng-click="goLogin()") Twitterでログイン
-      li(ng-click="goLogin()") Google+でログイン
-      li(ng-click="goLogin()") Facebookでログイン
+  header.global-header
+    h1= title
+    p Welcome to #{title}
+  div.container(ng-show="mode === 'login'")
+    ul.social-logins
+      li.btn.btn-login-with-tw(ng-click="goLogin()") Twitterでログイン
+      li.btn.btn-login-with-gp(ng-click="goLogin()") Google+でログイン
+      li.btn.btn-login-with-fb(ng-click="goLogin()") Facebookでログイン
 
   div(ng-show="mode === 'start'")
     dl
