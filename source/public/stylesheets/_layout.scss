@@ -8,3 +8,14 @@ Layout
 .global-header {
 	text-align: center;
 }
+
+.navbar {
+	@extend .clearfix;
+	// margin-bottom: $grid-gutter-width / 2;
+	padding: 0 $grid-gutter-width / 2;
+}
+footer {
+	text-align: center;
+	color: $gray-light;
+	font-size: 1.2rem;
+}

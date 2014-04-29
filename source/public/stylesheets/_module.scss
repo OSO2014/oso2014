@@ -15,16 +15,81 @@ Module
 
 %btn-login-with {
 	display: block;
+	margin-bottom: 1em;
 	padding-left: 1em;
 	
 	&::before {
-		// position: absolute;
-		left: 1em;
+		padding-right: 0.25em;
+		@extend %icon-font;
 	}
 }
 .btn-login-with-tw {
 	@extend %btn-login-with;
-	@include button-variant( #fff, $btn-primary-bg, $btn-primary-border);
-	
+	@include button-variant( #fff, $twitterColor, darken( $twitterColor, 15% ) );
 	@extend .icon-twitter;
+}
+.btn-login-with-gp {
+	@extend %btn-login-with;
+	@include button-variant( #fff, $googleColor, darken( $googleColor, 15% ) );
+	@extend .icon-googleplus;
+}
+.btn-login-with-fb {
+	@extend %btn-login-with;
+	@include button-variant( #fff, $facebookColor, darken( $facebookColor, 15% ) );
+	@extend .icon-facebook;
+}
+
+/*
+## 体重を入力するところ
+*/
+.user-input {
+	text-align: center;
+}
+.user-input-label {
+	margin-top: 1em;
+}
+.weight-output {
+	position: relative;
+	line-height: 1;
+	text-align: center;
+}
+.weight-value {
+	font-weight: 300;
+	font-family: $font-family-sans-serif;
+	font-size: 6.4rem;
+}
+.weight-unit {
+	font-weight: 400;
+	font-family: $font-family-sans-serif;
+	font-size: 3.2rem;
+}
+.weight-kbd-input {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+/*
+## ナヴバァ
+*/
+.navbar-item {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1.4rem;
+}
+.navbar-show-menu {
+	float: right;
+	
+	&::after {
+		@extend %icon-font;
+		content: "\f013";
+		padding-left: 0.25em;
+	}
+}
+
+.weight-graph {
+	height: 250px;
+	margin: 0 ( - $grid-gutter-width / 2 );
+	background-color: $gray-lighter
 }

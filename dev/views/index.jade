@@ -1,62 +1,80 @@
 extends layout
 
 block content
-  header.global-header
-    h1= title
-    p Welcome to #{title}
   div.container(ng-show="mode === 'login'")
+    header.global-header
+      h1= title
+      p Welcome to #{title}
     ul.social-logins
       li.btn.btn-login-with-tw(ng-click="goLogin()") Twitterでログイン
       li.btn.btn-login-with-gp(ng-click="goLogin()") Google+でログイン
       li.btn.btn-login-with-fb(ng-click="goLogin()") Facebookでログイン
 
-  div(ng-show="mode === 'start'")
-    dl
-      dt ユーザー名
+  div.container(ng-show="mode === 'start'")
+    dl.user-input
+      dt.user-input-label ユーザー名
       dd
         input(type="text")
-      dt 現在の体重
-      dd(ng-show="weightUseRange") 65.0 Kg
-          span(ng-click="changeStartInput('w')") ■■■
+      dt.user-input-label 現在の体重
+      dd.weight-output(ng-show="weightUseRange")
+        span.weight-value 65.0
+        span.weight-unit kg
+        span.weight-kbd-input(ng-click="changeStartInput('w')")
+          i.icon-dial
       dd(ng-show="weightUseRange")
         input(type="range")
       dd(ng-show="!weightUseRange")
         input(type="number")
 
-      dt 目標の体重
-      dd(ng-show="hopeUseRange") 65.0 Kg
-          span(ng-click="changeStartInput('h')") ■■■
+      dt.user-input-label 目標の体重
+      dd.weight-output(ng-show="hopeUseRange")
+        span.weight-value 65.0
+        span.weight-unit kg
+        span.weight-kbd-input(ng-click="changeStartInput('h')")
+          i.icon-dial
       dd(ng-show="hopeUseRange")
         input(type="range")
       dd(ng-show="!hopeUseRange")
         input(type="number")
 
     p
-      button(ng-click="goStart()") はじめる
+      button.btn.btn-primary.btn-block(ng-click="goStart()") はじめる
 
 
-  div(ng-show="mode === 'myhome'")
-    div グラフ
+  nav.navbar(ng-show="mode === 'myhome'")
+    p.navbar-item.navbar-show-menu menu
+  div.container(ng-show="mode === 'myhome'")
+    div.weight-graph グラフ
     div(ng-show="!inputed")
-      dl
-        dt 本日の体重
-        dd(ng-show="weightUseRange") 65.0 Kg
-            span(ng-click="changeStartInput('w')") ■■■
+      dl.user-input
+        dt.user-input-label 本日の体重
+        dd.weight-output(ng-show="weightUseRange")
+          span.weight-value 65.0
+          span.weight-unit kg
+          span.weight-kbd-input(ng-click="changeStartInput('w')")
+            i.icon-dial
         dd(ng-show="weightUseRange")
           input(type="range" ng-change="showWeightConfirm()" ng-model="val")
         dd(ng-show="!weightUseRange")
           input(type="number" ng-change="showWeightConfirm()" ng-model="val")
 
       p(ng-show="weightConfirm")
-        button(ng-click="postWeight()") 記録する
+        button.btn.btn-primary.btn-block(ng-click="postWeight()") 記録する
 
-    div(ng-show="inputed")
-      dl
-        dt 本日の体重
-        dd 65.0 Kg
-        dd -0.4Kg
+    div.container(ng-show="inputed")
+      dl.user-input
+        dt.user-input-label 本日の体重
+        dd.weight-output
+          span.weight-value 65.0
+          span.weight-unit kg
+          span.weight-kbd-input(ng-click="changeStartInput('w')")
+            i.icon-pencil
+        dd
+          span.alert.alert-success -0.4Kg
 
-    p
-      button(ng-click="goListInput()") まとめて入力する
+    p.text-center
+      button.btn.btn-link.btn-sm(ng-click="goListInput()") まとめて入力する
+
+  include includes/footer
 
 
