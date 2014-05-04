@@ -2,20 +2,15 @@
 Layout
 ============
 
-ページを構成する基本コンテナ
+ページを構成する基本コンテナのスタイリング
 */
 
-.global-header {
-	text-align: center;
+body > div > .container {
+	padding-top: 4rem;
 }
-
 .navbar {
 	@extend .clearfix;
-	// margin-bottom: $grid-gutter-width / 2;
-	padding: 0 $grid-gutter-width / 2;
-}
-footer {
-	text-align: center;
-	color: $gray-light;
-	font-size: 1.2rem;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
 }

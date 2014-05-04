@@ -92,7 +92,7 @@ module.exports = function(grunt){
           {
             expand: true,
             cwd: 'dev/views',
-            src: ['*.jade'],
+            src: ['**/*.jade'],
             dest: 'dist/views'
           },
           {
