@@ -1,0 +1,395 @@
+/*
+Module
+============
+*/
+%flatten-list {
+	list-style: none;
+	padding: 0;
+}
+
+
+/*
+# アプリタイトル
+
+```
+<header class="app-title">
+	<h1>OSO 2014</h1>
+	<p>Welcome to OSO 2014</p>
+</header>
+```
+*/
+.app-title {
+	& > h1 {
+		margin-top: 1.6rem;
+		margin-bottom: 0;
+		font-weight: 300;
+		font-size: 5.6rem;
+	}
+
+	& > p {
+		margin-bottom: 2.5em;
+		color: $secondaryColor;
+	}
+}
+
+
+/*
+# ナビゲーションバー
+
+Bootstrapの `navbar` を拡張。
+
+```
+<nav class="navbar">
+	<p class="navbar-item navbar-go-home">戻る</p>
+	<p class="navbar-item navbar-show-menu">menu</p>
+</nav>
+```
+*/
+.navbar-item {
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	color: rgba( #000, 0.7 );
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+.navbar-show-menu {
+	float: right;
+	
+	&::after {
+		@extend %icon-font;
+		@extend .icon-gear:before;
+		padding-left: 0.25em;
+	}
+}
+.navbar-go-home {
+	float: left;
+	
+	&::before {
+		@extend %icon-font;
+		@extend .icon-angle-left:before;
+		padding-right: 0.25em;
+	}
+}
+
+
+/*
+# ソーシャルログインボタン
+
+Bootstrap の Mixin `button-variant` を拡張。ボタン左側に指定したサービスのアイコンを配置する。
+
+```
+<ul class="social-logins">
+	<li class="btn btn-login-with-tw">Twitter</li>
+	<li class="btn btn-login-with-gp">Google+</li>
+	<li class="btn btn-login-with-fb">Facebook</li>
+</ul>
+```
+*/
+.social-logins {
+	@extend %flatten-list;
+}
+
+%btn-login-with {
+	position: relative;
+	display: block;
+	margin-bottom: 1em;
+	padding-left: 3em;
+	text-align: center;
+	
+	&::before {
+		@extend %icon-font;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		margin-top: -1em;
+		padding: 0.5em 1em;
+		border-right: 1px solid rgba( #fff, 0.3 );
+	}
+}
+
+.btn-login-with-tw {
+	@extend %btn-login-with;
+	@include button-variant( #fff, $twitterColor, darken( $twitterColor, 15% ) );
+	@extend .icon-twitter;
+}
+.btn-login-with-gp {
+	@extend %btn-login-with;
+	@include button-variant( #fff, $googleColor, darken( $googleColor, 15% ) );
+	@extend .icon-googleplus;
+}
+.btn-login-with-fb {
+	@extend %btn-login-with;
+	@include button-variant( #fff, $facebookColor, darken( $facebookColor, 15% ) );
+	@extend .icon-facebook;
+}
+.btn-diff-action {
+	$btnColor: rgba( $primaryColor, 0.25 );
+	@include button-variant( $primaryColor, $btnColor, darken( $btnColor, 15% ) );
+	padding: 0.25em 1.5em;
+}
+
+
+/*
+# 一括入力の入力ソース切り替え
+
+一応ボタンだが、Bootstrap の `button-variant` で生成されるボタンとは異なり、タブ型にするスタイル。`is-active` でハイライト。
+
+```
+<div class="btn-group btn-group-justified">
+	<a class="btn btn-batch-input is-active">データを入力</a>
+	<a class="btn btn-batch-input">URLから入力</a>
+</div>
+```
+*/
+.btn-batch-input {
+	$btnColor: rgba( $secondaryColor, 0 );
+	
+	@include button-variant( $primaryColor, $btnColor, #fff );
+	border-radius: 0;
+	border: 2px solid #fff;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.is-active {
+		color: #fff;
+		background-color: rgba( $secondaryColor, 0.5 );
+		border-bottom-color: #fff;
+	}
+	&:active,
+	&.is-active {
+		background-color: $secondaryColor;
+	}
+	&:nth-child(2n+1) {
+		border-right-width: 1px;
+	}
+	&:nth-child(2n+0) {
+		border-left-width: 1px;
+	}
+}
+
+
+/*
+# ユーザー入力のレイアウトとスタイリング
+
+```
+<dl class="user-input">
+	<dt class="user-input-label">ユーザー名</dt>
+	<dd><input class="form-control" type="text"></dd>
+	<dt class="user-input-label">現在の体重</dt>
+	<dd class="weight-output">
+		<span class="weight-value">65.0</span>
+		<span class="weight-unit">kg</span>
+		<span class="weight-kbd-input"><i class="icon-dial"></i></span></dd>
+	<dd><input type="range"></dd>
+	<dd><input class="weight-input-num" type="number"></dd>
+</dl>
+```
+*/
+.user-input {
+	@extend %flatten-list;
+	text-align: center;
+	
+	input[type=text],
+	input[type=password],
+	input[type=number] {
+		text-align: center;
+	}
+}
+.user-input-label {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	color: $secondaryColor;
+	font-weight: normal;
+}
+.weight-output {
+	position: relative;
+	line-height: 1;
+	text-align: center;
+}
+.weight-value {
+	line-height: 0.75;
+	font-weight: 300;
+	font-family: $font-family-sans-serif;
+	font-size: 6.4rem;
+}
+.weight-unit {
+	font-weight: 400;
+	font-family: $font-family-sans-serif;
+	font-size: 3.2rem;
+}
+.weight-kbd-input {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0.5;
+}
+.weight-input-num {
+	@extend input[type=text];
+	@extend .weight-value;
+	
+	width: 100%;
+	padding: 0.25em 0;
+	box-sizing: border-box;
+}
+
+
+/*
+# グラフ
+*/
+.weight-graph {
+	position: relative;
+	margin-top: -4.2rem;
+	height: 250px;
+	margin: 0 ( - $grid-gutter-width / 2 );
+	border-bottom: 1px solid $bdColor;
+	background-color: #fff;
+}
+
+
+/*
+# 前回との差
+
+体重入力後、前回との差を表示するボックス。目標に近づけば`result-success`、目標から遠ざかると`result-failure`。
+
+<span class="result result-success">-0.4kg</span>
+<span class="result result-failure">+0.4kg</span>
+*/
+.result {
+	display: inline-block;
+	line-height: 1;
+	margin: 0.75em 0 1.5em;
+	padding: 0.25em 0.5em;
+	border-radius: $border-radius-base;
+	font-size: 2.4rem;
+	text-shadow: -1px -1px 0 rgba( #000, 0.2 );
+	
+	&-#{success} {
+		color: #fff;
+		background-color: #529900;
+	}
+	&-#{failure} {
+		color: #fff;
+		background-color: #DD5500;
+	}
+}
+
+
+/*
+# 一括入力画面の入力部分
+
+上下に `margin` を設定する。一応分けた。
+
+```
+<div class="batch-by-input">
+	<p>Lorem ipsum Voluptate ea ut Duis Ut eiusmod in deserunt cupidatat mollit Excepteur nisi tempor veniam consequat quis Duis.</p>
+</div>
+<div class="batch-by-url">
+	<p>Lorem ipsum Voluptate ea ut Duis Ut eiusmod in deserunt cupidatat mollit Excepteur nisi tempor veniam consequat quis Duis.</p>
+</div>
+```
+*/
+.batch-by-input,
+.batch-by-url {
+	margin: 1em 0;
+}
+
+
+/*
+# 入力確認ブロック
+
+一括入力の確認で使うブロック。8行程度でスクロールバーを表示。
+
+<div class="inputed-data">
+	<p>Lorem ipsum Est cupidatat consectetur cupidatat commodo magna deserunt qui in eu nulla aute exercitation adipisicing pariatur tempor minim id sed qui labore.</p>
+	<p>Lorem ipsum Est cupidatat consectetur cupidatat commodo magna deserunt qui in eu nulla aute exercitation adipisicing pariatur tempor minim id sed qui labore.</p>
+</div>
+*/
+.inputed-data {
+	overflow: scroll;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	height: $line-height-base * 8em;
+	border-radius: $border-radius-base;
+	background-color: #FFF;
+}
+
+
+/*
+# ソーシャル連携
+
+設定画面のソーシャル連携部分のスタイリング。`is-active` でチェックマークを入れる。アクティブだとアイコンの位置を若干変えているため、ツラ合わせでややアクロバティックな感じになってる。
+
+```
+<ul class="social-linkage">
+	<li class="linkage-tw is-active">twitter</li>
+	<li class="linkage-gp">Google+</li>
+	<li class="linkage-fb">Facebook</li>
+</ul>
+```
+*/
+.social-linkage {
+	@extend %flatten-list;
+	position: relative;
+	text-align: center;
+}
+@mixin social-linkage-item( $iconColor, $type) {
+	$elmDimension: 76px;
+	$fontSize: 1.2rem;
+	
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	line-height: 1;
+	width: $elmDimension;
+	height: $elmDimension;
+	margin: 0 8px;
+	padding-top: $fontSize * 4;
+	border-radius: 50%;
+	text-align: center;
+	color: $primaryColor;
+	font-size: $fontSize;
+	background-color: #FFF;
+	
+	&:before {
+		@extend %icon-font;
+		@extend .icon-#{$type};
+		position: absolute;
+		top: $fontSize * 1.5;
+		right: 50%;
+		margin-right: -0.5em;
+		color: $gray-light;
+		font-size: $fontSize * 2.5;
+	}
+
+	&.is-active {
+		$scale: 0.75;
+		top: - $fontSize * $scale;
+		padding-top: $fontSize * ( 4 - $scale);
+		
+		&:before {
+			color: $iconColor;
+			top: $fontSize * $scale;
+		}
+		&:after {
+			@extend %icon-font;
+			content: "\e602";
+			position: absolute;
+			bottom: $fontSize * 0.75;
+			right: 50%;
+			margin-right: -0.5em;
+			color: $secondaryColor;
+			font-size: $fontSize * 1.5;
+		}
+	}
+}
+.linkage-tw {
+	@include social-linkage-item( $twitterColor, twitter );
+}
+.linkage-gp {
+	@include social-linkage-item( $googleColor, googleplus );
+}
+.linkage-fb {
+	@include social-linkage-item( $facebookColor, facebook );
+}

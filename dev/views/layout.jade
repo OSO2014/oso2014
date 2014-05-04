@@ -2,9 +2,11 @@ doctype html
 html(lang='ja', ng-app="osoApp")
   head
     title= title
-    link(rel='stylesheet', href='public/stylesheets/oso_style.css')
+    meta(name='viewport' content='width=device-width,initial-scale=1.0')
+    meta(name='apple-mobile-web-app-capable' content='yes')
+    link(rel='stylesheet', href='stylesheets/oso_style.css')
     script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js')
-    script(src='public/javascripts/app.js')
+    script(src='javascripts/app.js')
   body
-    div(ng-controller="MainCtrl")
+    div(ng-controller="MainCtrl" ng-class="theme")
       block content

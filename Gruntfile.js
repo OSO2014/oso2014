@@ -66,12 +66,18 @@ module.exports = function(grunt){
           {
             expand: true,
             cwd: 'source/public/images',
-            src: ['*.{png,jpg,gif}'],
+            src: ['*.{png,jpg,gif,svg}'],
             dest: 'dev/public/images'
           },
           {
             src: ['source/public/javascripts/app.js'],
             dest: 'dev/public/javascripts/app.js'
+          },
+          {
+            expand: true,
+            cwd: 'source/public/stylesheets/fonts',
+            src: ['*.{eot,svg,ttf,woff}'],
+            dest: 'dev/public/stylesheets/fonts'
           }
         ]
       },
@@ -80,13 +86,13 @@ module.exports = function(grunt){
           {
             expand: true,
             cwd: 'dev/public/images',
-            src: ['*.{png,jpg,gif}'],
+            src: ['*.{png,jpg,gif,svg}'],
             dest: 'dist/public/images'
           },
           {
             expand: true,
             cwd: 'dev/views',
-            src: ['*.jade'],
+            src: ['**/*.jade'],
             dest: 'dist/views'
           },
           {
@@ -95,6 +101,12 @@ module.exports = function(grunt){
             src: ['*.js'],
             dest: 'dist/routes'
           },
+          {
+            expand: true,
+            cwd: 'dev/public/stylesheets/fonts',
+            src: ['*.{eot,svg,ttf,woff}'],
+            dest: 'dist/public/stylesheets/fonts'
+          }
         ]
       }
     },
@@ -135,7 +147,7 @@ module.exports = function(grunt){
       },
       src: {
         files: [
-        'source/public/images/**/*.{png,jpg,gif}',
+        'source/public/images/**/*.{png,jpg,gif,svg}',
         'source/public/stylesheets/*.scss',
         'source/public/javascripts/*.js',
         'dev/**/*.html'],

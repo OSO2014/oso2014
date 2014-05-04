@@ -1,61 +1,127 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  div(ng-show="mode === 'login'")
-    ul
-      li(ng-click="goLogin()") Twitterでログイン
-      li(ng-click="goLogin()") Google+でログイン
-      li(ng-click="goLogin()") Facebookでログイン
+  include includes/navbar
 
-  div(ng-show="mode === 'start'")
-    dl
-      dt ユーザー名
+
+  div.container(ng-show="mode === 'login'")
+    header.app-title.text-center
+      h1= title
+      p Welcome to #{title}
+    ul.social-logins
+      li.btn.btn-login-with-tw(ng-click="goLogin()") Twitterでログイン
+      li.btn.btn-login-with-gp(ng-click="goLogin()") Google+でログイン
+      li.btn.btn-login-with-fb(ng-click="goLogin()") Facebookでログイン
+
+
+  div.container(ng-show="mode === 'start'")
+    dl.user-input
+      dt.user-input-label ユーザー名
       dd
-        input(type="text")
-      dt 現在の体重
-      dd(ng-show="weightUseRange") 65.0 Kg
-          span(ng-click="changeStartInput('w')") ■■■
+        input.form-control(type="text")
+      dt.user-input-label 現在の体重
+      dd.weight-output(ng-show="weightUseRange")
+        span.weight-value 65.0
+        span.weight-unit kg
+        span.weight-kbd-input(ng-click="changeStartInput('w')")
+          i.icon-dial
       dd(ng-show="weightUseRange")
         input(type="range")
       dd(ng-show="!weightUseRange")
-        input(type="number")
+        input.weight-input-num(type="number")
 
-      dt 目標の体重
-      dd(ng-show="hopeUseRange") 65.0 Kg
-          span(ng-click="changeStartInput('h')") ■■■
+      dt.user-input-label 目標の体重
+      dd.weight-output(ng-show="hopeUseRange")
+        span.weight-value 65.0
+        span.weight-unit kg
+        span.weight-kbd-input(ng-click="changeStartInput('h')")
+          i.icon-dial
       dd(ng-show="hopeUseRange")
         input(type="range")
       dd(ng-show="!hopeUseRange")
-        input(type="number")
+        input.weight-input-num(type="number")
 
     p
-      button(ng-click="goStart()") はじめる
+      button.btn.btn-primary.btn-block(ng-click="goStart()") はじめる
 
 
-  div(ng-show="mode === 'myhome'")
-    div グラフ
+  div.container(ng-show="mode === 'myhome'")
+    div.weight-graph グラフ
     div(ng-show="!inputed")
-      dl
-        dt 本日の体重
-        dd(ng-show="weightUseRange") 65.0 Kg
-            span(ng-click="changeStartInput('w')") ■■■
+      dl.user-input
+        dt.user-input-label 本日の体重
+        dd.weight-output(ng-show="weightUseRange")
+          span.weight-value 65.0
+          span.weight-unit kg
+          span.weight-kbd-input(ng-click="changeStartInput('w')")
+            i.icon-dial
         dd(ng-show="weightUseRange")
           input(type="range" ng-change="showWeightConfirm()" ng-model="val")
         dd(ng-show="!weightUseRange")
-          input(type="number" ng-change="showWeightConfirm()" ng-model="val")
+          input.weight-input-num(type="number" ng-change="showWeightConfirm()" ng-model="val")
 
       p(ng-show="weightConfirm")
-        button(ng-click="postWeight()") 記録する
+        button.btn.btn-primary.btn-block(ng-click="postWeight()") 記録する
 
     div(ng-show="inputed")
-      dl
-        dt 本日の体重
-        dd 65.0 Kg
-        dd -0.4Kg
+      dl.user-input
+        dt.user-input-label 本日の体重
+        dd.weight-output
+          span.weight-value 65.0
+          span.weight-unit kg
+          span.weight-kbd-input(ng-click="changeStartInput('w')")
+            i.icon-pencil
+        dd
+          span.result.result-success -0.4Kg
 
+    p.text-center
+      button.btn.btn-diff-action.btn-sm(ng-click="goListInput()") まとめて入力する
+
+
+  div.container.tm-dark(ng-show="mode === 'setting'")
+    dl.user-input
+      dt.user-input-label ユーザー名
+      dd
+        input.form-control(type="text" value="littlebusters")
+      dt.user-input-label 目標の体重
+      dd.weight-output(ng-show="hopeUseRange")
+        span.weight-value 65.0
+        span.weight-unit kg
+        span.weight-kbd-input(ng-click="changeStartInput('h')")
+          i.icon-dial
+      dd(ng-show="hopeUseRange")
+        input(type="range")
+      dd(ng-show="!hopeUseRange")
+        input.weight-input-num(type="number")
+      dt.user-input-label ソーシャル連携
+      dd
+        ul.row.social-linkage
+          li.linkage-tw.is-active twitter
+          li.linkage-gp Google+
+          li.linkage-fb Facebook
+
+
+  div.container(ng-show="mode === 'listInput'")
+    div.btn-group.btn-group-justified
+      a.btn.btn-batch-input(ng-click="changeInputType('s')" ng-class="selectedS") データを入力
+      a.btn.btn-batch-input(ng-click="changeInputType('u')" ng-class="selectedU") URLから入力
+    div.batch-by-input(ng-show="selfInput")
+      p 日付と体重を入力してください。例：2014/4/14,65.0[改行]
+      textarea.form-control
+    div.batch-by-url(ng-show="!selfInput")
+      p データのURLを入力してください。
+      p
+        input.form-control(type="text")
+    p 入力されて日付がすでに入力されている場合は、上書きされます。
+    p.has-error(ng-show="hasError") 入力された値が正しくありません。httpから入力してください。
     p
-      button(ng-click="goListInput()") まとめて入力する
+      button.btn.btn-primary.btn-block(ng-click="goListInputConfirm()") 入力内容を確認
 
 
+  div.container(ng-show="mode === 'listInputConfirm'")
+    p 以下の内容で一括登録します。
+    div.inputed-data
+    p
+      button.btn.btn-primary.btn-block(ng-click="goStart()") 確定する
+    p.text-center
+      button.btn.btn-diff-action.btn-sm(ng-click="goListInput()") やり直す

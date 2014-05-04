@@ -1,0 +1,61 @@
+/*
+base
+============
+
+要素に対する基本的なスタイリング
+*/
+html {
+	font-size: 10px;
+}
+body {
+	font-size: 1.8rem;
+}
+p {
+	margin-bottom: 1em;
+}
+
+input {
+	-webkit-appearance: none;
+
+	&[type=text],
+	&[type=password] {
+		line-height: 1;
+		padding: 0.25em 0.5em;
+		border: 1px solid $bdColor;
+		border-radius: $border-radius-base;
+		font-size: 2.4rem;
+		background-color: #FFF;
+	}
+}
+textarea {
+	$height: 1.2;
+
+	@extend input[type=text];
+	line-height: $height;
+	box-shadow: none;
+	
+	&.form-control { // bt over write
+		height: $height * 8em;
+	}
+}
+
+input[type='range'] {
+	$sliderGutter: 4px;
+	$buttonDimension: 32px;
+	
+	-webkit-appearance: none;
+	vertical-align: middle;
+	height: $sliderGutter;
+	margin: $buttonDimension 0;
+	border-radius: $sliderGutter / 2;
+	background-color: #A4A4A4;
+	&::-webkit-slider-thumb {
+		-webkit-appearance: none !important;
+		height: $buttonDimension;
+		width: $buttonDimension;
+		border: 1px solid $bdColor;
+		box-shadow: 0 2 0 rgba( #000, 0.1 );
+		border-radius: 50%;
+		background-color: #FFF;
+	}
+}

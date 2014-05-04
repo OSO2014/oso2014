@@ -1,0 +1,32 @@
+/*
+Theme
+============
+
+テーマのスタイリング。接頭辞は `tm-`
+*/
+
+/*
+# th-dark
+
+背景を `$primaryColor` にする。文字色などを変更する。
+*/
+.tm-dark {
+	color: #fff;
+	background-color: $primaryColor;
+	
+	input[type=text],
+	input[text=password],
+	.weight-input-num {
+		border-color: rgba( #fff, 0.3 );
+		color: #fff;
+		background-color: rgba( #fff, 0.06 );
+	}
+
+	.user-input-label {
+		color: #fff;
+	}
+
+	.navbar-item {
+		color: rgba( #fff, 0.7 );
+	}
+}

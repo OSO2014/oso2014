@@ -1,0 +1,16 @@
+/*
+Layout
+============
+
+ページを構成する基本コンテナのスタイリング
+*/
+
+body > div > .container {
+	padding-top: 4rem;
+}
+.navbar {
+	@extend .clearfix;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}

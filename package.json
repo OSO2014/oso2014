@@ -34,5 +34,8 @@
     "grunt-spritesmith": "^1.26.0",
     "grunt-styleguide": "^0.2.15",
     "pngsmith": "^0.1.0"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }

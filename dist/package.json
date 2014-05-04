@@ -12,5 +12,8 @@
   "devDependencies": {
     "mongodb": "~1.4.0",
     "mongoose": "~3.8.8"
-  }
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
 }
