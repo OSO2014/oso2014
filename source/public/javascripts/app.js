@@ -1,7 +1,28 @@
-var app = angular.module('osoApp', [] );
+var app = angular.module('osoApp', ['ngRoute'] ).config(function ($routeProvider, $locationProvider, $httpProvider){
+    $locationProvider.html5Mode(true);
+
+    // $httpProvider.responseInterceptors.push(['$q', '$location',function($q, $location) {
+    //   return function(promise) {
+    //     return promise.then(function(response) {
+    //         // Success: 成功時はそのまま返す
+    //         console.log('Success');
+    //         return response;
+    //       }, function(response) {
+    //         // Error: エラー時は401エラーならば/loginに遷移
+    //         console.log('Error');
+    //         if (response.status === 401) {
+    //           // $location.url('/login');
+    //         }
+    //         // return $q.reject(response);
+    //       }
+    //     );
+    //   };
+    // }]);
+
+  });
 
 app.controller('MainCtrl', function($scope){
-  $scope.mode = 'login';
+  $scope.mode = 'start';
   $scope.weightUseRange = true;
   $scope.hopeUseRange = true;
   $scope.weightConfirm = false;
