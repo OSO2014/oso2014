@@ -51,14 +51,14 @@ block content
       dl.user-input
         dt.user-input-label 本日の体重
         dd.weight-output(ng-show="weightUseRange")
-          span.weight-value 65.0
+          span.weight-value {{todayWeight}}
           span.weight-unit kg
           span.weight-kbd-input(ng-click="changeStartInput('w')")
             i.icon-dial
         dd(ng-show="weightUseRange")
-          input(type="range" ng-change="showWeightConfirm()" ng-model="val")
+          input(type="range" step="0.1" ng-model="todayWeight" ng-change="showWeightConfirm()")
         dd(ng-show="!weightUseRange")
-          input.weight-input-num(type="number" ng-change="showWeightConfirm()" ng-model="val")
+          input.weight-input-num(type="number" ng-change="showWeightConfirm()" ng-model="todayWeight")
 
       p(ng-show="weightConfirm")
         button.btn.btn-primary.btn-block(ng-click="postWeight()") 記録する
@@ -67,12 +67,12 @@ block content
       dl.user-input
         dt.user-input-label 本日の体重
         dd.weight-output
-          span.weight-value 65.0
+          span.weight-value {{todayWeight}}
           span.weight-unit kg
           span.weight-kbd-input(ng-click="changeStartInput('w')")
             i.icon-pencil
         dd
-          span.result.result-success -0.4Kg
+          span.result.result-success {{result}}Kg
 
     p.text-center
       button.btn.btn-diff-action.btn-sm(ng-click="goListInput()") まとめて入力する

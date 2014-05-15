@@ -100,6 +100,8 @@ app.get('/',  auth, routes.index);
 app.get('/auth', routes.authlogin);
 app.get('/user',db.getUser);
 app.post('/setUser',db.setUserData);
+app.get('/getweight',db.getWeight);
+app.post('/setweight',db.setWeight);
 // app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

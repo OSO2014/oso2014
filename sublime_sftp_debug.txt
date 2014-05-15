@@ -13931,3 +13931,1293 @@
     put "yamasa-logo-site-top.png"
     Uploading yamasa-logo-site-top.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/yamasa-logo-site-top.png
     sftp> 
+2014-05-15 20:59:55, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 20:59:55, SFTP Read:
+    Write failed: Broken pipe
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 20:59:55, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 20:59:55, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    Couldn't send packet: Broken pipe
+    
+2014-05-15 20:59:56, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-15 20:59:56, SFTP Write:
+    progress off
+2014-05-15 20:59:56, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-15 20:59:56, SFTP Write:
+    pwd
+2014-05-15 20:59:56, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-15 20:59:56, SFTP Write:
+    lpwd
+2014-05-15 20:59:56, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/source/public/javascripts
+    sftp> 
+2014-05-15 20:59:56, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 20:59:56, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 20:59:56, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 20:59:56, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-15 20:59:56, SFTP Write:
+    put "app.js"
+2014-05-15 20:59:57, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 20:59:57, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 20:59:57, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:01:14, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-15 21:01:14, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-15 21:01:14, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-15 21:01:14, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-15 21:01:14, SFTP Write:
+    put "app.js"
+2014-05-15 21:01:14, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 21:01:14, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-15 21:01:15, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 21:02:06, SFTP Write:
+    put "model.js"
+2014-05-15 21:02:06, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:02:06, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:02:06, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:02:47, SFTP Write:
+    put "model.js"
+2014-05-15 21:02:47, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:02:47, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:02:47, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:05:34, SFTP Write:
+    put "model.js"
+2014-05-15 21:05:34, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:05:34, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:05:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:05:48, SFTP Write:
+    put "model.js"
+2014-05-15 21:05:48, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:05:48, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:05:48, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:05:54, SFTP Write:
+    put "model.js"
+2014-05-15 21:05:54, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:05:54, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:05:54, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:06:09, SFTP Write:
+    put "app.js"
+2014-05-15 21:06:09, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 21:06:09, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-15 21:06:09, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 21:07:19, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 21:07:19, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 21:07:19, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 21:07:19, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-15 21:07:19, SFTP Write:
+    put "app.js"
+2014-05-15 21:07:19, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:07:19, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 21:07:20, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:07:24, SFTP Write:
+    put "app.js"
+2014-05-15 21:07:25, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:07:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 21:07:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:12:18, SFTP Write:
+    put "app.js"
+2014-05-15 21:12:18, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:12:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 21:12:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:12:19, SFTP Write:
+    put "app.js"
+2014-05-15 21:12:19, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:12:19, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 21:12:19, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:14:28, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-15 21:14:28, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-15 21:14:28, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-15 21:14:29, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-15 21:14:29, SFTP Write:
+    put "model.js"
+2014-05-15 21:14:29, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:14:29, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:14:29, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:20:45, SFTP Write:
+    put "model.js"
+2014-05-15 21:20:45, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:20:45, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:20:45, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:21:58, SFTP Write:
+    put "model.js"
+2014-05-15 21:21:58, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:21:58, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:21:58, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:22:51, SFTP Write:
+    put "model.js"
+2014-05-15 21:22:51, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:22:51, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:22:51, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:23:27, SFTP Write:
+    put "model.js"
+2014-05-15 21:23:27, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:23:27, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:23:27, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:23:38, SFTP Write:
+    put "model.js"
+2014-05-15 21:23:38, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:23:38, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:23:38, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:26:20, SFTP Write:
+    put "model.js"
+2014-05-15 21:26:20, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:26:20, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:26:20, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:27:41, SFTP Write:
+    put "model.js"
+2014-05-15 21:27:41, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:27:41, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:27:41, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:34:22, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 21:34:22, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 21:34:22, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 21:34:22, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-15 21:34:22, SFTP Write:
+    put "app.js"
+2014-05-15 21:34:23, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:34:23, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 21:34:23, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 21:35:45, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-15 21:35:45, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-15 21:35:45, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-15 21:35:45, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-15 21:35:45, SFTP Write:
+    put "index.jade"
+2014-05-15 21:35:45, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 21:35:45, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-15 21:35:45, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 21:37:34, SFTP Write:
+    put "index.jade"
+2014-05-15 21:37:34, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 21:37:34, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-15 21:37:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 21:37:47, SFTP Write:
+    put "index.jade"
+2014-05-15 21:37:47, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 21:37:47, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-15 21:37:47, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 21:49:44, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-15 21:49:44, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-15 21:49:44, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-15 21:49:44, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-15 21:49:44, SFTP Write:
+    put "model.js"
+2014-05-15 21:49:44, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:49:44, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:49:44, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:53:24, SFTP Write:
+    put "model.js"
+2014-05-15 21:53:24, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:53:24, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:53:24, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:54:25, SFTP Write:
+    put "model.js"
+2014-05-15 21:54:25, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:54:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:54:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:54:35, SFTP Write:
+    put "model.js"
+2014-05-15 21:54:35, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:54:35, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:54:35, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:55:10, SFTP Write:
+    put "model.js"
+2014-05-15 21:55:10, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:55:10, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:55:11, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:55:46, SFTP Write:
+    put "model.js"
+2014-05-15 21:55:46, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:55:46, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:55:46, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:56:13, SFTP Write:
+    put "model.js"
+2014-05-15 21:56:13, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:56:13, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:56:13, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:56:52, SFTP Write:
+    put "model.js"
+2014-05-15 21:56:52, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:56:52, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:56:52, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:57:22, SFTP Write:
+    put "model.js"
+2014-05-15 21:57:22, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:57:22, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:57:22, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:58:13, SFTP Write:
+    put "model.js"
+2014-05-15 21:58:13, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:58:13, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:58:13, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:58:36, SFTP Write:
+    put "model.js"
+2014-05-15 21:58:36, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:58:36, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:58:36, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:58:54, SFTP Write:
+    put "model.js"
+2014-05-15 21:58:54, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:58:54, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:58:54, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:59:18, SFTP Write:
+    put "model.js"
+2014-05-15 21:59:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:59:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:59:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:59:53, SFTP Write:
+    put "model.js"
+2014-05-15 21:59:53, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 21:59:53, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 21:59:53, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:00:05, SFTP Write:
+    put "model.js"
+2014-05-15 22:00:05, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:00:05, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:00:05, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:04:24, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 22:04:24, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 22:04:24, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 22:04:24, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-15 22:04:24, SFTP Write:
+    put "app.js"
+2014-05-15 22:04:24, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:04:24, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 22:04:24, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:04:36, SFTP Write:
+    put "app.js"
+2014-05-15 22:04:36, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:04:36, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 22:04:36, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:04:37, SFTP Write:
+    put "app.js"
+2014-05-15 22:04:37, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:04:37, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 22:04:37, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:08:04, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-15 22:08:04, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-15 22:08:04, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-15 22:08:04, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-15 22:08:04, SFTP Write:
+    put "app.js"
+2014-05-15 22:08:04, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 22:08:04, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-15 22:08:04, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 22:23:40, SFTP Write:
+    put "app.js"
+2014-05-15 22:23:40, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 22:23:40, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-15 22:23:40, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-15 22:25:00, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 22:25:00, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 22:25:00, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 22:25:00, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-15 22:25:00, SFTP Write:
+    put "app.js"
+2014-05-15 22:25:00, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:25:00, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 22:25:00, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:25:46, SFTP Write:
+    put "app.js"
+2014-05-15 22:25:46, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:25:46, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 22:25:46, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:25:52, SFTP Write:
+    put "app.js"
+2014-05-15 22:25:52, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:25:52, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 22:25:52, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 22:28:09, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-15 22:28:09, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-15 22:28:09, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-15 22:28:09, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-15 22:28:09, SFTP Write:
+    put "index.jade"
+2014-05-15 22:28:09, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 22:28:09, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-15 22:28:09, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 22:29:18, SFTP Write:
+    put "index.jade"
+2014-05-15 22:29:18, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 22:29:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-15 22:29:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 22:29:27, SFTP Write:
+    put "index.jade"
+2014-05-15 22:29:27, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 22:29:27, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-15 22:29:27, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-15 22:33:38, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-15 22:33:38, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-15 22:33:38, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-15 22:33:39, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-15 22:33:39, SFTP Write:
+    put "model.js"
+2014-05-15 22:33:39, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:33:39, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:33:39, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:36:14, SFTP Write:
+    put "model.js"
+2014-05-15 22:36:14, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:36:14, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:36:14, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:37:58, SFTP Write:
+    put "model.js"
+2014-05-15 22:37:58, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:37:58, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:37:58, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:39:13, SFTP Write:
+    put "model.js"
+2014-05-15 22:39:13, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:39:13, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:39:13, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:39:27, SFTP Write:
+    put "model.js"
+2014-05-15 22:39:27, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:39:27, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:39:27, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:47:52, SFTP Write:
+    put "model.js"
+2014-05-15 22:47:52, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:47:52, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:47:53, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:48:00, SFTP Write:
+    put "model.js"
+2014-05-15 22:48:00, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:48:00, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:48:00, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:48:10, SFTP Write:
+    put "model.js"
+2014-05-15 22:48:10, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:48:10, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:48:10, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:48:34, SFTP Write:
+    put "model.js"
+2014-05-15 22:48:34, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:48:34, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:48:35, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:49:26, SFTP Write:
+    put "model.js"
+2014-05-15 22:49:26, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:49:26, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:49:26, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:54:00, SFTP Write:
+    put "model.js"
+2014-05-15 22:54:01, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:54:01, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:54:01, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:54:38, SFTP Write:
+    put "model.js"
+2014-05-15 22:54:38, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:54:38, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:54:38, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:54:55, SFTP Write:
+    put "model.js"
+2014-05-15 22:54:55, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:54:55, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:54:55, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:55:03, SFTP Write:
+    put "model.js"
+2014-05-15 22:55:03, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:55:03, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:55:04, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:55:25, SFTP Write:
+    put "model.js"
+2014-05-15 22:55:25, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:55:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:55:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:56:53, SFTP Write:
+    put "model.js"
+2014-05-15 22:56:53, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:56:53, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:56:53, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:58:27, SFTP Write:
+    put "model.js"
+2014-05-15 22:58:27, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:58:27, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:58:27, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:58:48, SFTP Write:
+    put "model.js"
+2014-05-15 22:58:49, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 22:58:49, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-15 22:58:49, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-15 23:00:00, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-15 23:00:00, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-15 23:00:00, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-15 23:00:00, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-15 23:00:00, SFTP Write:
+    put "app.js"
+2014-05-15 23:00:00, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 23:00:00, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 23:00:00, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 23:00:08, SFTP Write:
+    put "app.js"
+2014-05-15 23:00:09, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-15 23:00:09, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-15 23:00:09, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-16 00:31:22, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-16 00:31:22, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-16 00:31:22, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-16 00:32:07, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-16 00:32:08, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-16 00:32:08, SFTP Write:
+    progress off
+2014-05-16 00:32:08, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-16 00:32:08, SFTP Write:
+    pwd
+2014-05-16 00:32:08, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-16 00:32:08, SFTP Write:
+    lpwd
+2014-05-16 00:32:08, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist
+    sftp> 
+2014-05-16 00:32:08, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-16 00:32:08, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-16 00:32:08, SFTP Write:
+    put "model.js"
+2014-05-16 00:32:09, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:32:09, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-16 00:32:09, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:34:03, SFTP Write:
+    put "model.js"
+2014-05-16 00:34:03, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:34:03, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-16 00:34:03, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:35:18, SFTP Write:
+    put "model.js"
+2014-05-16 00:35:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:35:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-16 00:35:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:37:16, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-16 00:37:16, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-16 00:37:16, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-16 00:37:17, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-16 00:37:17, SFTP Write:
+    put "app.js"
+2014-05-16 00:37:17, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-16 00:37:17, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-16 00:37:17, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-16 00:42:05, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-16 00:42:05, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-16 00:42:05, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-16 00:42:05, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-16 00:42:05, SFTP Write:
+    put "model.js"
+2014-05-16 00:42:06, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:42:06, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-16 00:42:06, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:54:43, SFTP Write:
+    put "model.js"
+2014-05-16 00:54:43, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:54:43, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-16 00:54:43, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-16 00:55:18, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-16 00:55:18, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-16 00:55:18, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-16 00:55:18, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-16 00:55:18, SFTP Write:
+    put "index.jade"
+2014-05-16 00:55:18, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-16 00:55:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-16 00:55:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-16 06:54:27, SFTP Write:
+    put "layout.jade"
+2014-05-16 06:54:27, SFTP Read:
+    Write failed: Broken pipe
+    put "layout.jade"
+    Uploading layout.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    Couldn't send packet: Broken pipe
+    
+2014-05-16 06:54:28, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-16 06:54:28, SFTP Write:
+    progress off
+2014-05-16 06:54:28, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-16 06:54:28, SFTP Write:
+    pwd
+2014-05-16 06:54:28, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-16 06:54:28, SFTP Write:
+    lpwd
+2014-05-16 06:54:28, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist/views
+    sftp> 
+2014-05-16 06:54:28, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-16 06:54:29, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-16 06:54:29, SFTP Write:
+    put "layout.jade"
+2014-05-16 06:54:29, SFTP Read:
+    put "layout.jade"
+    Uploading layout.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-05-16 06:54:29, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/layout.jade"
+2014-05-16 06:54:29, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/layout.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-05-16 08:03:20, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+2014-05-16 08:03:20, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+    sftp> 
+2014-05-16 08:03:20, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-16 08:03:40, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-16 08:03:41, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-16 08:03:41, SFTP Write:
+    progress off
+2014-05-16 08:03:41, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-16 08:03:41, SFTP Write:
+    pwd
+2014-05-16 08:03:41, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-16 08:03:41, SFTP Write:
+    lpwd
+2014-05-16 08:03:41, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist/views
+    sftp> 
+2014-05-16 08:03:41, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+2014-05-16 08:03:41, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/public/javascripts/"
+    sftp> 
+2014-05-16 08:03:41, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-16 08:03:41, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-16 08:03:41, SFTP Write:
+    put "dangle.min.js"
+2014-05-16 08:03:42, SFTP Read:
+    put "dangle.min.js"
+    Uploading dangle.min.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/dangle.min.js
+    sftp> 
+2014-05-16 08:03:42, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/dangle.min.js"
+2014-05-16 08:03:42, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/dangle.min.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/dangle.min.js
+    sftp> 
+2014-05-16 08:03:42, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-16 08:03:42, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-16 08:03:42, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-16 08:03:42, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-16 08:03:42, SFTP Write:
+    put "layout.jade"
+2014-05-16 08:03:42, SFTP Read:
+    put "layout.jade"
+    Uploading layout.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-05-16 08:03:42, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/layout.jade"
+2014-05-16 08:03:42, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/layout.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-05-16 08:04:05, SFTP Write:
+    put "layout.jade"
+2014-05-16 08:04:05, SFTP Read:
+    put "layout.jade"
+    Uploading layout.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 
+2014-05-16 08:04:05, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/layout.jade"
+2014-05-16 08:04:05, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/layout.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/layout.jade
+    sftp> 

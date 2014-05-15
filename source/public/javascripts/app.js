@@ -13,7 +13,8 @@ app.controller('MainCtrl', function($scope,$http){
   $scope.selectedU = '';
   $scope.theme = '';
   $scope.todayWeight = 65.0;
-  $scope.hopeWeight = 65.0;
+  $scope.hopeWeight = 65.0,
+  userid = '';
 
   $scope.goLogin = function(){
     $scope.mode = 'start';
@@ -28,6 +29,17 @@ app.controller('MainCtrl', function($scope,$http){
       console.log(data[0]);
       $scope.userName = data[0].name;
       $scope.hopeWeight = data[0].hope;
+      userid = data[0].id;
+      if (userid){
+        $http({method: 'GET',url: '/getweight'})
+          .success(function(data){
+            console.log(data);
+            if(data[0].weight){
+              $scope.todayWeight = data[0].weight;
+              $scope.mode = 'myhome';
+            }
+          });
+      }
     });
 
   $scope.changeStartInput = function (flag) {
@@ -55,7 +67,13 @@ app.controller('MainCtrl', function($scope,$http){
   }
 
   $scope.postWeight = function(){
-    $scope.inputed = true;
+    $http.post('/setweight',{
+      weight: $scope.todayWeight
+    }).success(function(data){
+      console.log(data);
+      $scope.result = data.result;
+      $scope.inputed = true;
+    });
   }
 
   $scope.goSetting = function(){
