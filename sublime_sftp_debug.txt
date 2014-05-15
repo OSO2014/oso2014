@@ -10230,3 +10230,3704 @@
     chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
     Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
     sftp> 
+2014-05-13 06:24:04, SFTP Write:
+    put "app.js"
+2014-05-13 06:24:04, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 06:24:04, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 06:24:04, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 06:27:17, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-13 06:27:17, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-13 06:27:17, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-13 06:27:17, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-13 06:27:17, SFTP Write:
+    put "login.jade"
+2014-05-13 06:27:17, SFTP Read:
+    put "login.jade"
+    Uploading login.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/login.jade
+    sftp> 
+2014-05-13 06:27:17, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/login.jade"
+2014-05-13 06:27:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/login.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/login.jade
+    sftp> 
+2014-05-13 06:28:09, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-13 06:28:09, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-13 06:28:09, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-13 06:28:09, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-13 06:28:09, SFTP Write:
+    put "app.js"
+2014-05-13 06:28:10, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 06:28:10, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 06:28:10, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 06:28:36, SFTP Write:
+    put "app.js"
+2014-05-13 06:28:36, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 06:28:36, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 06:28:36, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:43:26, SFTP Write:
+    put "app.js"
+2014-05-13 08:43:46, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-13 08:43:47, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-13 08:43:47, SFTP Write:
+    progress off
+2014-05-13 08:43:47, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-13 08:43:47, SFTP Write:
+    pwd
+2014-05-13 08:43:47, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-13 08:43:47, SFTP Write:
+    lpwd
+2014-05-13 08:43:47, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts
+    sftp> 
+2014-05-13 08:43:47, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-13 08:43:47, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-13 08:43:47, SFTP Write:
+    put "app.js"
+2014-05-13 08:43:47, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:43:47, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 08:43:47, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:43:48, SFTP Write:
+    put "app.js"
+2014-05-13 08:43:48, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:43:48, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 08:43:48, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:46:34, SFTP Write:
+    put "app.js"
+2014-05-13 08:46:34, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:46:34, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 08:46:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:46:34, SFTP Write:
+    put "app.js"
+2014-05-13 08:46:35, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 08:46:35, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 08:46:35, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 11:06:50, SFTP Write:
+    put "app.js"
+2014-05-13 11:07:11, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-13 11:07:13, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    progress off
+2014-05-13 11:07:13, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    pwd
+2014-05-13 11:07:13, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    lpwd
+2014-05-13 11:07:13, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-13 11:07:13, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    put "app.js"
+2014-05-13 11:07:13, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 11:07:13, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    put "app.js"
+2014-05-13 11:07:13, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 11:07:13, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 11:07:13, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 12:46:11, SFTP Write:
+    put "app.js"
+2014-05-13 12:46:11, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-13 12:46:12, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    progress off
+2014-05-13 12:46:12, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    pwd
+2014-05-13 12:46:12, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    lpwd
+2014-05-13 12:46:12, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-13 12:46:12, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    put "app.js"
+2014-05-13 12:46:12, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 12:46:12, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    put "app.js"
+2014-05-13 12:46:12, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-13 12:46:12, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-13 12:46:12, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 11:49:46, SFTP Write:
+    put "app.js"
+2014-05-14 11:49:46, SFTP Read:
+    Write failed: Broken pipe
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    Couldn't send packet: Broken pipe
+    
+2014-05-14 11:49:47, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    progress off
+2014-05-14 11:49:47, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    pwd
+2014-05-14 11:49:47, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    lpwd
+2014-05-14 11:49:47, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/source/public/javascripts
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 11:49:47, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 11:49:47, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    put "app.js"
+2014-05-14 11:49:47, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 11:49:47, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 11:49:47, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 11:57:39, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+2014-05-14 11:57:39, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+    sftp> 
+2014-05-14 11:57:39, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/routes/"
+2014-05-14 11:57:39, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/routes/"
+    sftp> 
+2014-05-14 11:57:39, SFTP Write:
+    put "index.js"
+2014-05-14 11:57:40, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 11:57:40, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+2014-05-14 11:57:40, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 11:58:52, SFTP Write:
+    put "index.js"
+2014-05-14 11:58:52, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 11:58:52, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+2014-05-14 11:58:52, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:18:36, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 12:18:36, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 12:18:36, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 12:18:36, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 12:18:36, SFTP Write:
+    put "model.js"
+2014-05-14 12:18:36, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:18:36, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:18:36, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:21:20, SFTP Write:
+    put "model.js"
+2014-05-14 12:21:20, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:21:20, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:21:20, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:21:25, SFTP Write:
+    put "model.js"
+2014-05-14 12:21:25, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:21:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:21:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:21:59, SFTP Write:
+    put "app.js"
+2014-05-14 12:21:59, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:21:59, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 12:21:59, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:22:08, SFTP Write:
+    put "app.js"
+2014-05-14 12:22:08, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:22:08, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 12:22:08, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:23:29, SFTP Write:
+    put "app.js"
+2014-05-14 12:23:29, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:23:29, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 12:23:29, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:23:37, SFTP Write:
+    put "app.js"
+2014-05-14 12:23:38, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:23:38, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 12:23:38, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 12:24:39, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 12:24:39, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 12:24:39, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 12:24:39, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 12:24:39, SFTP Write:
+    put "app.js"
+2014-05-14 12:24:39, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:24:39, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:24:39, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:26:06, SFTP Write:
+    put "app.js"
+2014-05-14 12:26:07, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:26:07, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:26:07, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:27:07, SFTP Write:
+    put "app.js"
+2014-05-14 12:27:07, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:27:07, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:27:07, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:27:33, SFTP Write:
+    put "app.js"
+2014-05-14 12:27:33, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:27:33, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:27:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:33:10, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 12:33:10, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 12:33:10, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 12:33:10, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 12:33:10, SFTP Write:
+    put "index.jade"
+2014-05-14 12:33:10, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 12:33:10, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 12:33:10, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 12:33:14, SFTP Write:
+    put "index.jade"
+2014-05-14 12:33:14, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 12:33:14, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 12:33:14, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 12:33:29, SFTP Write:
+    put "index.jade"
+2014-05-14 12:33:29, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 12:33:29, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 12:33:29, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 12:34:49, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 12:34:49, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 12:34:49, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 12:34:49, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 12:34:49, SFTP Write:
+    put "app.js"
+2014-05-14 12:34:49, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:34:49, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:34:49, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:37:21, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 12:37:21, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 12:37:21, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 12:37:21, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 12:37:21, SFTP Write:
+    put "model.js"
+2014-05-14 12:37:21, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:37:21, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:37:21, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:38:49, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 12:38:49, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 12:38:49, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 12:38:49, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 12:38:49, SFTP Write:
+    put "app.js"
+2014-05-14 12:38:49, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:38:49, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:38:49, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:39:54, SFTP Write:
+    put "app.js"
+2014-05-14 12:39:54, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:39:54, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:39:54, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:42:09, SFTP Write:
+    put "app.js"
+2014-05-14 12:42:09, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:42:09, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:42:09, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:42:17, SFTP Write:
+    put "app.js"
+2014-05-14 12:42:17, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:42:17, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:42:17, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:42:23, SFTP Write:
+    put "app.js"
+2014-05-14 12:42:23, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:42:23, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:42:23, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:46:54, SFTP Write:
+    put "app.js"
+2014-05-14 12:46:54, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:46:54, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:46:54, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:47:59, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 12:47:59, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 12:47:59, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 12:47:59, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 12:47:59, SFTP Write:
+    put "model.js"
+2014-05-14 12:47:59, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:47:59, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:47:59, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:49:26, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+2014-05-14 12:49:26, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/routes/"
+    sftp> 
+2014-05-14 12:49:26, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/routes/"
+2014-05-14 12:49:26, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/routes/"
+    sftp> 
+2014-05-14 12:49:26, SFTP Write:
+    put "index.js"
+2014-05-14 12:49:27, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:49:27, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+2014-05-14 12:49:27, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:49:33, SFTP Write:
+    put "index.js"
+2014-05-14 12:49:33, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:49:33, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+2014-05-14 12:49:33, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:50:12, SFTP Write:
+    put "index.js"
+2014-05-14 12:50:12, SFTP Read:
+    put "index.js"
+    Uploading index.js to /usr/share/web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:50:12, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+2014-05-14 12:50:12, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
+    sftp> 
+2014-05-14 12:50:29, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 12:50:29, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 12:50:29, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 12:50:29, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 12:50:29, SFTP Write:
+    put "model.js"
+2014-05-14 12:50:29, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:50:29, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:50:29, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:52:58, SFTP Write:
+    put "model.js"
+2014-05-14 12:52:59, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:52:59, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:52:59, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:53:43, SFTP Write:
+    put "model.js"
+2014-05-14 12:53:43, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:53:43, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:53:43, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:54:02, SFTP Write:
+    put "model.js"
+2014-05-14 12:54:02, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:54:02, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:54:02, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:54:07, SFTP Write:
+    put "model.js"
+2014-05-14 12:54:07, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:54:07, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:54:07, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:54:18, SFTP Write:
+    put "model.js"
+2014-05-14 12:54:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:54:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:54:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:56:07, SFTP Write:
+    put "model.js"
+2014-05-14 12:56:07, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:56:07, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:56:07, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:56:11, SFTP Write:
+    put "model.js"
+2014-05-14 12:56:11, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:56:11, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 12:56:11, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 12:58:11, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 12:58:11, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 12:58:11, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 12:58:11, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 12:58:11, SFTP Write:
+    put "app.js"
+2014-05-14 12:58:11, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:58:11, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:58:11, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:59:14, SFTP Write:
+    put "app.js"
+2014-05-14 12:59:14, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 12:59:14, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 12:59:14, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:02:39, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 13:02:39, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 13:02:39, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 13:02:39, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 13:02:39, SFTP Write:
+    put "model.js"
+2014-05-14 13:02:39, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:02:39, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:02:39, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:02:58, SFTP Write:
+    put "model.js"
+2014-05-14 13:02:58, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:02:58, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:02:58, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:07:25, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 13:07:25, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 13:07:25, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 13:07:25, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 13:07:25, SFTP Write:
+    put "index.jade"
+2014-05-14 13:07:25, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:07:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:07:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:08:04, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 13:08:04, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 13:08:04, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 13:08:04, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 13:08:04, SFTP Write:
+    put "app.js"
+2014-05-14 13:08:04, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:08:04, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:08:04, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:08:05, SFTP Write:
+    put "app.js"
+2014-05-14 13:08:05, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:08:05, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:08:05, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:08:15, SFTP Write:
+    put "app.js"
+2014-05-14 13:08:16, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:08:16, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:08:16, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:08:38, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 13:08:38, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 13:08:38, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 13:08:38, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 13:08:38, SFTP Write:
+    put "index.jade"
+2014-05-14 13:08:38, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:08:38, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:08:38, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:09:14, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 13:09:14, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 13:09:14, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 13:09:14, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 13:09:14, SFTP Write:
+    put "model.js"
+2014-05-14 13:09:14, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:09:14, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:09:15, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:09:36, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 13:09:36, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 13:09:36, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 13:09:36, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 13:09:36, SFTP Write:
+    put "app.js"
+2014-05-14 13:09:36, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:09:36, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:09:36, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:09:37, SFTP Write:
+    put "app.js"
+2014-05-14 13:09:37, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:09:37, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:09:37, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:10:50, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 13:10:50, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 13:10:50, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 13:10:51, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 13:10:51, SFTP Write:
+    put "index.jade"
+2014-05-14 13:10:51, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:10:51, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:10:51, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:12:59, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 13:12:59, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 13:12:59, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 13:12:59, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 13:12:59, SFTP Write:
+    put "app.js"
+2014-05-14 13:12:59, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:12:59, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:12:59, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:13:25, SFTP Write:
+    put "app.js"
+2014-05-14 13:13:25, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:13:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:13:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:13:45, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 13:13:45, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 13:13:45, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 13:13:45, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 13:13:45, SFTP Write:
+    put "index.jade"
+2014-05-14 13:13:45, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:13:45, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:13:45, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:14:01, SFTP Write:
+    put "index.jade"
+2014-05-14 13:14:01, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:14:01, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:14:01, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:18:46, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 13:18:46, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 13:18:46, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 13:18:46, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 13:18:46, SFTP Write:
+    put "app.js"
+2014-05-14 13:18:46, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:18:46, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:18:46, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:19:14, SFTP Write:
+    put "app.js"
+2014-05-14 13:19:14, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:19:14, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:19:14, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:24:25, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 13:24:25, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 13:24:25, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 13:24:25, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 13:24:25, SFTP Write:
+    put "index.jade"
+2014-05-14 13:24:25, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:24:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:24:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:25:30, SFTP Write:
+    put "index.jade"
+2014-05-14 13:25:30, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:25:30, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:25:30, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:25:31, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 13:25:31, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 13:25:31, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 13:25:31, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 13:25:31, SFTP Write:
+    put "app.js"
+2014-05-14 13:25:31, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:25:31, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:25:31, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:26:02, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-14 13:26:02, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-14 13:26:02, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-14 13:26:02, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-14 13:26:02, SFTP Write:
+    put "index.jade"
+2014-05-14 13:26:02, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:26:02, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:26:02, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:27:03, SFTP Write:
+    put "index.jade"
+2014-05-14 13:27:04, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:27:04, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:27:04, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:30:31, SFTP Write:
+    put "index.jade"
+2014-05-14 13:30:31, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:30:31, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:30:31, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:30:58, SFTP Write:
+    put "index.jade"
+2014-05-14 13:30:58, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:30:58, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-14 13:30:58, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-14 13:51:37, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 13:51:37, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 13:51:37, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 13:51:37, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 13:51:37, SFTP Write:
+    put "model.js"
+2014-05-14 13:51:37, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:51:37, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:51:37, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:51:42, SFTP Write:
+    put "model.js"
+2014-05-14 13:51:42, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:51:42, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:51:42, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:52:44, SFTP Write:
+    put "model.js"
+2014-05-14 13:52:44, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:52:44, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:52:44, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:57:03, SFTP Write:
+    put "model.js"
+2014-05-14 13:57:04, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:57:04, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:57:04, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:58:06, SFTP Write:
+    put "model.js"
+2014-05-14 13:58:06, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:58:06, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 13:58:06, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 13:59:30, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 13:59:30, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 13:59:30, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 13:59:31, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 13:59:31, SFTP Write:
+    put "app.js"
+2014-05-14 13:59:31, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 13:59:31, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 13:59:31, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:01:03, SFTP Write:
+    put "app.js"
+2014-05-14 14:01:03, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:01:03, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 14:01:03, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:02:59, SFTP Write:
+    put "app.js"
+2014-05-14 14:02:59, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:02:59, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 14:02:59, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:03:00, SFTP Write:
+    put "app.js"
+2014-05-14 14:03:00, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:03:00, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 14:03:00, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 14:03:23, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 14:03:23, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 14:03:23, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 14:03:23, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 14:03:23, SFTP Write:
+    put "app.js"
+2014-05-14 14:03:23, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:03:23, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 14:03:23, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:03:33, SFTP Write:
+    put "app.js"
+2014-05-14 14:03:33, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:03:33, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 14:03:33, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:03:41, SFTP Write:
+    put "app.js"
+2014-05-14 14:03:42, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:03:42, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 14:03:42, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:05:30, SFTP Write:
+    put "model.js"
+2014-05-14 14:05:30, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:05:30, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:05:30, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:06:40, SFTP Write:
+    put "app.js"
+2014-05-14 14:06:40, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:06:40, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 14:06:40, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:06:55, SFTP Write:
+    put "app.js"
+2014-05-14 14:06:55, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:06:55, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+2014-05-14 14:06:55, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/app.js
+    sftp> 
+2014-05-14 14:08:13, SFTP Write:
+    put "model.js"
+2014-05-14 14:08:13, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:08:13, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:08:13, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:08:18, SFTP Write:
+    put "model.js"
+2014-05-14 14:08:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:08:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:08:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:08:23, SFTP Write:
+    put "model.js"
+2014-05-14 14:08:23, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:08:23, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:08:23, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:14:17, SFTP Write:
+    put "model.js"
+2014-05-14 14:14:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:14:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:14:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:14:58, SFTP Write:
+    put "model.js"
+2014-05-14 14:14:58, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:14:58, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:14:58, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:16:57, SFTP Write:
+    put "model.js"
+2014-05-14 14:16:57, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:16:57, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:16:57, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:19:24, SFTP Write:
+    put "model.js"
+2014-05-14 14:19:24, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:19:24, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:19:24, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:19:34, SFTP Write:
+    put "model.js"
+2014-05-14 14:19:34, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:19:34, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:19:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:20:22, SFTP Write:
+    put "model.js"
+2014-05-14 14:20:22, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:20:22, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:20:22, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:24:02, SFTP Write:
+    put "model.js"
+2014-05-14 14:24:03, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:24:03, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:24:03, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:28:44, SFTP Write:
+    put "model.js"
+2014-05-14 14:28:44, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:28:44, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:28:44, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:29:29, SFTP Write:
+    put "model.js"
+2014-05-14 14:29:29, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:29:29, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:29:29, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:18, SFTP Write:
+    put "model.js"
+2014-05-14 14:30:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:30:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:28, SFTP Write:
+    put "model.js"
+2014-05-14 14:30:28, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:28, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:30:28, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:33, SFTP Write:
+    put "model.js"
+2014-05-14 14:30:33, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:33, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:30:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:36, SFTP Write:
+    put "model.js"
+2014-05-14 14:30:37, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 14:30:37, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 14:30:37, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 15:44:24, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 15:44:25, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 15:44:25, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-14 15:44:25, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    progress off
+2014-05-14 15:44:25, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    pwd
+2014-05-14 15:44:25, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    lpwd
+2014-05-14 15:44:25, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/source/public/javascripts
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-14 15:44:25, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-14 15:44:25, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    put "app.js"
+2014-05-14 15:44:25, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 15:44:25, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 15:44:25, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 16:03:40, SFTP Write:
+    put "app.js"
+2014-05-14 16:03:40, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 16:03:40, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-14 16:03:40, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-14 16:06:18, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+2014-05-14 16:06:18, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/"
+    sftp> 
+2014-05-14 16:06:18, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+2014-05-14 16:06:18, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/"
+    sftp> 
+2014-05-14 16:06:18, SFTP Write:
+    put "model.js"
+2014-05-14 16:06:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:06:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:06:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:10:49, SFTP Write:
+    put "model.js"
+2014-05-14 16:10:49, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:10:49, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:10:49, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:11:21, SFTP Write:
+    put "model.js"
+2014-05-14 16:11:21, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:11:21, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:11:21, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:13:32, SFTP Write:
+    put "model.js"
+2014-05-14 16:13:32, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:13:32, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:13:32, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:18:31, SFTP Write:
+    put "model.js"
+2014-05-14 16:18:31, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:18:31, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:18:31, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:20:26, SFTP Write:
+    put "model.js"
+2014-05-14 16:20:26, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:20:26, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:20:26, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:21:36, SFTP Write:
+    put "model.js"
+2014-05-14 16:21:36, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:21:36, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:21:36, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:24:56, SFTP Write:
+    put "model.js"
+2014-05-14 16:24:56, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:24:56, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:24:56, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:25:06, SFTP Write:
+    put "model.js"
+2014-05-14 16:25:06, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:25:06, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:25:06, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:27:05, SFTP Write:
+    put "model.js"
+2014-05-14 16:27:05, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:27:05, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:27:05, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:29:18, SFTP Write:
+    put "model.js"
+2014-05-14 16:29:18, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:29:18, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:29:18, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:30:00, SFTP Write:
+    put "model.js"
+2014-05-14 16:30:00, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:30:00, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:30:00, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:31:20, SFTP Write:
+    put "model.js"
+2014-05-14 16:31:20, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:31:20, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:31:20, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:31:27, SFTP Write:
+    put "model.js"
+2014-05-14 16:31:27, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:31:27, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:31:27, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:46:39, SFTP Write:
+    put "model.js"
+2014-05-14 16:46:39, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:46:39, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:46:39, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:50:42, SFTP Write:
+    put "model.js"
+2014-05-14 16:50:42, SFTP Read:
+    put "model.js"
+    Uploading model.js to /usr/share/web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 16:50:42, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+2014-05-14 16:50:42, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/model.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/model.js
+    sftp> 
+2014-05-14 17:22:49, SFTP Read:
+    Connected to bi-s4.sqz.jp.
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    progress off
+2014-05-14 17:22:50, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    pwd
+2014-05-14 17:22:50, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    lpwd
+2014-05-14 17:22:50, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 17:22:50, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    lcd "/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/sublime-sftp-offset-1400055770/"
+2014-05-14 17:22:50, SFTP Read:
+    lcd "/var/folders/ly/m38gf47d17j4387l98kd8gt80000gn/T/sublime-sftp-offset-1400055770/"
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    put "__sublime_sftp_offset"
+2014-05-14 17:22:50, SFTP Read:
+    put "__sublime_sftp_offset"
+    Uploading __sublime_sftp_offset to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/__sublime_sftp_offset
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    ls -la
+2014-05-14 17:22:50, SFTP Read:
+    ls -la
+    drwxr-xr-x    5 mae      squeeze      4096 May 14 17:22 .
+    drwxr-xr-x    8 mae      squeeze      4096 May  7 13:13 ..
+    -rwxr-xr-x    1 mae      squeeze     24190 Jan  7 12:59 .htaccess
+    drwxr-xr-x    2 mae      squeeze      4096 Jan  7 12:59 .sass-cache
+    -rw-r--r--    1 mae      squeeze      1029 Feb 25 13:22 1.High Resolution Time API
+    -rw-r--r--    1 mae      squeeze        40 May 14 17:22 __sublime_sftp_offset
+    drwxr-xr-x    5 mae      squeeze      4096 Jan  7 12:59 asset
+    -rw-r--r--    1 mae      squeeze     13489 Feb 14 17:10 contact.html
+    -rw-r--r--    1 mae      squeeze     13610 May  7 16:34 contents.html
+    -rw-r--r--    1 mae      squeeze     12334 Feb 14 17:10 contents2.html
+    -rwxr-xr-x    1 mae      squeeze     11967 May  7 13:18 index.html
+    -rw-r--r--    1 mae      squeeze     17145 Feb 14 18:06 link.html
+    -rw-r--r--    1 mae      squeeze     10230 Mar 25 17:24 mobile.html
+    -rw-r--r--    1 mae      squeeze     13417 Mar 25 17:20 notes.html
+    -rw-r--r--    1 mae      squeeze     17982 Feb 14 17:10 privacy.html
+    -rw-r--r--    1 mae      squeeze     12724 Mar 25 17:21 quolification.html
+    -rwxr-xr-x    1 mae      squeeze        32 Jan  7 12:59 robots.txt
+    -rw-r--r--    1 mae      squeeze     13007 Mar 25 17:21 service.html
+    -rw-r--r--    1 mae      squeeze     13115 Mar 25 17:22 service_cd_ogk.html
+    -rw-r--r--    1 mae      squeeze     21338 Mar 25 17:22 service_game_ps2.html
+    -rw-r--r--    1 mae      squeeze     20969 Feb 14 17:52 slot.html
+    -rw-r--r--    1 mae      squeeze     11120 Mar 25 17:23 slotplus.html
+    -rw-r--r--    1 mae      squeeze     11892 Mar 25 15:45 soud-dist-detail.html
+    -rw-r--r--    1 mae      squeeze     18175 Mar 25 15:09 sound-dist.html
+    drwxr-xr-x    8 mae      squeeze      4096 Jan  7 12:59 source
+    -rw-r--r--    1 mae      squeeze     25403 Mar 25 17:23 tofan.html
+    -rw-r--r--    1 mae      squeeze      1264 Mar 27 11:57 url.html
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    rm "__sublime_sftp_offset"
+2014-05-14 17:22:50, SFTP Read:
+    rm "__sublime_sftp_offset"
+    Removing /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/__sublime_sftp_offset
+    sftp> 
+2014-05-14 17:22:50, SFTP Remote time offset: 50
+2014-05-14 17:22:50, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 17:22:50, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    ls -la
+2014-05-14 17:22:50, SFTP Read:
+    ls -la
+    drwxr-xr-x    5 mae      squeeze      4096 May 14 17:22 .
+    drwxr-xr-x    8 mae      squeeze      4096 May  7 13:13 ..
+    -rwxr-xr-x    1 mae      squeeze     24190 Jan  7 12:59 .htaccess
+    drwxr-xr-x    2 mae      squeeze      4096 Jan  7 12:59 .sass-cache
+    -rw-r--r--    1 mae      squeeze      1029 Feb 25 13:22 1.High Resolution Time API
+    drwxr-xr-x    5 mae      squeeze      4096 Jan  7 12:59 asset
+    -rw-r--r--    1 mae      squeeze     13489 Feb 14 17:10 contact.html
+    -rw-r--r--    1 mae      squeeze     13610 May  7 16:34 contents.html
+    -rw-r--r--    1 mae      squeeze     12334 Feb 14 17:10 contents2.html
+    -rwxr-xr-x    1 mae      squeeze     11967 May  7 13:18 index.html
+    -rw-r--r--    1 mae      squeeze     17145 Feb 14 18:06 link.html
+    -rw-r--r--    1 mae      squeeze     10230 Mar 25 17:24 mobile.html
+    -rw-r--r--    1 mae      squeeze     13417 Mar 25 17:20 notes.html
+    -rw-r--r--    1 mae      squeeze     17982 Feb 14 17:10 privacy.html
+    -rw-r--r--    1 mae      squeeze     12724 Mar 25 17:21 quolification.html
+    -rwxr-xr-x    1 mae      squeeze        32 Jan  7 12:59 robots.txt
+    -rw-r--r--    1 mae      squeeze     13007 Mar 25 17:21 service.html
+    -rw-r--r--    1 mae      squeeze     13115 Mar 25 17:22 service_cd_ogk.html
+    -rw-r--r--    1 mae      squeeze     21338 Mar 25 17:22 service_game_ps2.html
+    -rw-r--r--    1 mae      squeeze     20969 Feb 14 17:52 slot.html
+    -rw-r--r--    1 mae      squeeze     11120 Mar 25 17:23 slotplus.html
+    -rw-r--r--    1 mae      squeeze     11892 Mar 25 15:45 soud-dist-detail.html
+    -rw-r--r--    1 mae      squeeze     18175 Mar 25 15:09 sound-dist.html
+    drwxr-xr-x    8 mae      squeeze      4096 Jan  7 12:59 source
+    -rw-r--r--    1 mae      squeeze     25403 Mar 25 17:23 tofan.html
+    -rw-r--r--    1 mae      squeeze      1264 Mar 27 11:57 url.html
+    sftp> 
+2014-05-14 17:22:50, SFTP Write:
+    put "about.html"
+2014-05-14 17:22:51, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:33:48, SFTP Write:
+    put "about.html"
+2014-05-14 17:33:48, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:34:42, SFTP Write:
+    put "about.html"
+2014-05-14 17:34:42, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:35:21, SFTP Write:
+    put "about.html"
+2014-05-14 17:35:21, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:36:10, SFTP Write:
+    put "about.html"
+2014-05-14 17:36:11, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:37:11, SFTP Write:
+    put "about.html"
+2014-05-14 17:37:11, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:38:20, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/img/"
+2014-05-14 17:38:20, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/img/"
+    sftp> 
+2014-05-14 17:38:20, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/"
+2014-05-14 17:38:20, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/"
+    sftp> 
+2014-05-14 17:38:20, SFTP Write:
+    put "contents-title-image-about-about.jpg"
+2014-05-14 17:38:20, SFTP Read:
+    put "contents-title-image-about-about.jpg"
+    Uploading contents-title-image-about-about.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-title-image-about-about.jpg
+    sftp> 
+2014-05-14 17:48:36, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+2014-05-14 17:48:36, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+    sftp> 
+2014-05-14 17:48:36, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+2014-05-14 17:48:36, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+    sftp> 
+2014-05-14 17:48:36, SFTP Write:
+    put "style.css"
+2014-05-14 17:48:36, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 17:48:37, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 17:48:37, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 17:48:37, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 17:48:37, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 17:48:37, SFTP Write:
+    put "about.html"
+2014-05-14 17:48:37, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 17:48:37, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+2014-05-14 17:48:37, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+    sftp> 
+2014-05-14 17:48:37, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+2014-05-14 17:48:37, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+    sftp> 
+2014-05-14 17:48:37, SFTP Write:
+    put "style.min.css"
+2014-05-14 17:48:37, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 19:03:16, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 19:03:16, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 19:03:16, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 19:03:16, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    Write failed: Broken pipe
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-14 19:03:17, SFTP Read:
+    Connected to bi-s4.sqz.jp.
+    sftp> 
+2014-05-14 19:03:17, SFTP Write:
+    progress off
+2014-05-14 19:03:17, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-14 19:03:17, SFTP Write:
+    pwd
+2014-05-14 19:03:17, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-14 19:03:17, SFTP Write:
+    lpwd
+2014-05-14 19:03:17, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist
+    sftp> 
+2014-05-14 19:03:17, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 19:03:17, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 19:03:17, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 19:03:17, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 19:03:17, SFTP Write:
+    put "about.html"
+2014-05-14 19:03:17, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:03:35, SFTP Write:
+    put "about.html"
+2014-05-14 19:03:35, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:04:04, SFTP Write:
+    put "about.html"
+2014-05-14 19:04:04, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:11:48, SFTP Write:
+    put "about.html"
+2014-05-14 19:11:49, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:28:14, SFTP Write:
+    put "about.html"
+2014-05-14 19:28:14, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:28:43, SFTP Write:
+    put "about.html"
+2014-05-14 19:28:43, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:28:53, SFTP Write:
+    put "about.html"
+2014-05-14 19:28:53, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:29:08, SFTP Write:
+    put "about.html"
+2014-05-14 19:29:08, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:30:02, SFTP Write:
+    put "about.html"
+2014-05-14 19:30:02, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:31:07, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+2014-05-14 19:31:07, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+    sftp> 
+2014-05-14 19:31:07, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+2014-05-14 19:31:07, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+    sftp> 
+2014-05-14 19:31:07, SFTP Write:
+    put "style.css"
+2014-05-14 19:31:07, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 19:31:08, SFTP Write:
+    put "style.min.css"
+2014-05-14 19:31:08, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 19:31:55, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 19:31:55, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 19:31:55, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 19:31:56, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 19:31:56, SFTP Write:
+    put "about.html"
+2014-05-14 19:31:56, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:38:35, SFTP Write:
+    put "about.html"
+2014-05-14 19:38:35, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:38:55, SFTP Write:
+    put "about.html"
+2014-05-14 19:38:56, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:39:29, SFTP Write:
+    put "about.html"
+2014-05-14 19:39:29, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:47:46, SFTP Write:
+    put "about.html"
+2014-05-14 19:47:46, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:48:04, SFTP Write:
+    put "about.html"
+2014-05-14 19:48:04, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:48:16, SFTP Write:
+    put "about.html"
+2014-05-14 19:48:16, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:48:32, SFTP Write:
+    put "about.html"
+2014-05-14 19:48:33, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:48:51, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+2014-05-14 19:48:51, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+    sftp> 
+2014-05-14 19:48:51, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+2014-05-14 19:48:51, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+    sftp> 
+2014-05-14 19:48:51, SFTP Write:
+    put "style.css"
+2014-05-14 19:48:52, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 19:48:52, SFTP Write:
+    put "style.min.css"
+2014-05-14 19:48:52, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 19:49:56, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 19:49:56, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 19:49:56, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 19:49:56, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 19:49:56, SFTP Write:
+    put "about.html"
+2014-05-14 19:49:56, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:52:16, SFTP Write:
+    put "about.html"
+2014-05-14 19:52:17, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:55:05, SFTP Write:
+    put "about.html"
+2014-05-14 19:55:05, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 19:59:43, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+2014-05-14 19:59:43, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+    sftp> 
+2014-05-14 19:59:43, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+2014-05-14 19:59:43, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+    sftp> 
+2014-05-14 19:59:43, SFTP Write:
+    put "style.css"
+2014-05-14 19:59:43, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 19:59:44, SFTP Write:
+    put "style.min.css"
+2014-05-14 19:59:44, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 20:00:07, SFTP Write:
+    put "style.css"
+2014-05-14 20:00:07, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 20:00:08, SFTP Write:
+    put "style.min.css"
+2014-05-14 20:00:08, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 20:00:25, SFTP Write:
+    put "style.css"
+2014-05-14 20:00:25, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 20:00:26, SFTP Write:
+    put "style.min.css"
+2014-05-14 20:00:26, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 20:01:15, SFTP Write:
+    put "style.css"
+2014-05-14 20:01:16, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 20:01:16, SFTP Write:
+    put "style.min.css"
+2014-05-14 20:01:17, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 20:05:25, SFTP Write:
+    put "style.css"
+2014-05-14 20:05:25, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 20:05:26, SFTP Write:
+    put "style.min.css"
+2014-05-14 20:05:26, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 20:05:50, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 20:05:50, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 20:05:50, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 20:05:50, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 20:05:50, SFTP Write:
+    put "about.html"
+2014-05-14 20:05:51, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:06:10, SFTP Write:
+    put "about.html"
+2014-05-14 20:06:10, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:06:44, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+2014-05-14 20:06:44, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/css/"
+    sftp> 
+2014-05-14 20:06:44, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+2014-05-14 20:06:44, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/"
+    sftp> 
+2014-05-14 20:06:44, SFTP Write:
+    put "style.css"
+2014-05-14 20:06:44, SFTP Read:
+    put "style.css"
+    Uploading style.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.css
+    sftp> 
+2014-05-14 20:06:45, SFTP Write:
+    put "style.min.css"
+2014-05-14 20:06:45, SFTP Read:
+    put "style.min.css"
+    Uploading style.min.css to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/css/style.min.css
+    sftp> 
+2014-05-14 20:06:48, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+2014-05-14 20:06:48, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/"
+    sftp> 
+2014-05-14 20:06:48, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+2014-05-14 20:06:48, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/"
+    sftp> 
+2014-05-14 20:06:48, SFTP Write:
+    put "about.html"
+2014-05-14 20:06:48, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:07:20, SFTP Write:
+    put "about.html"
+2014-05-14 20:07:21, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:07:33, SFTP Write:
+    put "about.html"
+2014-05-14 20:07:33, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:07:37, SFTP Write:
+    put "about.html"
+2014-05-14 20:07:38, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:08:07, SFTP Write:
+    put "about.html"
+2014-05-14 20:08:08, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:08:09, SFTP Write:
+    put "about.html"
+2014-05-14 20:08:10, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:08:25, SFTP Write:
+    put "about.html"
+2014-05-14 20:08:25, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:08:38, SFTP Write:
+    put "about.html"
+2014-05-14 20:08:38, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:08:58, SFTP Write:
+    put "about.html"
+2014-05-14 20:08:59, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:09:53, SFTP Write:
+    put "about.html"
+2014-05-14 20:09:53, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:10:04, SFTP Write:
+    put "about.html"
+2014-05-14 20:10:04, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:10:20, SFTP Write:
+    put "about.html"
+2014-05-14 20:10:20, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:10:26, SFTP Write:
+    put "about.html"
+2014-05-14 20:10:27, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:10:53, SFTP Write:
+    put "about.html"
+2014-05-14 20:10:53, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:11:28, SFTP Write:
+    put "about.html"
+2014-05-14 20:11:28, SFTP Read:
+    put "about.html"
+    Uploading about.html to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/about.html
+    sftp> 
+2014-05-14 20:14:57, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/"
+2014-05-14 20:14:57, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/"
+    sftp> 
+2014-05-14 20:14:57, SFTP Write:
+    ls -la
+2014-05-14 20:14:57, SFTP Read:
+    ls -la
+    drwxr-xr-x    4 mae      squeeze     12288 Mar 25 18:12 .
+    drwxr-xr-x    5 mae      squeeze      4096 Jan  7 12:59 ..
+    -rw-r--r--    1 mae      squeeze      1749 Jan 21 18:31 cont-title-about_about.png
+    -rw-r--r--    1 mae      squeeze      1745 Mar 25 18:12 cont-title-about_about_yamasa.png
+    -rw-r--r--    1 mae      squeeze      1652 Mar 25 18:12 cont-title-about_site-contact.png
+    -rw-r--r--    1 mae      squeeze      1521 Mar 25 18:12 cont-title-about_site-link.png
+    -rw-r--r--    1 mae      squeeze      1506 Mar 25 18:12 cont-title-about_site-note.png
+    -rw-r--r--    1 mae      squeeze      1740 Mar 25 18:12 cont-title-about_site-privacy.png
+    -rw-r--r--    1 mae      squeeze      1505 Mar 25 18:12 cont-title-about_site-qualify.png
+    -rw-r--r--    1 mae      squeeze      1587 Mar 25 18:12 cont-title-product_slot.png
+    -rw-r--r--    1 mae      squeeze      1598 Mar 25 18:12 cont-title-service_fan_fgame.png
+    -rw-r--r--    1 mae      squeeze      1754 Mar 25 18:12 cont-title-service_fan_wallp.png
+    -rw-r--r--    1 mae      squeeze      1484 Mar 25 18:12 cont-title-service_forfan.png
+    -rw-r--r--    1 mae      squeeze      1660 Mar 25 18:12 cont-title-service_game_ps2.png
+    -rw-r--r--    1 mae      squeeze      1786 Mar 25 18:12 cont-title-service_games.png
+    -rw-r--r--    1 mae      squeeze      1886 Mar 25 18:12 cont-title-service_sound-dist.png
+    -rw-r--r--    1 mae      squeeze      2294 Mar 25 18:12 cont-title-service_sound-dist_sazan30.png
+    -rw-r--r--    1 mae      squeeze      1769 Mar 25 18:12 cont-title-service_soundtrack.png
+    -rw-r--r--    1 mae      squeeze      3094 Mar 25 18:12 cont-title-service_soundtrack_ogk.png
+    -rw-r--r--    1 mae      squeeze      2116 Mar 25 18:12 cont-title-slotplus.png
+    -rw-r--r--    1 mae      squeeze      3529 Mar 25 18:12 cont-title-toppage_news.png
+    -rw-r--r--    1 mae      squeeze      1492 Mar 25 18:12 cont_service_back_bt.png
+    -rw-r--r--    1 mae      squeeze      1898 Mar 25 18:12 contact_btn_post.png
+    -rw-r--r--    1 mae      squeeze      1052 Mar 25 18:12 contents-label-about-about.png
+    -rw-r--r--    1 mae      squeeze      1106 Mar 25 18:12 contents-label-about-csr.png
+    -rw-r--r--    1 mae      squeeze       874 Mar 25 18:12 contents-label-about-license.png
+    -rw-r--r--    1 mae      squeeze      1068 Mar 25 18:12 contents-label-about-recruit.png
+    -rw-r--r--    1 mae      squeeze       886 Mar 25 18:12 contents-label-about_site-contact.png
+    -rw-r--r--    1 mae      squeeze      2065 Mar 25 18:12 contents-label-about_site-law.png
+    -rw-r--r--    1 mae      squeeze       692 Mar 25 18:12 contents-label-about_site-link.png
+    -rw-r--r--    1 mae      squeeze       719 Mar 25 18:12 contents-label-about_site-notes.png
+    -rw-r--r--    1 mae      squeeze      1101 Mar 25 18:12 contents-label-about_site-privacy.png
+    -rw-r--r--    1 mae      squeeze       833 Mar 25 18:12 contents-label-about_site-qualify.png
+    -rw-r--r--    1 mae      squeeze      1016 Mar 25 18:12 contents-label-product-2009.png
+    -rw-r--r--    1 mae      squeeze      1076 Mar 25 18:12 contents-label-product-2010.png
+    -rw-r--r--    1 mae      squeeze       985 Mar 25 18:12 contents-label-product-2011.png
+    -rw-r--r--    1 mae      squeeze      1063 Mar 25 18:12 contents-label-product-2012.png
+    -rw-r--r--    1 mae      squeeze      1084 Mar 25 18:12 contents-label-product-2013.png
+    -rw-r--r--    1 mae      squeeze       808 Mar 25 18:12 contents-label-product-new.png
+    -rw-r--r--    1 mae      squeeze      1043 Mar 25 18:12 contents-label-service-mobile.png
+    -rw-r--r--    1 mae      squeeze       915 Mar 25 18:12 contents-label-service-other.png
+    -rw-r--r--    1 mae      squeeze       669 Mar 25 18:12 contents-label-service-slotplus.png
+    -rw-r--r--    1 mae      squeeze       710 Mar 25 18:12 contents-label-service-sound.png
+    -rw-r--r--    1 mae      squeeze     67046 May 14 17:38 contents-title-image-about-about.jpg
+    -rw-r--r--    1 mae      squeeze      5154 Mar 25 18:12 exhibit_go_office_btn.png
+    -rw-r--r--    1 mae      squeeze       727 Mar 25 18:12 font-size-bar_tmp.png
+    -rw-r--r--    1 mae      squeeze      1120 Mar 25 18:12 font-size-large-bt.png
+    -rw-r--r--    1 mae      squeeze      1023 Mar 25 18:12 font-size-small-bt.png
+    -rw-r--r--    1 mae      squeeze     19080 Mar 25 18:12 footbanner_01.png
+    -rw-r--r--    1 mae      squeeze     26359 Mar 25 18:12 footbanner_02.png
+    -rw-r--r--    1 mae      squeeze     22880 Mar 25 18:12 footbanner_03.png
+    -rw-r--r--    1 mae      squeeze     27451 Mar 25 18:12 footbanner_04.png
+    -rw-r--r--    1 mae      squeeze       552 Mar 25 18:12 game_adddata_archives_label.png
+    -rw-r--r--    1 mae      squeeze       552 Mar 25 18:12 game_adddata_archives_label_disable.png
+    -rw-r--r--    1 mae      squeeze     29135 Mar 25 18:12 game_adddata_includeproduct_label-02.png
+    -rw-r--r--    1 mae      squeeze       529 Mar 25 18:12 game_adddata_includeproduct_label-03.png
+    -rw-r--r--    1 mae      squeeze       552 Mar 25 18:12 game_adddata_includeproduct_label-04.png
+    -rw-r--r--    1 mae      squeeze     59081 Mar 25 18:12 game_adddata_includeproduct_label-05.png
+    -rw-r--r--    1 mae      squeeze     50520 Mar 25 18:12 game_adddata_includeproduct_label-06.png
+    -rw-r--r--    1 mae      squeeze       529 Mar 25 18:12 game_adddata_includeproduct_label.png
+    -rw-r--r--    1 mae      squeeze       148 Mar 25 18:12 header_bg.png
+    -rw-r--r--    1 mae      squeeze       891 Mar 25 18:12 headnav_item_about.png
+    -rw-r--r--    1 mae      squeeze       866 Mar 25 18:12 headnav_item_contact.png
+    -rw-r--r--    1 mae      squeeze       877 Mar 25 18:12 headnav_item_product.png
+    -rw-r--r--    1 mae      squeeze       729 Mar 25 18:12 headnav_item_service.png
+    -rw-r--r--    1 mae      squeeze      2714 Mar 25 18:12 jasrac_01.png
+    -rw-r--r--    1 mae      squeeze      2707 Mar 25 18:12 jasrac_02.png
+    -rw-r--r--    1 mae      squeeze      2722 Mar 25 18:12 jasrac_03.png
+    -rw-r--r--    1 mae      squeeze    714374 Mar 25 18:12 kanpu.jpg
+    -rw-r--r--    1 mae      squeeze    476497 Mar 25 18:12 kanpu2.jpg
+    -rw-r--r--    1 mae      squeeze    566633 Mar 25 18:12 kanpu3.jpg
+    -rw-r--r--    1 mae      squeeze      1270 Mar 25 18:12 link_text_title_maker.png
+    -rw-r--r--    1 mae      squeeze       744 Mar 25 18:12 link_text_title_useful.png
+    -rw-r--r--    1 mae      squeeze       194 Mar 25 18:12 maru_about.png
+    -rw-r--r--    1 mae      squeeze       194 Mar 25 18:12 maru_about_site.png
+    -rw-r--r--    1 mae      squeeze       194 Mar 25 18:12 maru_product.png
+    -rw-r--r--    1 mae      squeeze       194 Mar 25 18:12 maru_service.png
+    -rw-r--r--    1 mae      squeeze    774017 Mar 25 18:12 mobile_game_image.jpg
+    -rw-r--r--    1 mae      squeeze       972 Mar 25 18:12 notes_text_title_browser.png
+    -rw-r--r--    1 mae      squeeze      2473 Mar 25 18:12 notes_text_title_copyright.png
+    -rw-r--r--    1 mae      squeeze     17145 Mar 25 18:12 other_bt_cd_ogk.jpg
+    -rw-r--r--    1 mae      squeeze     14632 Mar 25 18:12 other_bt_cd_osk.jpg
+    -rw-r--r--    1 mae      squeeze     15156 Mar 25 18:12 other_bt_cd_sgm.jpg
+    -rw-r--r--    1 mae      squeeze     16706 Mar 25 18:12 other_bt_cd_sgmm.jpg
+    -rw-r--r--    1 mae      squeeze     21850 Mar 25 18:12 other_bt_cd_trc.jpg
+    -rw-r--r--    1 mae      squeeze      4962 Mar 25 18:12 other_bt_game_ps.jpg
+    -rw-r--r--    1 mae      squeeze     10948 Mar 25 18:12 other_bt_game_ps2.jpg
+    -rw-r--r--    1 mae      squeeze     93444 Mar 25 18:12 other_bt_game_ps3-02.jpg
+    -rw-r--r--    1 mae      squeeze     11509 Mar 25 18:12 other_bt_game_ps3-03.jpg
+    -rw-r--r--    1 mae      squeeze     15924 Mar 25 18:12 other_bt_game_ps3-04.jpg
+    -rw-r--r--    1 mae      squeeze     10948 Mar 25 18:12 other_bt_game_ps3-05.jpg
+    -rw-r--r--    1 mae      squeeze     20564 Mar 25 18:12 other_bt_game_ps3-06.jpg
+    -rw-r--r--    1 mae      squeeze     10679 Mar 25 18:12 other_bt_game_ps3-07.jpg
+    -rw-r--r--    1 mae      squeeze     20187 Mar 25 18:12 other_bt_game_ps3-08.jpg
+    -rw-r--r--    1 mae      squeeze      9155 Mar 25 18:12 other_bt_game_ps3-09.jpg
+    -rw-r--r--    1 mae      squeeze     10657 Mar 25 18:12 other_bt_game_ps3-10.jpg
+    -rw-r--r--    1 mae      squeeze    123361 Mar 25 18:12 other_bt_game_ps3-11.jpg
+    -rw-r--r--    1 mae      squeeze    126572 Mar 25 18:12 other_bt_game_ps3-12.jpg
+    -rw-r--r--    1 mae      squeeze    117995 Mar 25 18:12 other_bt_game_ps3-13.jpg
+    -rw-r--r--    1 mae      squeeze    119171 Mar 25 18:12 other_bt_game_ps3-14.jpg
+    -rw-r--r--    1 mae      squeeze     11509 Mar 25 18:12 other_bt_game_ps3.jpg
+    -rw-r--r--    1 mae      squeeze      4605 Mar 25 18:12 other_bt_game_psp.jpg
+    -rw-r--r--    1 mae      squeeze    247014 Mar 25 18:12 other_bt_tofan.jpg
+    -rw-r--r--    1 mae      squeeze      1573 Mar 25 18:12 privacy_text_title.png
+    -rw-r--r--    1 mae      squeeze      2646 Mar 25 18:12 privacy_text_title_cookie.png
+    -rw-r--r--    1 mae      squeeze       466 Mar 25 18:12 product_data_icon_android.png
+    -rw-r--r--    1 mae      squeeze       462 Mar 25 18:12 product_data_icon_android_no.png
+    -rw-r--r--    1 mae      squeeze       309 Mar 25 18:12 product_data_icon_app.png
+    -rw-r--r--    1 mae      squeeze       297 Mar 25 18:12 product_data_icon_app_no.png
+    -rw-r--r--    1 mae      squeeze       531 Mar 25 18:12 product_data_icon_info.png
+    -rw-r--r--    1 mae      squeeze       473 Mar 25 18:12 product_data_icon_info_no.png
+    -rw-r--r--    1 mae      squeeze       287 Mar 25 18:12 product_data_icon_itunes.png
+    -rw-r--r--    1 mae      squeeze       287 Mar 25 18:12 product_data_icon_itunes_no.png
+    -rw-r--r--    1 mae      squeeze       578 Mar 25 18:12 product_search_label.png
+    drwxr-xr-x    2 mae      squeeze      4096 Mar 25 18:12 sample
+    -rw-r--r--    1 mae      squeeze       690 Mar 25 18:12 side-title_pickup.png
+    -rw-r--r--    1 mae      squeeze      1749 Mar 25 18:12 sidenav-cont-title-about.png
+    -rw-r--r--    1 mae      squeeze      1671 Mar 25 18:12 sidenav-cont-title-about_site.png
+    -rw-r--r--    1 mae      squeeze      1911 Mar 25 18:12 sidenav-cont-title-product.png
+    -rw-r--r--    1 mae      squeeze      1569 Mar 25 18:12 sidenav-cont-title-service.png
+    -rw-r--r--    1 mae      squeeze      4953 Mar 25 18:12 size-pickup-banner_01.png
+    -rw-r--r--    1 mae      squeeze      4134 Mar 25 18:12 size-pickup-banner_02.png
+    -rw-r--r--    1 mae      squeeze      4861 Mar 25 18:12 size-pickup-banner_03.png
+    -rw-r--r--    1 mae      squeeze     72856 Mar 25 18:12 slotplus_01.png
+    -rw-r--r--    1 mae      squeeze    159098 Mar 25 18:12 slotplus_02.png
+    -rw-r--r--    1 mae      squeeze    241256 Mar 25 18:12 slotplus_03.png
+    -rw-r--r--    1 mae      squeeze     11011 Mar 25 18:12 slotplus_bt_01.png
+    -rw-r--r--    1 mae      squeeze      8514 Mar 25 18:12 slotplus_bt_02.png
+    -rw-r--r--    1 mae      squeeze      8814 Mar 25 18:12 slotplus_bt_03.png
+    -rw-r--r--    1 mae      squeeze      1890 Mar 25 18:12 social-bt-facebook.png
+    -rw-r--r--    1 mae      squeeze      2284 Mar 25 18:12 social-bt-feed.png
+    -rw-r--r--    1 mae      squeeze      2083 Mar 25 18:12 social-bt-twitter.png
+    -rw-r--r--    1 mae      squeeze     36146 Mar 25 18:12 soud-dist-sample.jpg
+    -rw-r--r--    1 mae      squeeze       528 Mar 25 18:12 sound-dist-bt-01.png
+    -rw-r--r--    1 mae      squeeze       309 Mar 25 18:12 sound-dist-bt-02.png
+    -rw-r--r--    1 mae      squeeze       348 Mar 25 18:12 sound-dist-bt-03.png
+    drwxr-xr-x    3 mae      squeeze      4096 Jan  7 12:59 source
+    -rw-r--r--    1 mae      squeeze       403 Mar 25 18:12 tofan_fgame_bt_howto.png
+    -rw-r--r--    1 mae      squeeze       324 Mar 25 18:12 tofan_fgame_bt_start.png
+    -rw-r--r--    1 mae      squeeze       455 Mar 25 18:12 tofan_fgame_bt_tips1.png
+    -rw-r--r--    1 mae      squeeze       479 Mar 25 18:12 tofan_fgame_bt_tips2.png
+    -rw-r--r--    1 mae      squeeze      1654 Mar 25 18:12 tofan_fgame_caution.png
+    -rw-r--r--    1 mae      squeeze      1674 Mar 25 18:12 tofan_fgame_genttl_chosoku.png
+    -rw-r--r--    1 mae      squeeze      1680 Mar 25 18:12 tofan_fgame_genttl_kakuto.png
+    -rw-r--r--    1 mae      squeeze      5799 Mar 25 18:12 tofan_fgame_logo_01.png
+    -rw-r--r--    1 mae      squeeze     44388 Mar 25 18:12 tofan_fgame_screen_01.jpg
+    -rw-r--r--    1 mae      squeeze       467 Mar 25 18:12 top-main-pickup_ttl.png
+    -rw-r--r--    1 mae      squeeze     17205 Mar 25 18:12 top_ban_01.jpg
+    -rw-r--r--    1 mae      squeeze     20669 Mar 25 18:12 top_ban_02.jpg
+    -rw-r--r--    1 mae      squeeze     26753 Mar 25 18:12 top_ban_03.jpg
+    -rw-r--r--    1 mae      squeeze       115 Mar 25 18:12 toppage-news-icon.png
+    -rw-r--r--    1 mae      squeeze    224366 Mar 25 18:12 toppage_main_image.jpg
+    -rw-r--r--    1 mae      squeeze       423 Mar 25 18:12 wallp_new.png
+    -rw-r--r--    1 mae      squeeze     71820 Mar 25 18:12 wallp_sample.jpg
+    -rw-r--r--    1 mae      squeeze       482 Mar 25 18:12 wallp_size_1024x768.png
+    -rw-r--r--    1 mae      squeeze       455 Mar 25 18:12 wallp_size_1260x1024.png
+    -rw-r--r--    1 mae      squeeze       487 Mar 25 18:12 wallp_size_1680x1050.png
+    -rw-r--r--    1 mae      squeeze      5294 Mar 25 18:12 yamasa-logo-site-top.png
+    sftp> 
+2014-05-14 20:14:57, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sample/"
+2014-05-14 20:14:57, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sample/"
+    sftp> 
+2014-05-14 20:14:57, SFTP Write:
+    ls -la
+2014-05-14 20:14:57, SFTP Read:
+    ls -la
+    drwxr-xr-x    2 mae      squeeze      4096 Mar 25 18:12 .
+    drwxr-xr-x    4 mae      squeeze     12288 Mar 25 18:12 ..
+    -rw-r--r--    1 mae      squeeze     41979 Mar 25 18:12 img_810.jpg
+    sftp> 
+2014-05-14 20:14:57, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/source/"
+2014-05-14 20:14:57, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/source/"
+    sftp> 
+2014-05-14 20:14:57, SFTP Write:
+    ls -la
+2014-05-14 20:14:58, SFTP Read:
+    ls -la
+    drwxr-xr-x    3 mae      squeeze      4096 Jan  7 12:59 .
+    drwxr-xr-x    4 mae      squeeze     12288 Mar 25 18:12 ..
+    drwxr-xr-x    2 mae      squeeze      4096 Jan  7 12:59 img
+    sftp> 
+2014-05-14 20:14:58, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/source/img/"
+2014-05-14 20:14:58, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/source/img/"
+    sftp> 
+2014-05-14 20:14:58, SFTP Write:
+    ls -la
+2014-05-14 20:14:58, SFTP Read:
+    ls -la
+    drwxr-xr-x    2 mae      squeeze      4096 Jan  7 12:59 .
+    drwxr-xr-x    3 mae      squeeze      4096 Jan  7 12:59 ..
+    -rw-r--r--    1 mae      squeeze       189 Jan 21 18:31 header_bg.png
+    sftp> 
+2014-05-14 20:15:14, SFTP Write:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/img/"
+2014-05-14 20:15:14, SFTP Read:
+    lcd "/Users/maekawamasayuki/work/yamasa/Mock2/asset/img/"
+    sftp> 
+2014-05-14 20:15:14, SFTP Write:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/"
+2014-05-14 20:15:14, SFTP Read:
+    cd "/usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/"
+    sftp> 
+2014-05-14 20:15:14, SFTP Write:
+    put "about_btn_juken_link.png"
+2014-05-14 20:15:15, SFTP Read:
+    put "about_btn_juken_link.png"
+    Uploading about_btn_juken_link.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/about_btn_juken_link.png
+    sftp> 
+2014-05-14 20:15:15, SFTP Write:
+    put "about_btn_okayama_map.png"
+2014-05-14 20:15:15, SFTP Read:
+    put "about_btn_okayama_map.png"
+    Uploading about_btn_okayama_map.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/about_btn_okayama_map.png
+    sftp> 
+2014-05-14 20:15:15, SFTP Write:
+    put "about_btn_sekiyu_link.png"
+2014-05-14 20:15:15, SFTP Read:
+    put "about_btn_sekiyu_link.png"
+    Uploading about_btn_sekiyu_link.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/about_btn_sekiyu_link.png
+    sftp> 
+2014-05-14 20:15:15, SFTP Write:
+    put "about_btn_tokyo_map.png"
+2014-05-14 20:15:15, SFTP Read:
+    put "about_btn_tokyo_map.png"
+    Uploading about_btn_tokyo_map.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/about_btn_tokyo_map.png
+    sftp> 
+2014-05-14 20:15:15, SFTP Write:
+    put "about_btn_tokyocorp_map.png"
+2014-05-14 20:15:15, SFTP Read:
+    put "about_btn_tokyocorp_map.png"
+    Uploading about_btn_tokyocorp_map.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/about_btn_tokyocorp_map.png
+    sftp> 
+2014-05-14 20:15:15, SFTP Write:
+    put "about_btn_tokyoroom_map.png"
+2014-05-14 20:15:15, SFTP Read:
+    put "about_btn_tokyoroom_map.png"
+    Uploading about_btn_tokyoroom_map.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/about_btn_tokyoroom_map.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_about_kanren.png"
+2014-05-14 20:15:16, SFTP Read:
+    put "cont-title-about_about_kanren.png"
+    Uploading cont-title-about_about_kanren.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_about_kanren.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_about_yamasa-sangyo.png"
+2014-05-14 20:15:16, SFTP Read:
+    put "cont-title-about_about_yamasa-sangyo.png"
+    Uploading cont-title-about_about_yamasa-sangyo.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_about_yamasa-sangyo.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_about_yamasa.png"
+2014-05-14 20:15:16, SFTP Read:
+    put "cont-title-about_about_yamasa.png"
+    Uploading cont-title-about_about_yamasa.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_about_yamasa.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_site-contact.png"
+2014-05-14 20:15:16, SFTP Read:
+    put "cont-title-about_site-contact.png"
+    Uploading cont-title-about_site-contact.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_site-contact.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_site-link.png"
+2014-05-14 20:15:16, SFTP Read:
+    put "cont-title-about_site-link.png"
+    Uploading cont-title-about_site-link.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_site-link.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_site-note.png"
+2014-05-14 20:15:16, SFTP Read:
+    put "cont-title-about_site-note.png"
+    Uploading cont-title-about_site-note.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_site-note.png
+    sftp> 
+2014-05-14 20:15:16, SFTP Write:
+    put "cont-title-about_site-privacy.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-about_site-privacy.png"
+    Uploading cont-title-about_site-privacy.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_site-privacy.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-about_site-qualify.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-about_site-qualify.png"
+    Uploading cont-title-about_site-qualify.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-about_site-qualify.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-product_slot.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-product_slot.png"
+    Uploading cont-title-product_slot.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-product_slot.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-service_fan_fgame.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-service_fan_fgame.png"
+    Uploading cont-title-service_fan_fgame.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_fan_fgame.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-service_fan_wallp.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-service_fan_wallp.png"
+    Uploading cont-title-service_fan_wallp.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_fan_wallp.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-service_forfan.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-service_forfan.png"
+    Uploading cont-title-service_forfan.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_forfan.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-service_game_ps2.png"
+2014-05-14 20:15:17, SFTP Read:
+    put "cont-title-service_game_ps2.png"
+    Uploading cont-title-service_game_ps2.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_game_ps2.png
+    sftp> 
+2014-05-14 20:15:17, SFTP Write:
+    put "cont-title-service_games.png"
+2014-05-14 20:15:18, SFTP Read:
+    put "cont-title-service_games.png"
+    Uploading cont-title-service_games.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_games.png
+    sftp> 
+2014-05-14 20:15:18, SFTP Write:
+    put "cont-title-service_sound-dist.png"
+2014-05-14 20:15:18, SFTP Read:
+    put "cont-title-service_sound-dist.png"
+    Uploading cont-title-service_sound-dist.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_sound-dist.png
+    sftp> 
+2014-05-14 20:15:18, SFTP Write:
+    put "cont-title-service_sound-dist_sazan30.png"
+2014-05-14 20:15:18, SFTP Read:
+    put "cont-title-service_sound-dist_sazan30.png"
+    Uploading cont-title-service_sound-dist_sazan30.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_sound-dist_sazan30.png
+    sftp> 
+2014-05-14 20:15:18, SFTP Write:
+    put "cont-title-service_soundtrack.png"
+2014-05-14 20:15:18, SFTP Read:
+    put "cont-title-service_soundtrack.png"
+    Uploading cont-title-service_soundtrack.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_soundtrack.png
+    sftp> 
+2014-05-14 20:15:18, SFTP Write:
+    put "cont-title-service_soundtrack_ogk.png"
+2014-05-14 20:15:18, SFTP Read:
+    put "cont-title-service_soundtrack_ogk.png"
+    Uploading cont-title-service_soundtrack_ogk.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-service_soundtrack_ogk.png
+    sftp> 
+2014-05-14 20:15:18, SFTP Write:
+    put "cont-title-slotplus.png"
+2014-05-14 20:15:18, SFTP Read:
+    put "cont-title-slotplus.png"
+    Uploading cont-title-slotplus.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-slotplus.png
+    sftp> 
+2014-05-14 20:15:18, SFTP Write:
+    put "cont-title-toppage_news.png"
+2014-05-14 20:15:19, SFTP Read:
+    put "cont-title-toppage_news.png"
+    Uploading cont-title-toppage_news.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont-title-toppage_news.png
+    sftp> 
+2014-05-14 20:15:19, SFTP Write:
+    put "cont_service_back_bt.png"
+2014-05-14 20:15:19, SFTP Read:
+    put "cont_service_back_bt.png"
+    Uploading cont_service_back_bt.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/cont_service_back_bt.png
+    sftp> 
+2014-05-14 20:15:19, SFTP Write:
+    put "contact_btn_post.png"
+2014-05-14 20:15:19, SFTP Read:
+    put "contact_btn_post.png"
+    Uploading contact_btn_post.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contact_btn_post.png
+    sftp> 
+2014-05-14 20:15:19, SFTP Write:
+    put "contents-label-about-about.png"
+2014-05-14 20:15:19, SFTP Read:
+    put "contents-label-about-about.png"
+    Uploading contents-label-about-about.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about-about.png
+    sftp> 
+2014-05-14 20:15:19, SFTP Write:
+    put "contents-label-about-csr.png"
+2014-05-14 20:15:19, SFTP Read:
+    put "contents-label-about-csr.png"
+    Uploading contents-label-about-csr.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about-csr.png
+    sftp> 
+2014-05-14 20:15:19, SFTP Write:
+    put "contents-label-about-license.png"
+2014-05-14 20:15:19, SFTP Read:
+    put "contents-label-about-license.png"
+    Uploading contents-label-about-license.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about-license.png
+    sftp> 
+2014-05-14 20:15:19, SFTP Write:
+    put "contents-label-about-recruit.png"
+2014-05-14 20:15:20, SFTP Read:
+    put "contents-label-about-recruit.png"
+    Uploading contents-label-about-recruit.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about-recruit.png
+    sftp> 
+2014-05-14 20:15:20, SFTP Write:
+    put "contents-label-about_site-contact.png"
+2014-05-14 20:15:20, SFTP Read:
+    put "contents-label-about_site-contact.png"
+    Uploading contents-label-about_site-contact.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about_site-contact.png
+    sftp> 
+2014-05-14 20:15:20, SFTP Write:
+    put "contents-label-about_site-law.png"
+2014-05-14 20:15:20, SFTP Read:
+    put "contents-label-about_site-law.png"
+    Uploading contents-label-about_site-law.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about_site-law.png
+    sftp> 
+2014-05-14 20:15:20, SFTP Write:
+    put "contents-label-about_site-link.png"
+2014-05-14 20:15:20, SFTP Read:
+    put "contents-label-about_site-link.png"
+    Uploading contents-label-about_site-link.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about_site-link.png
+    sftp> 
+2014-05-14 20:15:20, SFTP Write:
+    put "contents-label-about_site-notes.png"
+2014-05-14 20:15:20, SFTP Read:
+    put "contents-label-about_site-notes.png"
+    Uploading contents-label-about_site-notes.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about_site-notes.png
+    sftp> 
+2014-05-14 20:15:20, SFTP Write:
+    put "contents-label-about_site-privacy.png"
+2014-05-14 20:15:20, SFTP Read:
+    put "contents-label-about_site-privacy.png"
+    Uploading contents-label-about_site-privacy.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about_site-privacy.png
+    sftp> 
+2014-05-14 20:15:20, SFTP Write:
+    put "contents-label-about_site-qualify.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-about_site-qualify.png"
+    Uploading contents-label-about_site-qualify.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-about_site-qualify.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-product-2009.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-product-2009.png"
+    Uploading contents-label-product-2009.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-product-2009.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-product-2010.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-product-2010.png"
+    Uploading contents-label-product-2010.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-product-2010.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-product-2011.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-product-2011.png"
+    Uploading contents-label-product-2011.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-product-2011.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-product-2012.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-product-2012.png"
+    Uploading contents-label-product-2012.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-product-2012.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-product-2013.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-product-2013.png"
+    Uploading contents-label-product-2013.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-product-2013.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-product-new.png"
+2014-05-14 20:15:21, SFTP Read:
+    put "contents-label-product-new.png"
+    Uploading contents-label-product-new.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-product-new.png
+    sftp> 
+2014-05-14 20:15:21, SFTP Write:
+    put "contents-label-service-mobile.png"
+2014-05-14 20:15:22, SFTP Read:
+    put "contents-label-service-mobile.png"
+    Uploading contents-label-service-mobile.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-service-mobile.png
+    sftp> 
+2014-05-14 20:15:22, SFTP Write:
+    put "contents-label-service-other.png"
+2014-05-14 20:15:22, SFTP Read:
+    put "contents-label-service-other.png"
+    Uploading contents-label-service-other.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-service-other.png
+    sftp> 
+2014-05-14 20:15:22, SFTP Write:
+    put "contents-label-service-slotplus.png"
+2014-05-14 20:15:22, SFTP Read:
+    put "contents-label-service-slotplus.png"
+    Uploading contents-label-service-slotplus.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-service-slotplus.png
+    sftp> 
+2014-05-14 20:15:22, SFTP Write:
+    put "contents-label-service-sound.png"
+2014-05-14 20:15:22, SFTP Read:
+    put "contents-label-service-sound.png"
+    Uploading contents-label-service-sound.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-label-service-sound.png
+    sftp> 
+2014-05-14 20:15:22, SFTP Write:
+    put "contents-title-image-about-about.jpg"
+2014-05-14 20:15:22, SFTP Read:
+    put "contents-title-image-about-about.jpg"
+    Uploading contents-title-image-about-about.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/contents-title-image-about-about.jpg
+    sftp> 
+2014-05-14 20:15:22, SFTP Write:
+    put "exhibit_go_office_btn.png"
+2014-05-14 20:15:23, SFTP Read:
+    put "exhibit_go_office_btn.png"
+    Uploading exhibit_go_office_btn.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/exhibit_go_office_btn.png
+    sftp> 
+2014-05-14 20:15:23, SFTP Write:
+    put "font-size-bar_tmp.png"
+2014-05-14 20:15:23, SFTP Read:
+    put "font-size-bar_tmp.png"
+    Uploading font-size-bar_tmp.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/font-size-bar_tmp.png
+    sftp> 
+2014-05-14 20:15:23, SFTP Write:
+    put "font-size-large-bt.png"
+2014-05-14 20:15:23, SFTP Read:
+    put "font-size-large-bt.png"
+    Uploading font-size-large-bt.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/font-size-large-bt.png
+    sftp> 
+2014-05-14 20:15:23, SFTP Write:
+    put "font-size-small-bt.png"
+2014-05-14 20:15:23, SFTP Read:
+    put "font-size-small-bt.png"
+    Uploading font-size-small-bt.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/font-size-small-bt.png
+    sftp> 
+2014-05-14 20:15:23, SFTP Write:
+    put "footbanner_01.png"
+2014-05-14 20:15:23, SFTP Read:
+    put "footbanner_01.png"
+    Uploading footbanner_01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/footbanner_01.png
+    sftp> 
+2014-05-14 20:15:23, SFTP Write:
+    put "footbanner_02.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "footbanner_02.png"
+    Uploading footbanner_02.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/footbanner_02.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "footbanner_03.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "footbanner_03.png"
+    Uploading footbanner_03.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/footbanner_03.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "footbanner_04.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "footbanner_04.png"
+    Uploading footbanner_04.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/footbanner_04.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "game_adddata_archives_label.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "game_adddata_archives_label.png"
+    Uploading game_adddata_archives_label.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/game_adddata_archives_label.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "game_adddata_archives_label_disable.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "game_adddata_archives_label_disable.png"
+    Uploading game_adddata_archives_label_disable.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/game_adddata_archives_label_disable.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "game_adddata_includeproduct_label.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "game_adddata_includeproduct_label.png"
+    Uploading game_adddata_includeproduct_label.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/game_adddata_includeproduct_label.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "header_bg.png"
+2014-05-14 20:15:24, SFTP Read:
+    put "header_bg.png"
+    Uploading header_bg.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/header_bg.png
+    sftp> 
+2014-05-14 20:15:24, SFTP Write:
+    put "headnav_item_about.png"
+2014-05-14 20:15:25, SFTP Read:
+    put "headnav_item_about.png"
+    Uploading headnav_item_about.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/headnav_item_about.png
+    sftp> 
+2014-05-14 20:15:25, SFTP Write:
+    put "headnav_item_contact.png"
+2014-05-14 20:15:25, SFTP Read:
+    put "headnav_item_contact.png"
+    Uploading headnav_item_contact.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/headnav_item_contact.png
+    sftp> 
+2014-05-14 20:15:25, SFTP Write:
+    put "headnav_item_product.png"
+2014-05-14 20:15:25, SFTP Read:
+    put "headnav_item_product.png"
+    Uploading headnav_item_product.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/headnav_item_product.png
+    sftp> 
+2014-05-14 20:15:25, SFTP Write:
+    put "headnav_item_service.png"
+2014-05-14 20:15:25, SFTP Read:
+    put "headnav_item_service.png"
+    Uploading headnav_item_service.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/headnav_item_service.png
+    sftp> 
+2014-05-14 20:15:25, SFTP Write:
+    put "jasrac_01.png"
+2014-05-14 20:15:25, SFTP Read:
+    put "jasrac_01.png"
+    Uploading jasrac_01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/jasrac_01.png
+    sftp> 
+2014-05-14 20:15:25, SFTP Write:
+    put "jasrac_02.png"
+2014-05-14 20:15:25, SFTP Read:
+    put "jasrac_02.png"
+    Uploading jasrac_02.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/jasrac_02.png
+    sftp> 
+2014-05-14 20:15:26, SFTP Write:
+    put "jasrac_03.png"
+2014-05-14 20:15:26, SFTP Read:
+    put "jasrac_03.png"
+    Uploading jasrac_03.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/jasrac_03.png
+    sftp> 
+2014-05-14 20:15:26, SFTP Write:
+    put "kanpu.jpg"
+2014-05-14 20:15:26, SFTP Read:
+    put "kanpu.jpg"
+    Uploading kanpu.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/kanpu.jpg
+    sftp> 
+2014-05-14 20:15:26, SFTP Write:
+    put "kanpu2.jpg"
+2014-05-14 20:15:26, SFTP Read:
+    put "kanpu2.jpg"
+    Uploading kanpu2.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/kanpu2.jpg
+    sftp> 
+2014-05-14 20:15:26, SFTP Write:
+    put "kanpu3.jpg"
+2014-05-14 20:15:27, SFTP Read:
+    put "kanpu3.jpg"
+    Uploading kanpu3.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/kanpu3.jpg
+    sftp> 
+2014-05-14 20:15:27, SFTP Write:
+    put "link_text_title_maker.png"
+2014-05-14 20:15:27, SFTP Read:
+    put "link_text_title_maker.png"
+    Uploading link_text_title_maker.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/link_text_title_maker.png
+    sftp> 
+2014-05-14 20:15:27, SFTP Write:
+    put "link_text_title_useful.png"
+2014-05-14 20:15:27, SFTP Read:
+    put "link_text_title_useful.png"
+    Uploading link_text_title_useful.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/link_text_title_useful.png
+    sftp> 
+2014-05-14 20:15:27, SFTP Write:
+    put "maru_about.png"
+2014-05-14 20:15:27, SFTP Read:
+    put "maru_about.png"
+    Uploading maru_about.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/maru_about.png
+    sftp> 
+2014-05-14 20:15:27, SFTP Write:
+    put "maru_about_site.png"
+2014-05-14 20:15:27, SFTP Read:
+    put "maru_about_site.png"
+    Uploading maru_about_site.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/maru_about_site.png
+    sftp> 
+2014-05-14 20:15:27, SFTP Write:
+    put "maru_product.png"
+2014-05-14 20:15:27, SFTP Read:
+    put "maru_product.png"
+    Uploading maru_product.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/maru_product.png
+    sftp> 
+2014-05-14 20:15:28, SFTP Write:
+    put "maru_service.png"
+2014-05-14 20:15:28, SFTP Read:
+    put "maru_service.png"
+    Uploading maru_service.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/maru_service.png
+    sftp> 
+2014-05-14 20:15:28, SFTP Write:
+    put "mobile_game_image.jpg"
+2014-05-14 20:15:28, SFTP Read:
+    put "mobile_game_image.jpg"
+    Uploading mobile_game_image.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/mobile_game_image.jpg
+    sftp> 
+2014-05-14 20:15:28, SFTP Write:
+    put "notes_text_title_browser.png"
+2014-05-14 20:15:28, SFTP Read:
+    put "notes_text_title_browser.png"
+    Uploading notes_text_title_browser.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/notes_text_title_browser.png
+    sftp> 
+2014-05-14 20:15:28, SFTP Write:
+    put "notes_text_title_copyright.png"
+2014-05-14 20:15:28, SFTP Read:
+    put "notes_text_title_copyright.png"
+    Uploading notes_text_title_copyright.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/notes_text_title_copyright.png
+    sftp> 
+2014-05-14 20:15:28, SFTP Write:
+    put "other_bt_cd_ogk.jpg"
+2014-05-14 20:15:29, SFTP Read:
+    put "other_bt_cd_ogk.jpg"
+    Uploading other_bt_cd_ogk.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_cd_ogk.jpg
+    sftp> 
+2014-05-14 20:15:29, SFTP Write:
+    put "other_bt_cd_osk.jpg"
+2014-05-14 20:15:29, SFTP Read:
+    put "other_bt_cd_osk.jpg"
+    Uploading other_bt_cd_osk.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_cd_osk.jpg
+    sftp> 
+2014-05-14 20:15:29, SFTP Write:
+    put "other_bt_cd_sgm.jpg"
+2014-05-14 20:15:29, SFTP Read:
+    put "other_bt_cd_sgm.jpg"
+    Uploading other_bt_cd_sgm.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_cd_sgm.jpg
+    sftp> 
+2014-05-14 20:15:29, SFTP Write:
+    put "other_bt_cd_sgmm.jpg"
+2014-05-14 20:15:29, SFTP Read:
+    put "other_bt_cd_sgmm.jpg"
+    Uploading other_bt_cd_sgmm.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_cd_sgmm.jpg
+    sftp> 
+2014-05-14 20:15:29, SFTP Write:
+    put "other_bt_cd_trc.jpg"
+2014-05-14 20:15:29, SFTP Read:
+    put "other_bt_cd_trc.jpg"
+    Uploading other_bt_cd_trc.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_cd_trc.jpg
+    sftp> 
+2014-05-14 20:15:29, SFTP Write:
+    put "other_bt_game_ps.jpg"
+2014-05-14 20:15:29, SFTP Read:
+    put "other_bt_game_ps.jpg"
+    Uploading other_bt_game_ps.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_game_ps.jpg
+    sftp> 
+2014-05-14 20:15:29, SFTP Write:
+    put "other_bt_game_ps2.jpg"
+2014-05-14 20:15:30, SFTP Read:
+    put "other_bt_game_ps2.jpg"
+    Uploading other_bt_game_ps2.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_game_ps2.jpg
+    sftp> 
+2014-05-14 20:15:30, SFTP Write:
+    put "other_bt_game_ps3.jpg"
+2014-05-14 20:15:30, SFTP Read:
+    put "other_bt_game_ps3.jpg"
+    Uploading other_bt_game_ps3.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_game_ps3.jpg
+    sftp> 
+2014-05-14 20:15:30, SFTP Write:
+    put "other_bt_game_psp.jpg"
+2014-05-14 20:15:30, SFTP Read:
+    put "other_bt_game_psp.jpg"
+    Uploading other_bt_game_psp.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_game_psp.jpg
+    sftp> 
+2014-05-14 20:15:30, SFTP Write:
+    put "other_bt_tofan.jpg"
+2014-05-14 20:15:30, SFTP Read:
+    put "other_bt_tofan.jpg"
+    Uploading other_bt_tofan.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/other_bt_tofan.jpg
+    sftp> 
+2014-05-14 20:15:30, SFTP Write:
+    put "privacy_text_title.png"
+2014-05-14 20:15:30, SFTP Read:
+    put "privacy_text_title.png"
+    Uploading privacy_text_title.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/privacy_text_title.png
+    sftp> 
+2014-05-14 20:15:30, SFTP Write:
+    put "privacy_text_title_cookie.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "privacy_text_title_cookie.png"
+    Uploading privacy_text_title_cookie.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/privacy_text_title_cookie.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_android.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "product_data_icon_android.png"
+    Uploading product_data_icon_android.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_android.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_android_no.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "product_data_icon_android_no.png"
+    Uploading product_data_icon_android_no.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_android_no.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_app.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "product_data_icon_app.png"
+    Uploading product_data_icon_app.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_app.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_app_no.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "product_data_icon_app_no.png"
+    Uploading product_data_icon_app_no.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_app_no.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_info.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "product_data_icon_info.png"
+    Uploading product_data_icon_info.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_info.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_info_no.png"
+2014-05-14 20:15:31, SFTP Read:
+    put "product_data_icon_info_no.png"
+    Uploading product_data_icon_info_no.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_info_no.png
+    sftp> 
+2014-05-14 20:15:31, SFTP Write:
+    put "product_data_icon_itunes.png"
+2014-05-14 20:15:32, SFTP Read:
+    put "product_data_icon_itunes.png"
+    Uploading product_data_icon_itunes.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_itunes.png
+    sftp> 
+2014-05-14 20:15:32, SFTP Write:
+    put "product_data_icon_itunes_no.png"
+2014-05-14 20:15:32, SFTP Read:
+    put "product_data_icon_itunes_no.png"
+    Uploading product_data_icon_itunes_no.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_data_icon_itunes_no.png
+    sftp> 
+2014-05-14 20:15:32, SFTP Write:
+    put "product_search_label.png"
+2014-05-14 20:15:32, SFTP Read:
+    put "product_search_label.png"
+    Uploading product_search_label.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/product_search_label.png
+    sftp> 
+2014-05-14 20:15:32, SFTP Write:
+    put "side-title_pickup.png"
+2014-05-14 20:15:32, SFTP Read:
+    put "side-title_pickup.png"
+    Uploading side-title_pickup.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/side-title_pickup.png
+    sftp> 
+2014-05-14 20:15:32, SFTP Write:
+    put "sidenav-cont-title-about.png"
+2014-05-14 20:15:32, SFTP Read:
+    put "sidenav-cont-title-about.png"
+    Uploading sidenav-cont-title-about.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sidenav-cont-title-about.png
+    sftp> 
+2014-05-14 20:15:32, SFTP Write:
+    put "sidenav-cont-title-about_site.png"
+2014-05-14 20:15:32, SFTP Read:
+    put "sidenav-cont-title-about_site.png"
+    Uploading sidenav-cont-title-about_site.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sidenav-cont-title-about_site.png
+    sftp> 
+2014-05-14 20:15:32, SFTP Write:
+    put "sidenav-cont-title-product.png"
+2014-05-14 20:15:33, SFTP Read:
+    put "sidenav-cont-title-product.png"
+    Uploading sidenav-cont-title-product.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sidenav-cont-title-product.png
+    sftp> 
+2014-05-14 20:15:33, SFTP Write:
+    put "sidenav-cont-title-service.png"
+2014-05-14 20:15:33, SFTP Read:
+    put "sidenav-cont-title-service.png"
+    Uploading sidenav-cont-title-service.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sidenav-cont-title-service.png
+    sftp> 
+2014-05-14 20:15:33, SFTP Write:
+    put "size-pickup-banner_01.png"
+2014-05-14 20:15:33, SFTP Read:
+    put "size-pickup-banner_01.png"
+    Uploading size-pickup-banner_01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/size-pickup-banner_01.png
+    sftp> 
+2014-05-14 20:15:33, SFTP Write:
+    put "size-pickup-banner_02.png"
+2014-05-14 20:15:33, SFTP Read:
+    put "size-pickup-banner_02.png"
+    Uploading size-pickup-banner_02.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/size-pickup-banner_02.png
+    sftp> 
+2014-05-14 20:15:33, SFTP Write:
+    put "size-pickup-banner_03.png"
+2014-05-14 20:15:33, SFTP Read:
+    put "size-pickup-banner_03.png"
+    Uploading size-pickup-banner_03.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/size-pickup-banner_03.png
+    sftp> 
+2014-05-14 20:15:33, SFTP Write:
+    put "slotplus_01.png"
+2014-05-14 20:15:33, SFTP Read:
+    put "slotplus_01.png"
+    Uploading slotplus_01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/slotplus_01.png
+    sftp> 
+2014-05-14 20:15:34, SFTP Write:
+    put "slotplus_02.png"
+2014-05-14 20:15:34, SFTP Read:
+    put "slotplus_02.png"
+    Uploading slotplus_02.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/slotplus_02.png
+    sftp> 
+2014-05-14 20:15:34, SFTP Write:
+    put "slotplus_03.png"
+2014-05-14 20:15:34, SFTP Read:
+    put "slotplus_03.png"
+    Uploading slotplus_03.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/slotplus_03.png
+    sftp> 
+2014-05-14 20:15:34, SFTP Write:
+    put "slotplus_bt_01.png"
+2014-05-14 20:15:34, SFTP Read:
+    put "slotplus_bt_01.png"
+    Uploading slotplus_bt_01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/slotplus_bt_01.png
+    sftp> 
+2014-05-14 20:15:34, SFTP Write:
+    put "slotplus_bt_02.png"
+2014-05-14 20:15:34, SFTP Read:
+    put "slotplus_bt_02.png"
+    Uploading slotplus_bt_02.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/slotplus_bt_02.png
+    sftp> 
+2014-05-14 20:15:35, SFTP Write:
+    put "slotplus_bt_03.png"
+2014-05-14 20:15:35, SFTP Read:
+    put "slotplus_bt_03.png"
+    Uploading slotplus_bt_03.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/slotplus_bt_03.png
+    sftp> 
+2014-05-14 20:15:35, SFTP Write:
+    put "social-bt-facebook.png"
+2014-05-14 20:15:35, SFTP Read:
+    put "social-bt-facebook.png"
+    Uploading social-bt-facebook.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/social-bt-facebook.png
+    sftp> 
+2014-05-14 20:15:35, SFTP Write:
+    put "social-bt-feed.png"
+2014-05-14 20:15:35, SFTP Read:
+    put "social-bt-feed.png"
+    Uploading social-bt-feed.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/social-bt-feed.png
+    sftp> 
+2014-05-14 20:15:35, SFTP Write:
+    put "social-bt-twitter.png"
+2014-05-14 20:15:35, SFTP Read:
+    put "social-bt-twitter.png"
+    Uploading social-bt-twitter.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/social-bt-twitter.png
+    sftp> 
+2014-05-14 20:15:35, SFTP Write:
+    put "soud-dist-sample.jpg"
+2014-05-14 20:15:35, SFTP Read:
+    put "soud-dist-sample.jpg"
+    Uploading soud-dist-sample.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/soud-dist-sample.jpg
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "sound-dist-bt-01.png"
+2014-05-14 20:15:36, SFTP Read:
+    put "sound-dist-bt-01.png"
+    Uploading sound-dist-bt-01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sound-dist-bt-01.png
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "sound-dist-bt-02.png"
+2014-05-14 20:15:36, SFTP Read:
+    put "sound-dist-bt-02.png"
+    Uploading sound-dist-bt-02.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sound-dist-bt-02.png
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "sound-dist-bt-03.png"
+2014-05-14 20:15:36, SFTP Read:
+    put "sound-dist-bt-03.png"
+    Uploading sound-dist-bt-03.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/sound-dist-bt-03.png
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "tofan_fgame_bt_howto.png"
+2014-05-14 20:15:36, SFTP Read:
+    put "tofan_fgame_bt_howto.png"
+    Uploading tofan_fgame_bt_howto.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_bt_howto.png
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "tofan_fgame_bt_start.png"
+2014-05-14 20:15:36, SFTP Read:
+    put "tofan_fgame_bt_start.png"
+    Uploading tofan_fgame_bt_start.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_bt_start.png
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "tofan_fgame_bt_tips1.png"
+2014-05-14 20:15:36, SFTP Read:
+    put "tofan_fgame_bt_tips1.png"
+    Uploading tofan_fgame_bt_tips1.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_bt_tips1.png
+    sftp> 
+2014-05-14 20:15:36, SFTP Write:
+    put "tofan_fgame_bt_tips2.png"
+2014-05-14 20:15:37, SFTP Read:
+    put "tofan_fgame_bt_tips2.png"
+    Uploading tofan_fgame_bt_tips2.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_bt_tips2.png
+    sftp> 
+2014-05-14 20:15:37, SFTP Write:
+    put "tofan_fgame_caution.png"
+2014-05-14 20:15:37, SFTP Read:
+    put "tofan_fgame_caution.png"
+    Uploading tofan_fgame_caution.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_caution.png
+    sftp> 
+2014-05-14 20:15:37, SFTP Write:
+    put "tofan_fgame_genttl_chosoku.png"
+2014-05-14 20:15:37, SFTP Read:
+    put "tofan_fgame_genttl_chosoku.png"
+    Uploading tofan_fgame_genttl_chosoku.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_genttl_chosoku.png
+    sftp> 
+2014-05-14 20:15:37, SFTP Write:
+    put "tofan_fgame_genttl_kakuto.png"
+2014-05-14 20:15:37, SFTP Read:
+    put "tofan_fgame_genttl_kakuto.png"
+    Uploading tofan_fgame_genttl_kakuto.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_genttl_kakuto.png
+    sftp> 
+2014-05-14 20:15:37, SFTP Write:
+    put "tofan_fgame_logo_01.png"
+2014-05-14 20:15:37, SFTP Read:
+    put "tofan_fgame_logo_01.png"
+    Uploading tofan_fgame_logo_01.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_logo_01.png
+    sftp> 
+2014-05-14 20:15:37, SFTP Write:
+    put "tofan_fgame_screen_01.jpg"
+2014-05-14 20:15:37, SFTP Read:
+    put "tofan_fgame_screen_01.jpg"
+    Uploading tofan_fgame_screen_01.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/tofan_fgame_screen_01.jpg
+    sftp> 
+2014-05-14 20:15:38, SFTP Write:
+    put "top-main-pickup_ttl.png"
+2014-05-14 20:15:38, SFTP Read:
+    put "top-main-pickup_ttl.png"
+    Uploading top-main-pickup_ttl.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/top-main-pickup_ttl.png
+    sftp> 
+2014-05-14 20:15:38, SFTP Write:
+    put "top_ban_01.jpg"
+2014-05-14 20:15:38, SFTP Read:
+    put "top_ban_01.jpg"
+    Uploading top_ban_01.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/top_ban_01.jpg
+    sftp> 
+2014-05-14 20:15:38, SFTP Write:
+    put "top_ban_02.jpg"
+2014-05-14 20:15:38, SFTP Read:
+    put "top_ban_02.jpg"
+    Uploading top_ban_02.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/top_ban_02.jpg
+    sftp> 
+2014-05-14 20:15:38, SFTP Write:
+    put "top_ban_03.jpg"
+2014-05-14 20:15:38, SFTP Read:
+    put "top_ban_03.jpg"
+    Uploading top_ban_03.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/top_ban_03.jpg
+    sftp> 
+2014-05-14 20:15:38, SFTP Write:
+    put "toppage-news-icon.png"
+2014-05-14 20:15:38, SFTP Read:
+    put "toppage-news-icon.png"
+    Uploading toppage-news-icon.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/toppage-news-icon.png
+    sftp> 
+2014-05-14 20:15:38, SFTP Write:
+    put "toppage_main_image.jpg"
+2014-05-14 20:15:39, SFTP Read:
+    put "toppage_main_image.jpg"
+    Uploading toppage_main_image.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/toppage_main_image.jpg
+    sftp> 
+2014-05-14 20:15:39, SFTP Write:
+    put "wallp_new.png"
+2014-05-14 20:15:39, SFTP Read:
+    put "wallp_new.png"
+    Uploading wallp_new.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/wallp_new.png
+    sftp> 
+2014-05-14 20:15:39, SFTP Write:
+    put "wallp_sample.jpg"
+2014-05-14 20:15:39, SFTP Read:
+    put "wallp_sample.jpg"
+    Uploading wallp_sample.jpg to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/wallp_sample.jpg
+    sftp> 
+2014-05-14 20:15:39, SFTP Write:
+    put "wallp_size_1024x768.png"
+2014-05-14 20:15:39, SFTP Read:
+    put "wallp_size_1024x768.png"
+    Uploading wallp_size_1024x768.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/wallp_size_1024x768.png
+    sftp> 
+2014-05-14 20:15:39, SFTP Write:
+    put "wallp_size_1260x1024.png"
+2014-05-14 20:15:39, SFTP Read:
+    put "wallp_size_1260x1024.png"
+    Uploading wallp_size_1260x1024.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/wallp_size_1260x1024.png
+    sftp> 
+2014-05-14 20:15:39, SFTP Write:
+    put "wallp_size_1680x1050.png"
+2014-05-14 20:15:39, SFTP Read:
+    put "wallp_size_1680x1050.png"
+    Uploading wallp_size_1680x1050.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/wallp_size_1680x1050.png
+    sftp> 
+2014-05-14 20:15:40, SFTP Write:
+    put "yamasa-logo-site-top.png"
+2014-05-14 20:15:40, SFTP Read:
+    put "yamasa-logo-site-top.png"
+    Uploading yamasa-logo-site-top.png to /usr/local/web/www.yamasa.co.jp_wp/htdocs/Mock2/asset/img/yamasa-logo-site-top.png
+    sftp> 

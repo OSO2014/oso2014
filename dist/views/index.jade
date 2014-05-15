@@ -18,28 +18,28 @@ block content
     dl.user-input
       dt.user-input-label ユーザー名
       dd
-        input.form-control(type="text")
+        input.form-control(type="text" ng-model="userName")
       dt.user-input-label 現在の体重
       dd.weight-output(ng-show="weightUseRange")
-        span.weight-value 65.0
+        span.weight-value {{todayWeight}}
         span.weight-unit kg
         span.weight-kbd-input(ng-click="changeStartInput('w')")
           i.icon-dial
       dd(ng-show="weightUseRange")
-        input(type="range")
+        input(type="range" step="0.1" ng-model="todayWeight")
       dd(ng-show="!weightUseRange")
-        input.weight-input-num(type="number")
+        input.weight-input-num(type="number" ng-model="todayWeight")
 
       dt.user-input-label 目標の体重
       dd.weight-output(ng-show="hopeUseRange")
-        span.weight-value 65.0
+        span.weight-value {{hopeWeight}}
         span.weight-unit kg
         span.weight-kbd-input(ng-click="changeStartInput('h')")
           i.icon-dial
       dd(ng-show="hopeUseRange")
-        input(type="range")
+        input(type="range" step="0.1" ng-model="hopeWeight")
       dd(ng-show="!hopeUseRange")
-        input.weight-input-num(type="number")
+        input.weight-input-num(type="number" ng-model="hopeWeight")
 
     p
       button.btn.btn-primary.btn-block(ng-click="goStart()") はじめる

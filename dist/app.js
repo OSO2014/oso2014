@@ -11,7 +11,7 @@ var testprint = require('./routes/testprint');
 var http = require('http');
 var path = require('path');
 var fs = require('fs');
-var db = require('./db.js');
+var db = require('./model.js');
 var MongoStore = require('connect-mongo')(express);
 
 var logFile = fs.createWriteStream('./express.log', {flags: 'a'});
@@ -98,7 +98,9 @@ app.get('/login', login.index);
 
 app.get('/',  auth, routes.index);
 app.get('/auth', routes.authlogin);
-app.get('/users', user.list);
+app.get('/user',db.getUser);
+app.post('/setUser',db.setUserData);
+// app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

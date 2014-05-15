@@ -1,30 +1,16 @@
-var app = angular.module('osoApp', ['ngRoute']).config([
+var app = angular.module('osoApp', ['ngRoute'], function () {
+  }).config([
     '$routeProvider',
     '$locationProvider',
     '$httpProvider',
     function ($routeProvider, $locationProvider, $httpProvider) {
-      $locationProvider.html5Mode(true);  // $httpProvider.responseInterceptors.push(['$q', '$location',function($q, $location) {
-                                          //   return function(promise) {
-                                          //     return promise.then(function(response) {
-                                          //         // Success: 成功時はそのまま返す
-                                          //         console.log('Success');
-                                          //         return response;
-                                          //       }, function(response) {
-                                          //         // Error: エラー時は401エラーならば/loginに遷移
-                                          //         console.log('Error');
-                                          //         if (response.status === 401) {
-                                          //           // $location.url('/login');
-                                          //         }
-                                          //         // return $q.reject(response);
-                                          //       }
-                                          //     );
-                                          //   };
-                                          // }]);
+      $locationProvider.html5Mode(true);
     }
   ]);
 app.controller('MainCtrl', [
   '$scope',
-  function ($scope) {
+  '$http',
+  function ($scope, $http) {
     $scope.mode = 'start';
     $scope.weightUseRange = true;
     $scope.hopeUseRange = true;
@@ -34,13 +20,22 @@ app.controller('MainCtrl', [
     $scope.selectedS = 'is-active';
     $scope.selectedU = '';
     $scope.theme = '';
+    $scope.todayWeight = 65;
+    $scope.hopeWeight = 65;
     $scope.goLogin = function () {
       $scope.mode = 'start';
     };
-    $scope.goStart = function () {
-      $scope.mode = 'start';
-      $scope.theme = false;
+    $scope.goLoginTwitter = function () {
+      location.href = '/auth/twitter';
     };
+    $http({
+      method: 'GET',
+      url: '/user'
+    }).success(function (data) {
+      console.log(data[0]);
+      $scope.userName = data[0].name;
+      $scope.hopeWeight = data[0].hope;
+    });
     $scope.changeStartInput = function (flag) {
       if (flag === 'w') {
         $scope.weightUseRange = !$scope.weightUseRange;
@@ -50,8 +45,14 @@ app.controller('MainCtrl', [
       }
     };
     $scope.goStart = function () {
-      $scope.mode = 'myhome';
-      $scope.theme = '';
+      $http.post('/setUser', {
+        userName: $scope.userName,
+        todayWeight: $scope.todayWeight,
+        hopeWeight: $scope.hopeWeight
+      }).success(function () {
+        $scope.mode = 'myhome';
+        $scope.theme = '';
+      });
     };
     $scope.showWeightConfirm = function () {
       $scope.weightConfirm = true;
