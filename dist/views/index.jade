@@ -83,10 +83,10 @@ block content
     dl.user-input
       dt.user-input-label ユーザー名
       dd
-        input.form-control(type="text" value="littlebusters")
+        input.form-control(type="text" ng-model="userName")
       dt.user-input-label 目標の体重
       dd.weight-output(ng-show="hopeUseRange")
-        span.weight-value 65.0
+        span.weight-value {{hopeWeight}}
         span.weight-unit kg
         span.weight-kbd-input(ng-click="changeStartInput('h')")
           i.icon-dial
