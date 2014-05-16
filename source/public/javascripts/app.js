@@ -1,4 +1,4 @@
-var app = angular.module('osoApp', ['ngRoute'], function(){} ).config(function ($routeProvider, $locationProvider, $httpProvider){
+var app = angular.module('osoApp', ['ngRoute','dangle'], function(){} ).config(function ($routeProvider, $locationProvider, $httpProvider){
     $locationProvider.html5Mode(true);
   });
 
@@ -24,19 +24,37 @@ app.controller('MainCtrl', function($scope,$http){
     location.href = '/auth/twitter';
   }
 
+  $scope.goLoginGoogle = function(){
+    location.href = '/auth/google';
+  }
+
+  $scope.goLoginFacebook = function(){
+    location.href = '/auth/facebook';
+  }
+
   $http({method: 'GET',url: '/user'})
     .success(function(data){
       console.log(data[0]);
       $scope.userName = data[0].name;
-      $scope.hopeWeight = data[0].hope;
+      if (data[0].hope){
+        $scope.hopeWeight = data[0].hope;
+      }
       userid = data[0].id;
       if (userid){
         $http({method: 'GET',url: '/getweight'})
           .success(function(data){
             console.log(data);
-            if(data[0].weight){
+            if(data[0]){
               $scope.todayWeight = data[0].weight;
               $scope.mode = 'myhome';
+              $http({method: 'get',url: '/getweightlist'})
+                .success(function(data){
+                  $scope.weightdata = {
+                    _type: "date_histogram",
+                    entries: data
+                  }
+                  console.log(data);
+                });
             }
           });
       }

@@ -59,6 +59,26 @@ exports.getWeight = function(req,res){
   }
 }
 
+exports.getWeightList = function(req,res){
+  if (req.user.uid){
+    var userid = req.user.uid;
+    var query = {'userid': userid};
+    weight
+      .find(query,'weight date',{sort:{date: 1},limit: 30},function(err,data){
+        console.log(data);
+        var weightList = [];
+        data.forEach(function(row){
+          console.log('row:');
+          console.log(row);
+          var dateStrArray = row.date.split('-');
+          var rowDate = new Date(dateStrArray[0],dateStrArray[1] - 1,dateStrArray[2]);
+          weightList.push({time: rowDate.getTime(),count: row.weight});
+        });
+        res.send(weightList);
+      });
+  }
+};
+
 exports.setWeight = function(req,res){
   if (req.user.uid){
     var userid = req.user.uid;

@@ -46,7 +46,8 @@ block content
 
 
   div.container(ng-show="mode === 'myhome'")
-    div.weight-graph グラフ
+    div.weight-graph
+      <fs:area bind="weightdata" width="640" height="250">
     div(ng-show="!inputed")
       dl.user-input
         dt.user-input-label 本日の体重
