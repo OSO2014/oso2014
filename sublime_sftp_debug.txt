@@ -10230,3 +10230,25 @@
     chmod 664 "/web/exp4.dai-tokai.okayama.jp/routes/index.js"
     Changing mode on /web/exp4.dai-tokai.okayama.jp/routes/index.js
     sftp> 
+2014-05-17 07:03:26, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+2014-05-17 07:03:26, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dev/public/javascripts/"
+    sftp> 
+2014-05-17 07:03:26, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+2014-05-17 07:03:26, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/public/javascripts/"
+    sftp> 
+2014-05-17 07:03:26, SFTP Write:
+    put "app.js"
+2014-05-17 07:03:26, SFTP Read:
+    put "app.js"
+    Uploading app.js to /usr/share/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
+2014-05-17 07:03:26, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+2014-05-17 07:03:26, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
+    sftp> 
