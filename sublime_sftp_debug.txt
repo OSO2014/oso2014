@@ -16455,3 +16455,65 @@
     chmod 664 "/web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js"
     Changing mode on /web/exp4.dai-tokai.okayama.jp/public/javascripts/app.js
     sftp> 
+2014-05-17 06:56:13, SFTP Write:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+2014-05-17 06:56:13, SFTP Read:
+    lcd "/Users/maekawamasayuki/GitHub/oso2014/dist/views/"
+    sftp> 
+2014-05-17 06:56:13, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-17 06:56:33, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    Write failed: Broken pipe
+    Connection closed
+    
+2014-05-17 06:56:34, SFTP Read:
+    Connected to dai-tokai.okayama.jp.
+    sftp> 
+2014-05-17 06:56:34, SFTP Write:
+    progress off
+2014-05-17 06:56:34, SFTP Read:
+    progress off
+    Progress meter disabled
+    sftp> 
+2014-05-17 06:56:34, SFTP Write:
+    pwd
+2014-05-17 06:56:34, SFTP Read:
+    pwd
+    Remote working directory: /home/mae
+    sftp> 
+2014-05-17 06:56:34, SFTP Write:
+    lpwd
+2014-05-17 06:56:34, SFTP Read:
+    lpwd
+    Local working directory: /Users/maekawamasayuki/GitHub/oso2014/dist/views
+    sftp> 
+2014-05-17 06:56:34, SFTP Write:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+2014-05-17 06:56:34, SFTP Read:
+    cd "/web/exp4.dai-tokai.okayama.jp/views/"
+    sftp> 
+2014-05-17 06:56:34, SFTP Write:
+    put "index.jade"
+2014-05-17 06:56:34, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-17 06:56:34, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-17 06:56:34, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-17 06:56:43, SFTP Write:
+    put "index.jade"
+2014-05-17 06:56:43, SFTP Read:
+    put "index.jade"
+    Uploading index.jade to /usr/share/web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
+2014-05-17 06:56:43, SFTP Write:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+2014-05-17 06:56:43, SFTP Read:
+    chmod 664 "/web/exp4.dai-tokai.okayama.jp/views/index.jade"
+    Changing mode on /web/exp4.dai-tokai.okayama.jp/views/index.jade
+    sftp> 
