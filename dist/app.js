@@ -11,14 +11,16 @@ var testprint = require('./routes/testprint');
 var http = require('http');
 var path = require('path');
 var fs = require('fs');
-var db = require('./db.js');
+var db = require('./model.js');
 var MongoStore = require('connect-mongo')(express);
 
 var logFile = fs.createWriteStream('./express.log', {flags: 'a'});
 
 /* passportの設定 */
 var passport = require('passport'),
-  TwitterStrategy = require('passport-twitter').Strategy;
+    TwitterStrategy = require('passport-twitter').Strategy,
+    GoogleStrategy = require('passport-google-oauth').OAuth2Strategy,
+    FacebookStrategy = require('passport-facebook').Strategy;
 
 // Passport: TwitterのOAuth設定
 passport.use(new TwitterStrategy({
@@ -26,6 +28,30 @@ passport.use(new TwitterStrategy({
   consumerSecret: "H4BHJGaJJ2mED3xid69tnIXvLorZNDt9rxW7Xegr41nffY8xZY",
   callbackURL: "/auth/twitter/callback"
 }, function(token, tokenSecret, profile, done) {
+  // ユーザIDを設定
+  profile.uid = profile.provider + profile.id;
+  process.nextTick(function() {
+    return done(null, profile);
+  });
+}));
+
+passport.use(new GoogleStrategy({
+  clientID: '721775049360.apps.googleusercontent.com',
+  clientSecret: 'SRonosDmByHXy3N3Cn482qmK',
+  callbackURL: "http://exp04.dai-tokai.okayama.jp/auth/google/callback"
+}, function(accessToken, refreshToken, profile, done){
+  // ユーザIDを設定
+  profile.uid = profile.provider + profile.id;
+  process.nextTick(function() {
+    return done(null, profile);
+  });
+}));
+
+passport.use(new FacebookStrategy({
+    clientID: '668004543253145',
+    clientSecret: '5c4891ed5d9f4c9b324d90daaffc5956',
+    callbackURL: "http://exp04.dai-tokai.okayama.jp/auth/facebook/callback"
+  }, function(accessToken, refreshToken, profile, done){
   // ユーザIDを設定
   profile.uid = profile.provider + profile.id;
   process.nextTick(function() {
@@ -94,11 +120,32 @@ app.get("/auth/twitter/callback", passport.authenticate('twitter', {
   falureRedirect: '/login'
 }));
 
+app.get("/auth/google", passport.authenticate('google', {
+ scope: [
+  'https://www.googleapis.com/auth/userinfo.profile',
+  'https://www.googleapis.com/auth/userinfo.email'] })
+);
+app.get("/auth/google/callback", passport.authenticate('google', {
+  successRedirect: '/auth',
+  falureRedirect: '/login'
+}));
+
+app.get("/auth/facebook", passport.authenticate('facebook'));
+app.get("/auth/facebook/callback", passport.authenticate('facebook', {
+  successRedirect: '/auth',
+  falureRedirect: '/login'
+}));
+
 app.get('/login', login.index);
 
 app.get('/',  auth, routes.index);
 app.get('/auth', routes.authlogin);
-app.get('/users', user.list);
+app.get('/user',db.getUser);
+app.post('/setUser',db.setUserData);
+app.get('/getweight',db.getWeight);
+app.get('/getweightlist',db.getWeightList);
+app.post('/setweight',db.setWeight);
+// app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

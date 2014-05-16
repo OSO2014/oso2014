@@ -15,11 +15,11 @@ exports.authlogin = function(req,res){
   var userid = req.user.uid;
   var query = {id: userid};
   User.find(query,function(err,data){
-    console.log('-----');
-    console.log(err);
-    console.log(data);
+    // console.log('-----');
+    // console.log(err);
+    // console.log(data);
     if(err){
-        console.log(err);
+        // console.log(err);
     }
     if (data == ''){
       var userName = req.user._json.name;
@@ -31,19 +31,16 @@ exports.authlogin = function(req,res){
       var NewUser = new User(userData);
       NewUser.save(function(err){
         if(err){
-            console.log(err);
+            // console.log(err);
             res.redirect('/login');
         }else{
             console.log('saveok');
             res.redirect('/');
         }
       });
-      // res.render('index', { title: 'OSO 2014' });
     }else{
       req.session.user = userid;
-      // res.redirect('/');
-      res.render('index', { title: 'OSO 2014' });
+      res.redirect('/');
     }
   });
-  // res.render('index', { title: 'OSO 2014' });
 }

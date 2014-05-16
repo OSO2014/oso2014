@@ -1,30 +1,19 @@
-var app = angular.module('osoApp', ['ngRoute']).config([
+var app = angular.module('osoApp', [
+    'ngRoute',
+    'dangle'
+  ], function () {
+  }).config([
     '$routeProvider',
     '$locationProvider',
     '$httpProvider',
     function ($routeProvider, $locationProvider, $httpProvider) {
-      $locationProvider.html5Mode(true);  // $httpProvider.responseInterceptors.push(['$q', '$location',function($q, $location) {
-                                          //   return function(promise) {
-                                          //     return promise.then(function(response) {
-                                          //         // Success: 成功時はそのまま返す
-                                          //         console.log('Success');
-                                          //         return response;
-                                          //       }, function(response) {
-                                          //         // Error: エラー時は401エラーならば/loginに遷移
-                                          //         console.log('Error');
-                                          //         if (response.status === 401) {
-                                          //           // $location.url('/login');
-                                          //         }
-                                          //         // return $q.reject(response);
-                                          //       }
-                                          //     );
-                                          //   };
-                                          // }]);
+      $locationProvider.html5Mode(true);
     }
   ]);
 app.controller('MainCtrl', [
   '$scope',
-  function ($scope) {
+  '$http',
+  function ($scope, $http) {
     $scope.mode = 'start';
     $scope.weightUseRange = true;
     $scope.hopeUseRange = true;
@@ -34,13 +23,53 @@ app.controller('MainCtrl', [
     $scope.selectedS = 'is-active';
     $scope.selectedU = '';
     $scope.theme = '';
+    $scope.todayWeight = 65;
+    $scope.hopeWeight = 65, userid = '';
     $scope.goLogin = function () {
       $scope.mode = 'start';
     };
-    $scope.goStart = function () {
-      $scope.mode = 'start';
-      $scope.theme = false;
+    $scope.goLoginTwitter = function () {
+      location.href = '/auth/twitter';
     };
+    $scope.goLoginGoogle = function () {
+      location.href = '/auth/google';
+    };
+    $scope.goLoginFacebook = function () {
+      location.href = '/auth/facebook';
+    };
+    $http({
+      method: 'GET',
+      url: '/user'
+    }).success(function (data) {
+      console.log(data[0]);
+      $scope.userName = data[0].name;
+      if (data[0].hope) {
+        $scope.hopeWeight = data[0].hope;
+      }
+      userid = data[0].id;
+      if (userid) {
+        $http({
+          method: 'GET',
+          url: '/getweight'
+        }).success(function (data) {
+          console.log(data);
+          if (data[0]) {
+            $scope.todayWeight = data[0].weight;
+            $scope.mode = 'myhome';
+            $http({
+              method: 'get',
+              url: '/getweightlist'
+            }).success(function (data) {
+              $scope.weightdata = {
+                _type: 'date_histogram',
+                entries: data
+              };
+              console.log(data);
+            });
+          }
+        });
+      }
+    });
     $scope.changeStartInput = function (flag) {
       if (flag === 'w') {
         $scope.weightUseRange = !$scope.weightUseRange;
@@ -50,14 +79,24 @@ app.controller('MainCtrl', [
       }
     };
     $scope.goStart = function () {
-      $scope.mode = 'myhome';
-      $scope.theme = '';
+      $http.post('/setUser', {
+        userName: $scope.userName,
+        todayWeight: $scope.todayWeight,
+        hopeWeight: $scope.hopeWeight
+      }).success(function () {
+        $scope.mode = 'myhome';
+        $scope.theme = '';
+      });
     };
     $scope.showWeightConfirm = function () {
       $scope.weightConfirm = true;
     };
     $scope.postWeight = function () {
-      $scope.inputed = true;
+      $http.post('/setweight', { weight: $scope.todayWeight }).success(function (data) {
+        console.log(data);
+        $scope.result = data.result;
+        $scope.inputed = true;
+      });
     };
     $scope.goSetting = function () {
       $scope.mode = 'setting';
